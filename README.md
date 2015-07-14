@@ -11,8 +11,8 @@ Script protoype transforms comments annotations generated in while statements fr
 4. Ensure sed script interpreter is installed to perform filtering of non valid C parsing characters.
 5. Ensure running version of python is 2.x and not 3.x
 6. Update script prototype_0.1.py on lines 5 and 6 to set the correct paths where pagai and pycparser from barel where installed:
-+ parserpath = '../path/to/pycparser/directory'
-+ pagaipath = '../path/to/pagai/binary/directory/pagai'
+  + parserpath = '../path/to/pycparser/directory'
+  + pagaipath = '../path/to/pagai/binary/directory/pagai'
 
 ## How to use it.
 Copy into directory test2 the file to be transformed and then call python prototype_0.1.py followed by the file name.  
