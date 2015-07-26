@@ -40,3 +40,5 @@ time cbmc --unwind 12 --no-unwinding-assertions --32 benchmarks/invariant/assert
 # real	10m38.384s
 time cbmc --unwind 2 --no-unwinding-assertions --32 benchmarks/invariant/assert/loops/n.c24_false-unreach-call.i > logs/bmc/assertion/LOG_2u_n.c24_false-unreach-call.i.log
 # real 0m0.838s
+
+time cbmc --unwind 17 --no-unwinding-assertions --32 benchmarks/invariant/loops/n.c24_false-unreach-call.i > logs/bmc/invariant/LOG201507201435_17u_n.c24_false-unreach-call.i.log

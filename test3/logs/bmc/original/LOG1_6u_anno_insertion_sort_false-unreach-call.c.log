@@ -1,0 +1,311 @@
+CBMC version 4.9 64-bit linux
+file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c: Parsing
+Converting
+Type-checking insertion_sort_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.1 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.1 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.1 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 4 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.1 iteration 4 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 4 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 5 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.1 iteration 5 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.0 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 4 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Unwinding loop c::main.0 iteration 5 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Not unwinding loop c::main.0 iteration 6 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 42 function main thread 0
+Not unwinding loop c::main.1 iteration 6 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 23 function main thread 0
+Unwinding loop c::main.2 iteration 1 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+Unwinding loop c::main.2 iteration 2 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+Unwinding loop c::main.2 iteration 3 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+Unwinding loop c::main.2 iteration 4 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+Unwinding loop c::main.2 iteration 5 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+Not unwinding loop c::main.2 iteration 6 (6 max) file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 56 function main thread 0
+size of program expression: 347 steps
+simple slicing removed 21 assignments
+Generated 6 VCC(s), 6 remaining after simplification
+Passing problem to propositional reduction
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+428166 variables, 1912934 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 5.882s
+Building error trace
+
+Counterexample:
+
+State 3 file <built-in-additions> line 79 thread 0
+----------------------------------------------------
+  __CPROVER_pipe_count=0 (00000000000000000000000000000000)
+
+State 4 file <built-in-additions> line 22 thread 0
+----------------------------------------------------
+  __CPROVER_thread_id=0 (00000000000000000000000000000000)
+
+State 5 file <built-in-additions> line 23 thread 0
+----------------------------------------------------
+  __CPROVER_threads_exited=__CPROVER_threads_exited#1 (?)
+
+State 6 file <built-in-additions> line 24 thread 0
+----------------------------------------------------
+  __CPROVER_next_thread_id=0 (00000000000000000000000000000000)
+
+State 7 file <built-in-additions> line 58 thread 0
+----------------------------------------------------
+  __CPROVER_rounding_mode=0 (00000000000000000000000000000000)
+
+State 8 file <built-in-additions> line 31 thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (00000000000000000000000000000000)
+
+State 9 file <built-in-additions> line 32 thread 0
+----------------------------------------------------
+  __CPROVER_dead_object=NULL (00000000000000000000000000000000)
+
+State 10 file <built-in-additions> line 33 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=NULL (00000000000000000000000000000000)
+
+State 11 file <built-in-additions> line 34 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=0 (00000000000000000000000000000000)
+
+State 12 file <built-in-additions> line 35 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 13 file <built-in-additions> line 36 thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=NULL (00000000000000000000000000000000)
+
+State 17 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 18 function main thread 0
+----------------------------------------------------
+  SIZE=0 (00000000000000000000000000000000)
+
+State 18 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 19 function main thread 0
+----------------------------------------------------
+  SIZE=6 (00000000000000000000000000000110)
+
+State 19 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 20 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 20 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 20 function main thread 0
+----------------------------------------------------
+  j=1614817040 (01100000010000000010011100010000)
+
+State 21 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 20 function main thread 0
+----------------------------------------------------
+  k=1073729552 (00111111111111111101000000010000)
+
+State 22 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 20 function main thread 0
+----------------------------------------------------
+  key=0 (00000000000000000000000000000000)
+
+State 23 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 21 function main thread 0
+----------------------------------------------------
+  key$array_size0=0 (00000000000000000000000000000000)
+
+State 24 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 21 function main thread 0
+----------------------------------------------------
+  key$array_size0=6 (00000000000000000000000000000110)
+
+State 25 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 21 function main thread 0
+----------------------------------------------------
+  v={ 1, 4194304, 0, 0, -1862270976, -268435456 } ({ 00000000000000000000000000000001, 00000000010000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 10010001000000000000000000000000, 11110000000000000000000000000000 })
+
+State 27 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 27 function main thread 0
+----------------------------------------------------
+  j=1 (00000000000000000000000000000001)
+
+State 29 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 30 function main thread 0
+----------------------------------------------------
+  key=4194304 (00000000010000000000000000000000)
+
+State 30 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 32 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 32 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  v[1]=4194304 (00000000010000000000000000000000)
+
+State 33 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 36 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 30 function main thread 0
+----------------------------------------------------
+  key=0 (00000000000000000000000000000000)
+
+State 37 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 32 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 39 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 47 function main thread 0
+----------------------------------------------------
+  v[2]=4194304 (00000000010000000000000000000000)
+
+State 40 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 43 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 47 function main thread 0
+----------------------------------------------------
+  v[1]=1 (00000000000000000000000000000001)
+
+State 44 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=-1 (11111111111111111111111111111111)
+
+State 47 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  v[0]=0 (00000000000000000000000000000000)
+
+State 48 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  j=3 (00000000000000000000000000000011)
+
+State 51 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 30 function main thread 0
+----------------------------------------------------
+  key=0 (00000000000000000000000000000000)
+
+State 52 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 32 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 55 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 58 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 47 function main thread 0
+----------------------------------------------------
+  v[2]=1 (00000000000000000000000000000001)
+
+State 59 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 62 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  v[1]=0 (00000000000000000000000000000000)
+
+State 63 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  j=4 (00000000000000000000000000000100)
+
+State 66 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 30 function main thread 0
+----------------------------------------------------
+  key=-1862270976 (10010001000000000000000000000000)
+
+State 67 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 32 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 70 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 74 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 77 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 47 function main thread 0
+----------------------------------------------------
+  v[2]=0 (00000000000000000000000000000000)
+
+State 78 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 81 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 47 function main thread 0
+----------------------------------------------------
+  v[1]=0 (00000000000000000000000000000000)
+
+State 82 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  i=-1 (11111111111111111111111111111111)
+
+State 85 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  v[0]=-1862270976 (10010001000000000000000000000000)
+
+State 86 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 89 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 30 function main thread 0
+----------------------------------------------------
+  key=-268435456 (11110000000000000000000000000000)
+
+State 90 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 32 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 92 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  v[5]=-268435456 (11110000000000000000000000000000)
+
+State 93 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  j=6 (00000000000000000000000000000110)
+
+State 97 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 61 function main thread 0
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 101 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  cond=1 (00000000000000000000000000000001)
+
+State 105 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 62 function main thread 0
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 110 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  cond=1 (00000000000000000000000000000001)
+
+State 114 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 62 function main thread 0
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 119 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  cond=1 (00000000000000000000000000000001)
+
+State 123 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 62 function main thread 0
+----------------------------------------------------
+  k=4 (00000000000000000000000000000100)
+
+State 128 file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  cond=0 (00000000000000000000000000000000)
+
+Violated property:
+  file benchmarks/invariant/loops/insertion_sort_false-unreach-call.c line 11 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED

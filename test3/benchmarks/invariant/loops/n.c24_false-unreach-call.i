@@ -143,30 +143,33 @@ int foo(int * x){
 int main(){
    int i,j,ret,offset, tmp_cnt, tel_data,klen;
    char x [1000];
-   __CPROVER_assume(1000-i >= 0 && i >= 0);
+   
    for (/* reachable */
         /* invariant:
         1000-i >= 0
         i >= 0
         */
         i = 0; i < 1000; // safe
-                         ++i)
-      x[i]= // unsafe: possible undefined behavior
-            __VERIFIER_nondet_int();
-    __CPROVER_assume(2147483647-i >= 0 && i >= 0);
+                         ++i) {
+    __CPROVER_assume(1000-i >= 0 && i >= 0);
+      x[i]= __VERIFIER_nondet_int();// unsafe: possible undefined behavior
+  }
+            
+    
    for (/* invariant:
         2147483647-i >= 0
         i >= 0
         */
         i= 0; i < 1000; // unsafe: possible undefined behavior
                         ++i){
+    __CPROVER_assume(2147483647-i >= 0 && i >= 0);
       ret = __VERIFIER_nondet_int();
       if (ret != 0)
          return -1;
       tmp_cnt = __VERIFIER_nondet_int();
       if (tmp_cnt < 0)
          return -1;
-      __CPROVER_assume(2147483647-offset >= 0 && offset >= 0 && tmp_cnt-offset >= 0 && i >= 0);
+      
       for ( /* invariant:
             2147483647-offset >= 0
             offset >= 0
@@ -176,6 +179,7 @@ int main(){
             offset = 0; offset < tmp_cnt; // unsafe: possible undefined behavior
                                           offset++ )
       {
+        __CPROVER_assume(2147483647-offset >= 0 && offset >= 0 && tmp_cnt-offset >= 0 && i >= 0);
          ret = foo(&tel_data ) ;
          if ( ( ret == 0 ) || ( ret == 1 ) )
             {
@@ -185,7 +189,7 @@ int main(){
             {
                continue ;
             }
-         __CPROVER_assume(2147483647-j >= 0 && 2147483647-offset >= 0 && offset >= 0 && -1+tmp_cnt-offset >= 0 && j >= 0 && i >= 0);
+         
          for ( /* invariant:
                2147483647-j >= 0
                2147483647-offset >= 0
@@ -198,6 +202,7 @@ int main(){
                j = 0; x[j] != 0; // unsafe: possible undefined behavior
                                  j++ )
             {
+              __CPROVER_assume(2147483647-j >= 0 && 2147483647-offset >= 0 && offset >= 0 && -1+tmp_cnt-offset >= 0 && j >= 0 && i >= 0);
                // unsafe: possible undefined behavior
                if ( x[i] == 1)
                {

@@ -19,18 +19,19 @@ int main() {
                      __VERIFIER_nondet_uint();
    int i, j, k, key;
    int v[SIZE];
-   __CPROVER_assume(2147483647-j >= 0 && -1+j >= 0);
+   
    for (/* invariant:
         2147483647-j >= 0
         -1+j >= 0
         */
         j=1;j<SIZE;// unsafe: possible undefined behavior
                    j++) {	  
+    // Invariant should be part of the loop
+    __CPROVER_assume(2147483647-j >= 0 && -1+j >= 0);
       // unsafe: possible undefined behavior
       key = v[j];
       // safe
       i = j - 1;
-      __CPROVER_assume(2147483646-i >= 0 && -1-i+j >= 0 && -1+j >= 0 && -1+SIZE-j >= 0 && 1+i >= 0);
       /* invariant:
       2147483646-i >= 0
       -1-i+j >= 0
@@ -40,6 +41,7 @@ int main() {
       */
       // unsafe: possible undefined behavior
       while((i>=0) && (v[i]>key)) {
+        __CPROVER_assume(2147483646-i >= 0 && -1-i+j >= 0 && -1+j >= 0 && -1+SIZE-j >= 0 && 1+i >= 0);
          if (i<2)
          // safe
          // unsafe: possible undefined behavior
@@ -52,18 +54,19 @@ int main() {
       // unsafe: possible undefined behavior
       v[i+1] = key;	        
   }      
-  __CPROVER_assume(2147483647-SIZE >= 0 && 2147483647-k >= 0 && -1+k >= 0);
   for (/* invariant:
        2147483647-SIZE >= 0
        2147483647-k >= 0
        -1+k >= 0
        */
        k=1;k<SIZE;// safe
-                  k++)
+                  k++) {
     // safe
     // unsafe: possible undefined behavior
     // unsafe: possible undefined behavior
+    __CPROVER_assume(2147483647-SIZE >= 0 && 2147483647-k >= 0 && -1+k >= 0);
     __VERIFIER_assert(v[k-1]<=v[k]);  
+    }
    /* reachable */
    return 0;
 }

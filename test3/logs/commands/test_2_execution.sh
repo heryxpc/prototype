@@ -23,3 +23,8 @@ time cbmc --unwind 12 --no-unwinding-assertions --32 benchmarks/invariant/loops/
 time cbmc --unwind 12 --no-unwinding-assertions --32 benchmarks/invariant/assert/loops/s3_false-unreach-call.i > logs/bmc/assertion/LOG_12u_assert_s3_false-unreach-call.i.log
 time cbmc --unwind 6 --no-unwinding-assertions --32 benchmarks/invariant/assert/loops/s3_false-unreach-call.i > logs/bmc/assertion/LOG_6u_assert_s3_false-unreach-call.i.log
 time cbmc --unwind 2 --no-unwinding-assertions --32 benchmarks/invariant/assert/loops/s3_false-unreach-call.i > logs/bmc/assertion/LOG_2u_assert_s3_false-unreach-call.i.log
+
+time cbmc --unwind 12 --no-unwinding-assertions --32 benchmarks/original/loops/s3_false-unreach-call.i > logs/bmc/original/LOG201507201409_12u_s3_false-unreach-call.i.log
+# real	3m16.963s
+time cbmc --unwind 12 --no-unwinding-assertions --32 benchmarks/invariant/loops/s3_false-unreach-call.i > logs/bmc/invariant/LOG201507201420_12u_s3_false-unreach-call.i.log
+# real 3m19.297s

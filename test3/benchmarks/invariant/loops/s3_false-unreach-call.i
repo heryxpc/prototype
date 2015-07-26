@@ -1130,18 +1130,19 @@ int ssl3_connect(SSL *s )
 
   }
   {
-   __CPROVER_assume(4-blastFlag >= 0 && blastFlag >= 0);
+   
   while (1) /* invariant:
             4-blastFlag >= 0
             blastFlag >= 0
             */
             {
+               __CPROVER_assume(4-blastFlag >= 0 && blastFlag >= 0);
     while_0_continue: ;
-    __CPROVER_assume(4-blastFlag >= 0 && blastFlag >= 0);
     /* invariant:
     4-blastFlag >= 0
     blastFlag >= 0
     */
+    __CPROVER_assume(4-blastFlag >= 0 && blastFlag >= 0);
     state = s->state;
     if (s->state == 12292) {
       goto switch_1_12292;
