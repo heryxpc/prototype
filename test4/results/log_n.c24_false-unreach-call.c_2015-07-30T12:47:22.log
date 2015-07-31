@@ -1,0 +1,3005 @@
+[kernel] preprocessing with "gcc -C -E -I.  ../benchmarks/original/n.c24_false-unreach-call.c"
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[kernel] warning: Neither code nor specification for function __VERIFIER_nondet_int, generating default assigns from the prototype
+[value] using specification for function __VERIFIER_nondet_int
+[value] Done for function __VERIFIER_nondet_int
+../benchmarks/original/n.c24_false-unreach-call.c:27:[value] assigning non deterministic value for the first time
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] Semantic level unrolling superposing up to 100 states
+../benchmarks/original/n.c24_false-unreach-call.c:26:[value] entering loop for the first time
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:27.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[kernel] warning: Neither code nor specification for function memmove, generating default assigns from the prototype
+[value] using specification for function memmove
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[kernel] warning: Neither code nor specification for function strlen, generating default assigns from the prototype
+[value] using specification for function strlen
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+../benchmarks/original/n.c24_false-unreach-call.c:39:[value] entering loop for the first time
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+../benchmarks/original/n.c24_false-unreach-call.c:54:[value] entering loop for the first time
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+../benchmarks/original/n.c24_false-unreach-call.c:54:[kernel] warning: accessing uninitialized left-value: assert \initialized(&x[j]);
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+../benchmarks/original/n.c24_false-unreach-call.c:54:[kernel] warning: accessing out of bounds index [0..32767]. assert j < 1000;
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+../benchmarks/original/n.c24_false-unreach-call.c:29:[value] entering loop for the first time
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+../benchmarks/original/n.c24_false-unreach-call.c:57:[kernel] warning: accessing uninitialized left-value: assert \initialized(&x[i]);
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:41.
+[value] computing for function __VERIFIER_nondet_int <- foo <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:18.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for foo
+[value] Done for function foo
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:31.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function __VERIFIER_nondet_int <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:34.
+[value] Done for function __VERIFIER_nondet_int
+[value] computing for function bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:65.
+[value] computing for function __VERIFIER_nondet_int <- bar <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:14.
+[value] Done for function __VERIFIER_nondet_int
+[value] Recording results for bar
+[value] Done for function bar
+[value] computing for function memmove <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:60.
+[value] Done for function memmove
+../benchmarks/original/n.c24_false-unreach-call.c:39:[kernel] warning: signed overflow. assert offset+1 ≤ 2147483647;
+[value] computing for function strlen <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:74.
+[value] Done for function strlen
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:88.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:5.
+[kernel] warning: Neither code nor specification for function __VERIFIER_error, generating default assigns from the prototype
+[value] using specification for function __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:88.
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:88.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/n.c24_false-unreach-call.c:5.
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value] Values at end of function __VERIFIER_assert:
+[value] Values at end of function bar:
+[value] Values at end of function foo:
+          tel_data ∈ [--..--]
+          __retres ∈ [--..--]
+[value] Values at end of function main:
+          i ∈ [0..1000]
+          j ∈ [0..999] or UNINITIALIZED
+          ret ∈ [--..--]
+          offset ∈ [--..--] or UNINITIALIZED
+          tmp_cnt ∈ [--..--] or UNINITIALIZED
+          tel_data ∈ [--..--] or UNINITIALIZED
+          klen ∈ [--..--] or UNINITIALIZED
+          x[0..98] ∈ [--..--]
+           [99..999] ∈ [--..--] or UNINITIALIZED
+          __retres ∈ {-1; 1}
+/* Generated by Frama-C */
+typedef unsigned long size_t;
+/*@ assigns \nothing; */
+extern  __attribute__((__noreturn__)) void __VERIFIER_error();
+
+void __VERIFIER_assert(int cond)
+{
+  if (! cond) ERROR: __VERIFIER_error();
+  return;
+}
+
+/*@ assigns \at(\result,Post) \from __n; */
+extern  __attribute__((__nothrow__)) void *memmove(void *__dest,
+                                                   void const *__src,
+                                                   size_t __n) __attribute__((
+__nonnull__(1,2), __leaf__));
+
+/*@ assigns \at(\result,Post) \from *__s; */
+extern  __attribute__((__nothrow__)) size_t strlen(char const *__s) __attribute__((
+__pure__, __nonnull__(1), __leaf__));
+
+/*@ assigns \at(\result,Post) \from \nothing; */
+extern int __VERIFIER_nondet_int(void);
+
+int bar(char *x)
+{
+  int tmp;
+  tmp = __VERIFIER_nondet_int();
+  return tmp;
+}
+
+int foo(int *x)
+{
+  int __retres;
+  *x = __VERIFIER_nondet_int();
+  __retres = *x;
+  return __retres;
+}
+
+int main(void)
+{
+  int __retres;
+  int i;
+  int j;
+  int ret;
+  int offset;
+  int tmp_cnt;
+  int tel_data;
+  int klen;
+  char x[1000];
+  int tmp_1;
+  i = 0;
+  while (i < 1000) {
+    int tmp;
+    {
+      /*undefined sequence*/
+      tmp = __VERIFIER_nondet_int();
+      x[i] = (char)tmp;
+    }
+    i ++;
+  }
+  i = 0;
+  while (i < 1000) {
+    ret = __VERIFIER_nondet_int();
+    if (ret != 0) {
+      __retres = -1;
+      goto return_label;
+    }
+    tmp_cnt = __VERIFIER_nondet_int();
+    if (tmp_cnt < 0) {
+      __retres = -1;
+      goto return_label;
+    }
+    offset = 0;
+    while (offset < tmp_cnt) {
+      {
+        size_t tmp_0;
+        ret = foo(& tel_data);
+        if (ret == 0) goto _LOR;
+        else 
+          if (ret == 1) {
+            _LOR: /* internal */ __retres = 1;
+                                 goto return_label;
+          }
+          else 
+            if (ret == -1) goto __Cont;
+        j = 0;
+        while (1) {
+          /*@ assert Value: initialisation: \initialized(&x[j]); */
+          /*@ assert Value: index_bound: j < 1000; */
+          if (! ((int)x[j] != 0)) break;
+          /*@ assert Value: initialisation: \initialized(&x[i]); */
+          if ((int)x[i] == 1) memmove((void *)(& x[i]),
+                                      (void const *)(& x[i + 1]),
+                                      (unsigned long)(1001 - (i + 1)));
+          j ++;
+        }
+        ret = bar(x);
+        if (ret != -1) goto __Cont;
+        {
+          /*undefined sequence*/
+          tmp_0 = strlen((char const *)(x));
+          klen = (int)tmp_0;
+        }
+        if (klen > 20) x[i] = (char)0;
+        else 
+          if (klen > 0) x[i] = (char)(-1);
+      }
+      __Cont: /* internal */
+        /*@ assert Value: signed_overflow: offset+1 ≤ 2147483647; */
+        offset ++;
+    }
+    i ++;
+  }
+  if (offset >= 0) 
+    if (offset <= 1000) tmp_1 = 1; else tmp_1 = 0;
+  else tmp_1 = 0;
+  __VERIFIER_assert(tmp_1);
+  __retres = 1;
+  return_label: /* internal */ return __retres;
+}
+
+
