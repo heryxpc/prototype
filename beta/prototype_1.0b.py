@@ -104,7 +104,7 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 	def setComments(self, comments):
 		self.comments = collections.OrderedDict(sorted(comments.items(), 
 									key=lambda t: t[0]) )
-		print (comments)
+		# ~print (comments)
 
 	def visit_While(self, node):
 	    print 'While found at line: %s in file %s' % (
@@ -118,13 +118,13 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 	   
 	def setAnnotation(self, node, annotation):
 		node.annotation = annotation
-		#~ print "Node:%s" % node
-		#~ print "Annotation:%s" % node.annotation
+		print "Node:%s" % node.coord
+		print "Annotation:%s" % node.annotation
 
-def parse_invariant(comment):
+def parse_pagai_invariant(comment):
 	# Function to parse an invariant comment
 	# SAMPLE: /* invariant:\n\t\t    102-x-y >= 0\n\t\t    y >= 0\n\t\t    x-y >= 0\n\t\t    */
-	pattern = '\s*([A-Za-z0-9-+*/]+)*\s([<>=]*)\s([0-9])*\s*'
+	pattern = '\s*([A-Za-z0-9+-_/*]+)*\s([<>=]*)\s([0-9])*\s*'
 	prog = re.compile(pattern)
 	m = prog.search(comment)
 	expressions = []
@@ -137,9 +137,9 @@ def parse_invariant(comment):
 		op =  m.group(2)
 		rexp =  m.group(3)
 		texp = (lexp, op, rexp)
-		expressions.append( texp )
+		if (not group.startswith(' invariant:') ):
+			expressions.append( texp )
 		m = prog.search(comment, pos)
-	print (comment)
 	# expressions = prog.findall(comment, re.DOTALL|re.DEBUG)
 	# print (expressions)
 	# lexp = ''
@@ -158,10 +158,11 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 	def __init__(self):
 		pass
 
-	def visit_While(self, n):
+	#TODO Obtain a block statement and then add as first statement assume
+	def addAssumeAnnotations(self, n):
 		s = ''
 		if hasattr(n, 'annotation'):
-			invariants = parse_invariant(n.annotation)
+			invariants = parse_pagai_invariant(n.annotation)
 			print (invariants)
 			s += '__CPROVER_assume('
 			for i, exp in enumerate(invariants):
@@ -174,7 +175,16 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 					s+= '&& '
 			s+= ');\n'
 		s += self._make_indent()
-		s += super(CAnnotatedGenerator, self).visit_While(n)
+		return s
+
+	def visit_While(self, n):
+		s = super(CAnnotatedGenerator, self).visit_While(n)
+		s += self.addAssumeAnnotations(n)
+		return s
+
+	def visit_For(self, n):
+		s = super(CAnnotatedGenerator, self).visit_For(n)
+		s += self.addAssumeAnnotations(n)
 		return s
 
 # def show_while(filename):
@@ -234,12 +244,12 @@ def parse_annotated(file):
     )
     annotations = dict()
     print "===== %s =====" % file
-    fd = open(file, 'r')
-    original = fd.read()
-    print 'Original:::::::::::::::'
-    print original
-    print ':::::::::::::::Original'
-    fd.close()
+    # fd = open(file, 'r')
+    # original = fd.read()
+    # print 'Original:::::::::::::::'
+    # print original
+    # print ':::::::::::::::Original'
+    # fd.close()
     for fn, cmtLst in ast.commentDir.viewitems():
         for tkNo, (fl,fc), (tl, tc), comment in cmtLst:
         	if fn == file and 'invariant' in comment:
