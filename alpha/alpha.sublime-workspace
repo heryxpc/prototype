@@ -1,0 +1,656 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Abs",
+				"AbsToBMC"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"an",
+				"annotation"
+			],
+			[
+				"func",
+				"FuncCall"
+			],
+			[
+				"Fun",
+				"FuncCall"
+			],
+			[
+				"fun",
+				"funcDecl"
+			],
+			[
+				"block",
+				"blockItems"
+			],
+			[
+				"setC",
+				"setCloserInvariant"
+			],
+			[
+				"ann",
+				"annotPos"
+			],
+			[
+				"clo",
+				"closes_comment"
+			],
+			[
+				"co",
+				"comment"
+			],
+			[
+				"clos",
+				"closerLine"
+			],
+			[
+				"comment",
+				"comments"
+			],
+			[
+				"Node",
+				"NodeVisitor"
+			],
+			[
+				"confi",
+				"config4"
+			],
+			[
+				"open",
+				"openFile"
+			],
+			[
+				"en",
+				"ensure_C99main"
+			],
+			[
+				"ope",
+				"openFile"
+			],
+			[
+				"main",
+				"main_rettype"
+			],
+			[
+				"code",
+				"codepos"
+			],
+			[
+				"caml",
+				"camlidl"
+			],
+			[
+				"skein",
+				"skein_context"
+			],
+			[
+				"__",
+				"__CPROVER_assume"
+			],
+			[
+				"__V",
+				"__VERIFIER_assert"
+			],
+			[
+				"pagai",
+				"pagaipath"
+			],
+			[
+				"assu",
+				"assumed"
+			],
+			[
+				"ass",
+				"assumedfile"
+			],
+			[
+				"analyze",
+				"analyzed"
+			],
+			[
+				"set",
+				"setInit"
+			],
+			[
+				"C",
+				"CAnnotatedGenerator"
+			],
+			[
+				"While",
+				"WhileVisitor"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"par",
+				"parse_invariant"
+			],
+			[
+				"ex",
+				"expressions"
+			],
+			[
+				"pro",
+				"prog"
+			],
+			[
+				"Ann",
+				"annotation"
+			],
+			[
+				"SHO",
+				"show_while"
+			],
+			[
+				"pa",
+				"pagaipath"
+			],
+			[
+				"config",
+				"config2"
+			],
+			[
+				"source",
+				"source_code"
+			],
+			[
+				"str",
+				"stripped_code"
+			],
+			[
+				"e",
+				"execute"
+			],
+			[
+				"ou",
+				"output"
+			],
+			[
+				"retur",
+				"return_code"
+			],
+			[
+				"displ",
+				"displaySeconds"
+			],
+			[
+				"di",
+				"displayInit"
+			],
+			[
+				"forat",
+				"formatTime"
+			],
+			[
+				"formatti",
+				"formattime"
+			],
+			[
+				"init",
+				"initstr"
+			],
+			[
+				"ini",
+				"initime"
+			],
+			[
+				"read",
+				"readFile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "abstobmc.py",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 138.0,
+		"selected_items":
+		[
+			[
+				"dif",
+				"FileDiffs: Menu"
+			],
+			[
+				"file",
+				"FileDiffs: Menu"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/heryxpc/Documents/soton/dissertation/meetingGennaro10082015",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/modules/out.chain",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/logs/manual_execution100820151400.log",
+		"/home/heryxpc/temp/cseq_files/queue_longest_false-unreach-call.c",
+		"/home/heryxpc/temp/cseq_files/queue_longest_false-unreach-call_inv.c",
+		"/home/heryxpc/Documents/soton/dissertation/benchmarks/SVCOMP2015/pthread/queue_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pips/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/cbmc/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/scripts/cseq-lazy/unsafe_pthread-wmm_lazycseq.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/comandos.txt",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/scripts/init_tools.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/scripts/pips/fib_bench_longest_false-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/results/pips/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.bc",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/s3_false-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/scripts/cseq-lazy/unsafe_pthread_lazycseq.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/results/cseq/fib_bench_longest_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/cseq.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/init_cseq.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/fib_bench_longest_false-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/scripts/cseq-lazy/unsafe_pthread-atomic_lazycseq.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/cbmc-5.1_experiments/cbmc-5.1-2015.07.19-courcelle.csv",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/lazy-cseq-1.0_experiments/lazy-cseq-1.0-2015.07.22-courcelle.csv",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/scripts/cseq-lazy/unsafe_lazycseq.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/verifier.h",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/notes.md",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/SpamAssassin-loop_true-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/SpamAssassin-loop_true-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/init_tools.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/cseq_seq/verifier.h",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/cseq_seq/fib_bench_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/loops/n.c24_false-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/n.c24_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/pips_anno/n.c24_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/n.c24_false-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/gen_n.c24_false-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/pips_anno/s3_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/assert/loops/s3_false-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/loops/S3_false-unreach-call/s3_false-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/loops/S3_false-unreach-call/s3_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/loops/s3_false-unreach-call_z3.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/s3_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/s3_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/verifier.h",
+		"/etc/bumblebee/bumblebee.conf",
+		"/home/heryxpc/.xsession-errors",
+		"/etc/bumblebee/bumblebee.con",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/pips_anno/s3_false-unreach-call.*exit",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/foo.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/insertion_sort_false-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/invariant/loops/insertion_sort_true-unreach-call_box.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/cbmc/insertion_sort_false-unreach-call.log",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/insertion_sort_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/pips_anno/insertion_sort_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/results/pips_anno/foo.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/benchmarks/foo.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/model.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/init_pips.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/nested6_true-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/nested9_true-unreach-call.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/scripts/model.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/invariant_gen.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/utils/libalice/models.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/README.md",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/init_tools.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/framac/why_configure",
+		"/home/heryxpc/.opam/system/build/why.2.35/configure",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test6/tools_list",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/mix044_pso.oepc_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/model_output.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/bubble_sort_true-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/fib_bench_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/bubble3_scripts.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/bubblesorttrue.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/bubble_sort_true-unreach-call_pagai_anno.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/logs/commands/testing _nested9_true-unreach-call.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/gopan.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/gopan_tpips.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/gopan_anno.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/logs/commands/test_SpamAssassin-loop_true-unreach-call.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/examples/clone_script.tpips",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/makes/get-pips4u.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/Makefile",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/Makefile.am",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/Makefile",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/README",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/INSTALL",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/setup_pips.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/install_alice.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/models/insertsort.fst",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/doc/conf.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/doc/index.rst",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/doc/Makefile",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/utils/libalice/isl.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/utils/libalice/biblio.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pips/alice/utils/libalice/__init__.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_true-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/logs/commands/testing_ heapsort_true-unreach-call.sh",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/tools/init.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cbmc/init_cbmc.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/init_pagai.sh",
+		"/home/heryxpc/temp/cseq_files/mix002_pso.opt_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/cbmc-5.1_experiments/svcomp2015_unsafe/pthread-wmm/mix002_pso.opt_false-unreach-call.c",
+		"/home/heryxpc/temp/cseq_files/ix037_pso.opt_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_true-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_false-unreach-call.i",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/config.mk",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/all_move.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_analyzer.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_domain.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_narrowing.sh",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/Makefile",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/Makefile.model",
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/cBench/Makefile",
+		"/home/heryxpc/Documents/soton/dissertation/meetingOMAR16072015",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/beta/prototype_1.0b.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/lazy_unsafe.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/README",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/USAGE",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/fibonacci_unsafe.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/fibonacci_unsafe.c_seq.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/lazy_unsafe.c_seq.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/_cs_fibonacci_unsafe.c",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/_cs_fibonacci_unsafe.c.cbmc.log",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/out"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/examples",
+			"/home/heryxpc/Documents/soton/dissertation/tools/pycparser",
+			"/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser",
+			"/home/heryxpc/temp/NIST/CD/Reference_Implementation",
+			"/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"while",
+			"for",
+			"__cs_local_main_id2",
+			"__cs_mutex_unlock",
+			"main_thread",
+			"t2_0",
+			"malloc",
+			"__cs_local_main_id2",
+			"main_thread",
+			"ROUNDS",
+			"__cs_active_thread",
+			"__cs_mutex_lock",
+			"MUTEX_LOCK",
+			"typedef int __cs_cond_t;",
+			"typedef",
+			"typedef int __cs_cond_t;",
+			"__cs_cond_t",
+			"t1_0(",
+			"t1_0",
+			"for",
+			"\\{.+[<>=]+.+\\}",
+			"chains",
+			"list",
+			"list-chains",
+			"lazy",
+			"timeout",
+			"exit",
+			"\\{.+[<>=]+.+\\}",
+			"init",
+			"SSL_METHOD",
+			"\\{.+[<>=]+.+\\}",
+			"while",
+			"blastFlag==4",
+			"blastFlag =",
+			"exit",
+			"SSL_METHOD *",
+			"sslv3_base_method",
+			"ssl3",
+			"__VERIFIER",
+			"verifier",
+			"error",
+			"8.6",
+			"a =",
+			"a",
+			"$",
+			"flush_delayed",
+			"91",
+			"_Bool",
+			"sed",
+			"CPROVER",
+			"abort",
+			"GMP",
+			"gmp",
+			"argc",
+			"gmp",
+			"FUNCT",
+			" ",
+			"VERIFIER_error",
+			"translator",
+			"visit_While",
+			"visit",
+			"Line number",
+			"range",
+			"parse",
+			"closes_comment",
+			"For",
+			"Compound",
+			"	    		(",
+			"ForVisitor",
+			"WhileVisitor",
+			"visit",
+			"for",
+			"visitor",
+			"		\n",
+			"paga",
+			".i",
+			"commentDir",
+			"viewitems()",
+			"viewitems",
+			"dict",
+			"parse",
+			"llvmfile",
+			"pagaipath",
+			"seconds",
+			"int main",
+			"print",
+			"main",
+			"ensue",
+			"_",
+			"not",
+			"!=",
+			"re",
+			"add",
+			"apron",
+			"OCAMLLIB",
+			"apron",
+			"verbose",
+			"jc_ai",
+			"jc_annot_inference",
+			"jc_annot_inference.ml",
+			"APRONLIB",
+			"apron",
+			"Apron",
+			"eval",
+			"CAMLIDL_PREFIX",
+			"mlapronidl",
+			"scalar_caml.c",
+			"PERL",
+			"CAMLIDL_PREFIX",
+			" macros.pl",
+			"CAMLIDL_PREFIX",
+			"gcc -Wcast-",
+			"CAMLIDL_PREFIX",
+			"mpzf.mli",
+			"CAML_PREFIX",
+			"tmp",
+			"CAMLIDL_PREFIX",
+			"CAML_PREFIX",
+			"apron",
+			"prefix",
+			"agen",
+			"warning",
+			"kernel",
+			"inout",
+			"warning",
+			"error",
+			"warning",
+			"No code"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_",
+			"closest_comment",
+			"pagai",
+			".c",
+			"nested6_true-unreach-call",
+			"heapsort_true-unreach-call.i",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "abstobmc.py",
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/heryxpc/temp/NIST/CD/Reference_Implementation/log"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true
+}
