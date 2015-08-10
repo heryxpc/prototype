@@ -65,8 +65,8 @@ class Command:
 ###############################################################
 # Annotations code
 
-# Finds the closes comment in a dictionary of comments
-def closes_comment(line, comments) :
+# Finds the closest comment in a dictionary of comments
+def closest_comment(line, comments) :
 	closerLine = sys.maxint
 	distance = 0
 	for ln in comments :
@@ -90,7 +90,8 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 
 	def setCloserInvariant(self, node, range=10):
 		line = node.coord.line
-		annotPos = closes_comment(line, self.comments)
+		annotPos = closest_comment(line, self.comments)
+		annotation = ''
 		if abs(annotPos - line) > range :
 			# In case the distance between the line and comment is larger than
 			# range, assume there is no invariant for this coord
@@ -99,7 +100,7 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 			annotation = self.comments[annotPos]
 		 	self.setAnnotation(node, annotation)
 		 	self.annotations.append(annotation)
-		# return annotation
+		return annotation
 
 	def setComments(self, comments):
 		self.comments = collections.OrderedDict(sorted(comments.items(), 
@@ -107,19 +108,23 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 		# ~print (comments)
 
 	def visit_While(self, node):
-	    print 'While found at line: %s in file %s' % (
-	    	node.coord.line, node.coord.file)
+	    # print 'While found at line: %s in file %s' % (
+	    # 	node.coord.line, node.coord.file)
+	    # annotation = self.setCloserInvariant(node)
 	    self.setCloserInvariant(node)
-
+	    # print 'Annotation set:[' + annotation + ']'
+	    
 	def visit_For(self, node):
-	    print 'For found at line: %s in file %s' % (
-	    	node.coord.line, node.coord.file)
+	    # print 'For found at line: %s in file %s' % (
+	    # 	node.coord.line, node.coord.file)
+	    # annotation = self.setCloserInvariant(node)
 	    self.setCloserInvariant(node)
+	    # print 'Annotation set:[' + annotation + ']'
 	   
 	def setAnnotation(self, node, annotation):
 		node.annotation = annotation
-		print "Node:%s" % node.coord
-		print "Annotation:%s" % node.annotation
+		# print "Node:%s" % node.coord
+		# print "Annotation:%s" % node.annotation
 
 def parse_pagai_invariant(comment):
 	# Function to parse an invariant comment
@@ -130,9 +135,9 @@ def parse_pagai_invariant(comment):
 	expressions = []
 	while m:
 		group = m.group(0)
-		print (group)
+		# print (group)
 		pos = m.end()
-		print (pos)
+		# print (pos)
 		lexp =  m.group(1)
 		op =  m.group(2)
 		rexp =  m.group(3)
@@ -160,10 +165,32 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 
 	#TODO Obtain a block statement and then add as first statement assume
 	def addAssumeAnnotations(self, n):
+		# print dir(n.stmt)
+		# TODO First create a list of block items
+		blockItems = []
+		# TODO Then transform annotation into an FuncCall of an assume from CBMC
+		assumeStr = self.transToAssume(n)
+		print (n.coord.line, assumeStr)
+		text = 'void fake_func() {' + assumeStr + '}'
+		parser = c_parser.CParser()
+		ast = parser.parse(text, filename='<none>' )
+		# ast.show()
+		# TODO Add the created statement to block items
+		assumeFuncCall = ast.ext[0].body.block_items[0]
+		blockItems.insert(0, assumeFuncCall)
+		# TODO Add original block to block items
+		blockItems.insert(1, n.stmt)
+		# TODO Then create a new compound with all the statements
+		comp = c_ast.Compound(blockItems, n.stmt.coord)
+		n.stmt = comp
+		return n
+		
+
+	def transToAssume(self, n):
 		s = ''
 		if hasattr(n, 'annotation'):
 			invariants = parse_pagai_invariant(n.annotation)
-			print (invariants)
+			# print (invariants)
 			s += '__CPROVER_assume('
 			for i, exp in enumerate(invariants):
 				s+= exp[0] + ' '
@@ -177,20 +204,16 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 		s += self._make_indent()
 		return s
 
+
 	def visit_While(self, n):
+		n = self.addAssumeAnnotations(n)
 		s = super(CAnnotatedGenerator, self).visit_While(n)
-		s += self.addAssumeAnnotations(n)
 		return s
 
 	def visit_For(self, n):
+		n = self.addAssumeAnnotations(n)
 		s = super(CAnnotatedGenerator, self).visit_For(n)
-		s += self.addAssumeAnnotations(n)
 		return s
-
-# def show_while(filename):
-# 	ast = parse_file(filename, use_cpp=True)
-# 	v = WhileVisitor()
-# 	v.visit(ast)
 
 
 #####################End of annotated code##############33
@@ -253,9 +276,9 @@ def parse_annotated(file):
     for fn, cmtLst in ast.commentDir.viewitems():
         for tkNo, (fl,fc), (tl, tc), comment in cmtLst:
         	if fn == file and 'invariant' in comment:
-	            print "Line number:%d:Comment: %s" % (
-	                fl, `comment`)
-	            # Cooment coord is moved by one more line
+	            # print "Line number:%d:Comment: %s" % (
+	            #     fl, `comment`)
+	            # Cooment coord is moved by one line down
 	            annotations[fl + 1] = comment
     v = AnnotationsVisitor()
     v.setComments(annotations)
@@ -330,3 +353,12 @@ def main():
 	
 
 main()
+
+# text = '''void fake_func()
+# {
+# __CPROVER_assume(5-i >= 0 && i >= 0 );
+# }'''
+
+# parser = c_parser.CParser()
+# ast = parser.parse(text, filename='<none>' )
+# ast.show()
