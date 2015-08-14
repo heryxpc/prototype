@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+Format = {'clang':1, 'pagai':2, 'cseq':3, 'cbmc':4, 'pips':5, 'annot':6}
 
 class Transformer:
 	"""
@@ -10,8 +11,7 @@ class Transformer:
 
 	Transformer should be able to transform a whole file or just one string.
 	"""
-	Format = ['pagai'=1, 'cseq'=2, 'cbmc'=3, 'pips'=4, 'annot'=5])
-	
+		
 	def transformFile(self, input, format):
 		""" Transforms one input file to a different output file"""
 		pass
@@ -21,16 +21,16 @@ class Transformer:
 		pass
 
 	def trasformAST(self, inputast, format):
-		"""Transform from an AST to an output string"""
-		pass
+		""" Transform from an AST to an output string"""
+		pass	
 	
-	def __readFile(self, file):
+	def readFile(self, file):
 		fd = open(file, "r")
 		str = fd.read()
 		fd.close()
 		return str
 
-	def __writeFile(self, file, data):
+	def writeFile(self, file, data):
 		"""
 		Writes data to file. Always truncates and refresh the file.
 		"""
@@ -41,3 +41,55 @@ class Transformer:
 		fd.write(newcode)
 		fd.close()
 		return file
+
+	@staticmethod
+	def outputName(name, format):
+		""" Creates an output file name that this transformer may use """
+		suffix = ".c"
+		link = "_"
+		ftype = format
+		if Format.has_key(format):
+			# Most cases are just .c, but for clang is .bc
+			if Format[format] == Format["clang"]:
+				suffix = ".bc"
+		elif format in Format.values():
+			if format == Format["clang"]:
+				suffix = ".bc"
+				ftype = "clang"
+		output = name + link + ftype + suffix
+		return output
+
+	@staticmethod
+	def inputName(name, format):
+		""" Creates an input file name that this transformer may use """
+		suffix = ".c"
+		link = "_"
+		ftype = format
+		if Format.has_key(format):
+			# Most cases are just .c, but for pagai is .bc
+			if Format[format] == Format["clang"]:
+				suffix = ".bc"
+		elif format in Format.values():
+			if format == Format["clang"]:
+				suffix = ".bc"
+				ftype = "clang"
+		output = name + link + ftype + suffix
+		return output
+
+def test():
+	name = "fib_file.c"
+	print name
+	print Transformer.inputName(name, "pagai")
+	print Transformer.inputName(name, "cbmc")
+	print Transformer.inputName(name, "pips")
+	print Transformer.inputName(name, "annot")
+	print Transformer.inputName(name, "clang")
+	print Transformer.inputName(name, "wachumera")
+	print Transformer.outputName(name, "pagai")
+	print Transformer.outputName(name, "cbmc")
+	print Transformer.outputName(name, "pips")
+	print Transformer.outputName(name, "annot")
+	print Transformer.outputName(name, "clang")
+	print Transformer.outputName(name, "wachumera")
+
+test()
