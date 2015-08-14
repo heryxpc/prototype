@@ -1,6 +1,4 @@
-#!usr/bin/env/python
-
-from enum import Enum
+#!/usr/bin/env python
 
 
 class Transformer:
@@ -12,7 +10,7 @@ class Transformer:
 
 	Transformer should be able to transform a whole file or just one string.
 	"""
-	Format = Enum('Format', 'pagai cseq cbmc pips')
+	Format = ['pagai'=1, 'cseq'=2, 'cbmc'=3, 'pips'=4, 'annot'=5])
 	
 	def transformFile(self, input, format):
 		""" Transforms one input file to a different output file"""

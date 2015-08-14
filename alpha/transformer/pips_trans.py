@@ -1,4 +1,4 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
 
 from interface import Transformer
 class PIPSTransformer(Transformer):

@@ -1,16 +1,20 @@
-#!/usr/bin/env python
+!#/usr/bin/env python
 
 from interface import Transformer
-class CSEQTransformer(Transformer):
+
+class ANNOTTransformer(Transformer):
 	"""
-	Transforms a C file in a valid input file to CSeq
+	Transforms a C file in a valid input file to annotations translator
 	"""
 	def __init__(self):
 		"""Default constructor"""
 		return
 
 	def transformFile(self, input, format):
-		""" Transforms input C file to valid C input file for CSeq """
+		""" 
+		Transforms input C file to valid C input file 
+		for annotations translator 
+		"""
 		instr = self.__read(input)
 		outstr = ""
 		outs = self.transfromString(intstr, outstr)
@@ -24,6 +28,3 @@ class CSEQTransformer(Transformer):
 		"""
 		# For the moment don't do anything with the input
 		return input
-
-
-	

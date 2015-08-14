@@ -1,4 +1,4 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
 
 class Command:
 	"""Class that contains an external command execution"""

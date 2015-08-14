@@ -1,4 +1,4 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
 
 from interface import Transformer
 class CBMCTransformer(Transformer):
@@ -9,7 +9,7 @@ class CBMCTransformer(Transformer):
 		"""Default constructor"""
 		return
 
-	def transformFile(self, input, output):
+	def transformFile(self, input, format):
 		""" Transforms input C file to valid C input file for CSeq """
 		instr = self.__read(input)
 		outstr = ""
@@ -17,7 +17,7 @@ class CBMCTransformer(Transformer):
 		outfile = self.__write(output, outs)
 
 
-	def transformString(self, input, output):
+	def transformString(self, input, format):
 		""" 
 		Transforms a string with a valid C Syntax three to a 
 		valid CSeq c file syntax three input

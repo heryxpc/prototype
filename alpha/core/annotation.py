@@ -1,6 +1,9 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
 
 # Annotations code
+import util
+
+util.defParser(comments=true)
 
 # Finds the closest comment in a dictionary of comments
 def closest_comment(line, comments) :

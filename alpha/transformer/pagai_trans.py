@@ -1,4 +1,6 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
+
+from interface import Transformer
 
 def parse_pagai_invariant(comment):
 	# Function to parse an invariant comment
@@ -30,3 +32,27 @@ def parse_pagai_invariant(comment):
 	# 	rexp = exp[2]
 	# 	#~ print "Expression - Leftside: %s Operator: %s Right side: %s" % (lexp, op, rexp)
 	return expressions
+
+def PAGAITransformer(Transformer):
+	"""
+	Transforms a C file in a valid input file to Pagai
+	"""
+	def __init__(self):
+		"""Default constructor"""
+		return
+
+	def transformFile(self, input, format):
+		""" Transforms input C file to valid C input file for Pagai """
+		instr = self.__read(input)
+		outstr = ""
+		outs = self.transfromString(intstr, outstr)
+		outfile = self.__write(output, outs)
+
+
+	def transformString(self, input, format):
+		""" 
+		Transforms a string with a valid C Syntax tree to a 
+		valid Pagai C input file
+		"""
+		# For the moment don't do anything with the input
+		return input

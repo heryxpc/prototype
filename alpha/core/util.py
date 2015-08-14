@@ -1,11 +1,11 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
 
 import sys
 
 pycparser_barel = '/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc'
 pycparser_last = '/home/heryxpc/Documents/soton/dissertation/tools/pycparser/pycparser-2.14/pycparser'
 
-def defParser(supportComments):
+def defParser(comments):
 	if supportComments:
 		sys.path.extend(['.', pycparser_barel])
 	else:
