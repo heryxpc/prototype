@@ -1,0 +1,623 @@
+#experiments on fib_bench_longest_false-unreach-call_anno.c
+
+# Using pagai annotated file, no changes at all
+time cbmc --unwind 11 --no-unwinding-assertions fib_bench_longest_false-unreach-call_anno.c 
+# 
+# VERIFICATION FAILED
+
+# real	9m34.191s
+# user	9m29.675s
+# sys	0m2.457s
+
+# Using annotated file, adding CPROVER_assume
+
+time cbmc --unwind 11 --no-unwinding-assertions fib_bench_longest_false-unreach-call_anno.c 
+
+# VERIFICATION FAILED
+
+# real	11m2.894s
+# user	10m58.796s
+#  sys	0m2.141s
+
+ time ./init_cseq.py --unwind 11 --round 10 -i ~/Documents/soton/dissertation/prototype/test7/benchmarks/cbmc/fib_bench_longest_false-unreach-call_anno.c 
+
+#/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/cbmc/fib_bench_longest_false-unreach-call_anno.c, SAFE, 875.62
+
+#real	14m35.726s
+#user	14m33.646s
+#sys	0m1.198s
+
+
+time ./init_cseq.py --unwind 11 --time 750 --round 11 -i ~/Documents/soton/dissertation/prototype/test7/benchmarks/cbmc/fib_bench_longest_false-unreach-call_anno.c 
+
+# ~/Documents/soton/dissertation/prototype/test7/benchmarks/cbmc/fib_bench_longest_false-unreach-call_anno.c, TIMEOUT, 751.13
+
+#real	12m31.228s
+#user	0m1.950s
+#sys	0m0.243s
+
+
+ time ./init_cseq.py --unwind 11 --round 10 -i #~/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.c 
+/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.c, SAFE, 323.61
+
+#real	5m23.721s
+#user	5m22.683s
+#sys	0m0.742s
+
+
+
+
+
+## Experiments on 
+time cbmc --unwind 4 --no-unwinding-assertions 28_buggy_simple_loop1_vf_false-unreach-call_anno.c
+
+State 148 file 28_buggy_simple_loop1_vf_false-unreach-call_anno.c line 15 function thr1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+Violated property:
+  file 28_buggy_simple_loop1_vf_false-unreach-call_anno.c line 36 function thr1
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m0.907s
+
+
+time cbmc --unwind 4 --no-unwinding-assertions 28_buggy_simple_loop1_vf_false-unreach-call_anno.c_assume.c
+
+State 276 file 28_buggy_simple_loop1_vf_false-unreach-call_anno.c_assume.c line 16 function thr1 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+Violated property:
+  file 28_buggy_simple_loop1_vf_false-unreach-call_anno.c_assume.c line 49 function thr1
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m0.957s
+
+time cbmc --unwind 6 --no-unwinding-assertions fib_bench_false-unreach-call_anno.c
+State 119 file fib_bench_false-unreach-call_anno.c line 19 function t1 thread 1
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+Violated property:
+  file fib_bench_false-unreach-call_anno.c line 56 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m1.574s
+
+
+
+time cbmc --unwind 6 --no-unwinding-assertions fib_bench_false-unreach-call_anno.c_assume.c
+State 128 file fib_bench_false-unreach-call_anno.c_assume.c line 22 function t2 thread 2
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+Violated property:
+  file fib_bench_false-unreach-call_anno.c_assume.c line 40 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.097s
+
+
+time cbmc --unwind 4 --no-unwinding-assertions queue_false-unreach-call_anno.c
+State 243 file queue_false-unreach-call_anno.c line 78 function dequeue thread 2
+----------------------------------------------------
+  queue.amount=1 (00000000000000000000000000000001)
+
+State 245 file queue_false-unreach-call_anno.c line 84 function dequeue thread 2
+----------------------------------------------------
+  queue.head=1 (00000000000000000000000000000001)
+
+Violated property:
+  file queue_false-unreach-call_anno.c line 147 function t2
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1m51.449s
+
+time cbmc --unwind 4 --no-unwinding-assertions queue_false-unreach-call_anno.c_assume.c
+State 266 file queue_false-unreach-call_anno.c_assume.c line 84 function dequeue thread 2
+----------------------------------------------------
+  queue.head=1 (00000000000000000000000000000001)
+
+Violated property:
+  file queue_false-unreach-call_anno.c_assume.c line 151 function t2
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1m54.371s
+
+
+time cbmc --unwind 4 --no-unwinding-assertions reorder_2_false-unreach-call_anno.c
+State 294 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file reorder_2_false-unreach-call_anno.c line 125 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.592s
+
+time cbmc --unwind 4 --no-unwinding-assertions reorder_2_false-unreach-call_anno.c_assume.c
+State 290 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file reorder_2_false-unreach-call_anno.c_assume.c line 105 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m3.010s
+
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions sigma_false-unreach-call_anno.c
+State 1049 file sigma_false-unreach-call_anno.c line 57 function main thread 0
+----------------------------------------------------
+  tid=16 (00000000000000000000000000010000)
+
+State 1054 file sigma_false-unreach-call_anno.c line 61 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file sigma_false-unreach-call_anno.c line 8 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	14m29.585s
+user	14m23.743s
+sys	0m2.274s
+
+
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions sigma_false-unreach-call_anno.c_assume.c 
+State 1049 file sigma_false-unreach-call_anno.c_assume.c line 55 function main thread 0
+----------------------------------------------------
+  tid=16 (00000000000000000000000000010000)
+
+State 1054 file sigma_false-unreach-call_anno.c_assume.c line 63 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file sigma_false-unreach-call_anno.c_assume.c line 12 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	9m41.567s
+user	9m35.942s
+sys	0m2.119s
+
+################THIS COULD BE A CASE OF SUCCESS!!!!############################
+
+####SECOND TEST MANUALLY ADDING assume statement to original code
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions sigma_false-unreach-call_anno.c
+State 1049 file sigma_false-unreach-call_anno.c line 59 function main thread 0
+----------------------------------------------------
+  tid=16 (00000000000000000000000000010000)
+
+State 1054 file sigma_false-unreach-call_anno.c line 64 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file sigma_false-unreach-call_anno.c line 8 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	11m1.492s
+user	10m57.969s
+sys	0m1.458s
+
+
+#########SECOND TEST TOOK A BIT LONGER BUT PRODUCED AGAIN AN IMPROVEMENT COMPARED TO ORIGINAL FILE!!!!###################
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions stack_false-unreach-call_anno.c
+State 301 file stack_false-unreach-call_anno.c line 107 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 314 file stack_false-unreach-call_anno.c line 112 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_false-unreach-call_anno.c line 22 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m5.822s
+user	0m5.707s
+sys	0m0.107s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions stack_false-unreach-call_anno.c_assume.c
+State 199 file stack_false-unreach-call_anno.c_assume.c line 100 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 212 file stack_false-unreach-call_anno.c_assume.c line 107 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_false-unreach-call_anno.c_assume.c line 20 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m5.704s
+user	0m5.576s
+sys	0m0.126s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions stack_longer_false-unreach-call_anno.c
+State 576 file stack_longer_false-unreach-call_anno.c line 104 function t2 thread 2
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 589 file stack_longer_false-unreach-call_anno.c line 109 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longer_false-unreach-call_anno.c line 20 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	8m25.815s
+user	8m22.012s
+sys	0m2.660s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions stack_longer_false-unreach-call_anno.c_assume.c 
+State 199 file stack_longer_false-unreach-call_anno.c_assume.c line 99 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 212 file stack_longer_false-unreach-call_anno.c_assume.c line 106 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longer_false-unreach-call_anno.c_assume.c line 19 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	8m19.585s
+user	8m15.634s
+sys	0m3.010s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions stack_longest_false-unreach-call_anno.c
+Generated 120 VCC(s), 120 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Killed
+
+real	6m31.627s
+user	5m55.337s
+sys	0m11.599s
+
+################## Killed, probably a memory problem? Reproduce using the computer less
+
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 20 --no-unwinding-assertions stack_longest_false-unreach-call_anno.c_assume.c
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+19637972 variables, 94563628 clauses
+Killed
+
+real	68m48.087s
+user	62m13.455s
+sys	1m23.248s
+
+
+######################## On other running of experiment annotate code was able to end after a loooooong time############
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions stack_longest_false-unreach-call_anno.c_assume.c
+State 210 file stack_longest_false-unreach-call_anno.c_assume.c line 99 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 223 file stack_longest_false-unreach-call_anno.c_assume.c line 106 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longest_false-unreach-call_anno.c_assume.c line 19 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1123m43.734s
+user	24m51.908s
+sys	0m9.171s
+
+
+
+
+################### annotated version continued for an hour and then was killed as well
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 4 --no-unwinding-assertions twostage_3_false-unreach-call_anno.c
+State 372 file twostage_3_false-unreach-call_anno.c line 27 function funcA thread 1
+----------------------------------------------------
+  data2Value=2 (00000000000000000000000000000010)
+
+State 390 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file twostage_3_false-unreach-call_anno.c line 53 function funcB
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m42.549s
+user	0m40.025s
+sys	0m2.139s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 4 --no-unwinding-assertions twostage_3_false-unreach-call_anno.c_assume.c 
+State 293 file twostage_3_false-unreach-call_anno.c_assume.c line 42 function funcB thread 5
+----------------------------------------------------
+  t2=0 (00000000000000000000000000000000)
+
+State 308 file twostage_3_false-unreach-call_anno.c_assume.c line 23 function funcA thread 2
+----------------------------------------------------
+  data2Value=2 (00000000000000000000000000000010)
+
+Violated property:
+  file twostage_3_false-unreach-call_anno.c_assume.c line 48 function funcB
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1m0.011s
+user	0m57.713s
+sys	0m1.959s
+
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fib_bench_longer_false-unreach-call_anno.c
+State 134 file fib_bench_longer_false-unreach-call_anno.c line 37 function t2 thread 2
+----------------------------------------------------
+  k=6 (00000000000000000000000000000110)
+
+Violated property:
+  file fib_bench_longer_false-unreach-call_anno.c line 56 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m10.469s
+user	0m10.337s
+sys	0m0.110s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fib_bench_longer_false-unreach-call_anno.c_assume.c
+State 133 file fib_bench_longer_false-unreach-call_anno.c_assume.c line 23 function t2 thread 2
+----------------------------------------------------
+  j=377 (00000000000000000000000101111001)
+
+State 134 file fib_bench_longer_false-unreach-call_anno.c_assume.c line 20 function t2 thread 2
+----------------------------------------------------
+  k=6 (00000000000000000000000000000110)
+
+Violated property:
+  file fib_bench_longer_false-unreach-call_anno.c_assume.c line 38 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m5.524s
+user	0m5.455s
+sys	0m0.063s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fib_bench_false-unreach-call_anno.c_assume.c 
+State 127 file fib_bench_false-unreach-call_anno.c_assume.c line 23 function t2 thread 2
+----------------------------------------------------
+  j=144 (00000000000000000000000010010000)
+
+State 128 file fib_bench_false-unreach-call_anno.c_assume.c line 20 function t2 thread 2
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+Violated property:
+  file fib_bench_false-unreach-call_anno.c_assume.c line 38 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.102s
+user	0m2.068s
+sys	0m0.034s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fib_bench_false-unreach-call_anno.c
+State 118 file fib_bench_false-unreach-call_anno.c line 20 function t1 thread 1
+----------------------------------------------------
+  i=144 (00000000000000000000000010010000)
+
+State 119 file fib_bench_false-unreach-call_anno.c line 19 function t1 thread 1
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+Violated property:
+  file fib_bench_false-unreach-call_anno.c line 55 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.067s
+user	0m2.000s
+sys	0m0.067s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fkp2013_variant_false-unreach-call_anno.c
+State 109 file fkp2013_variant_false-unreach-call_anno.c line 19 function thr2 thread 2
+----------------------------------------------------
+  x=1 (00000000000000000000000000000001)
+
+State 114 file fkp2013_variant_false-unreach-call_anno.c line 12 function thr1 thread 1
+----------------------------------------------------
+  cond=0 (00000000000000000000000000000000)
+
+Violated property:
+  file assert.h line 5 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m8.299s
+user	0m8.047s
+sys	0m0.113s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fkp2013_variant_false-unreach-call_anno.c_assume.c 
+State 109 file fkp2013_variant_false-unreach-call_anno.c_assume.c line 41 function thr2 thread 2
+----------------------------------------------------
+  x=1 (00000000000000000000000000000001)
+
+State 114 file fkp2013_variant_false-unreach-call_anno.c_assume.c line 34 function thr1 thread 1
+----------------------------------------------------
+  cond=0 (00000000000000000000000000000000)
+
+Violated property:
+  file fkp2013_variant_false-unreach-call_anno.c_assume.c line 10 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m7.531s
+user	0m7.391s
+sys	0m0.093s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions reorder_5_false-unreach-call_anno.c
+State 306 file reorder_5_false-unreach-call_anno.c line 116 function setThread thread 3
+----------------------------------------------------
+  b=-1 (11111111111111111111111111111111)
+
+State 317 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file reorder_5_false-unreach-call_anno.c line 127 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1m3.003s
+user	1m2.189s
+sys	0m0.635s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions reorder_5_false-unreach-call_anno.c_assume.c 
+State 308 file reorder_5_false-unreach-call_anno.c_assume.c line 94 function setThread thread 1
+----------------------------------------------------
+  b=-1 (11111111111111111111111111111111)
+
+State 314 file reorder_5_false-unreach-call_anno.c_assume.c line 94 function setThread thread 2
+----------------------------------------------------
+  b=-1 (11111111111111111111111111111111)
+
+Violated property:
+  file reorder_5_false-unreach-call_anno.c_assume.c line 104 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	1m38.071s
+user	1m36.870s
+sys	0m0.716s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions queue_longer_false-unreach-call_anno.c
+size of program expression: 733839 steps
+no slicing due to threads
+Generated 53 VCC(s), 53 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+terminate called after throwing an instance of 'Minisat::OutOfMemoryException'
+Aborted (core dumped)
+
+real	8m13.915s
+user	7m22.455s
+sys	0m23.841s
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions queue_longer_false-unreach-call_anno.c_assume.c
+Adding SC constraints
+size of program expression: 733839 steps
+no slicing due to threads
+Generated 53 VCC(s), 53 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+terminate called after throwing an instance of 'Minisat::OutOfMemoryException'
+Aborted (core dumped)
+
+real	7m44.972s
+user	6m51.500s
+sys	0m27.696s
+
+
+heryxpc@heryxpc-M11x-R2:inv$ time cbmc --unwind 10 --no-unwinding-assertions fib_bench_longest_false-unreach-call_anno.c
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+28146 variables, 130743 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 28859.9s
+VERIFICATION SUCCESSFUL
+
+real	481m0.645s
+user	479m21.242s
+sys	0m27.457s

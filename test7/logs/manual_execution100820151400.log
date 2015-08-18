@@ -1,0 +1,56 @@
+CSeq Path:
+/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg
+
+export CSEQ_PATH=/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg
+
+export BENCHMARKS=/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks
+
+export TEST_DIR=/home/heryxpc/Documents/soton/dissertation/prototype/test7
+
+File:
+fib_bench_longest_false-unreach-call.c
+
+Command:
+$CSEQ_PATH/init_cseq.py -i BENCHMARKS/fib_bench_longest_false-unreach-call.c --time 750  --rounds 11 --unwind 11
+
+Result:
+/home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/fib_bench_longest_false-unreach-call.c, UNSAFE, 518.60
+
+Command:
+$CSEQ_PATH/init_cseq.py -i $BENCHMARKS/fib_bench_longest_false-unreach-call.c  --rounds 11 --unwind 11 -l out --backend cpachecker > $TEST_DIR/results/cseq/fib_bench_longest_false-unreach-call.c 
+
+Result:
+ls $TEST_DIR/results/cseq/fib_bench_longest_false-unreach-call.c
+
+Command:
+clang-3.5 -emit-llvm -g -c /home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.c -o /home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.bc
+
+
+Result:
+ls /home/heryxpc/Documents/soton/dissertation/prototype/test7/benchmarks/pagai/fib_bench_longest_false-unreach-call.bc
+
+Command: 
+pagai -i benchmarks/pagai/fib_bench_longest_false-unreach-call.bc 
+
+Result:
+LLVM code, old pagai output, something that is not a C code
+
+DOES NOT PRODUCE A CODE TO CODE TRANSFORMATION, REMAINS ON LLVM
+
+Command:
+tpips scripts/pips/fib_bench_longest_false-unreach-call.tpips > results/pips/fib_bench_longest_false-unreach-call.c 
+
+Result:
+Produces a C file with the Transformation of preconditions. However, this file requires changes in order to be a valid input for CBMC
+
+Command:
+time cbmc --unwind 11 --no-unwinding-assertions benchmarks/cbmc/fib_bench_longest_false-unreach-call.c 
+
+Result:
+Analysis is executed in no time, however it is does not equivalent to original problam, or error is not maintaned due to the fact that verification is successful (not failing).
+
+
+
+
+
+
