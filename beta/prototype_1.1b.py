@@ -2,15 +2,11 @@
 
 import sys, time, subprocess, re, os, collections
 from cStringIO import StringIO
-
 parserpath = '/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc'
-pagaipath = '/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai'
-cbmcpath = '/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc'
-clangpath = 'clang-3.5'
-fakelib_parser = '/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include'
-
+pagaipath = 'pagai'
 sys.path.extend(['.', parserpath])
 from pycparser import c_parser, c_ast, parse_file, c_generator
+
 
 class TimeLog:
 	'Class to save time execution'
@@ -52,27 +48,19 @@ class Command:
 		self.name = config['name']
 		self.input = config['input']
 		self.output = ''
-		self.error = ''
 
 	def execute(self):
 		args = [self.name]+self.input
 		print ('Executing command:'+' '.join(args) )
 		try:
-			# self.output = subprocess.check_output(args, 
-			# 				stderr=subprocess.STDOUT)
-			sp = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-			out, err = sp.communicate()
-			self.output = out
-			self.error = err
+			self.output = subprocess.check_output(args, 
+							stderr=subprocess.STDOUT)
 		except subprocess.CalledProcessError as e:
 			print 'Error:',e.returncode, e.cmd, e.output
 			#TODO check if error can be resolved		
 
 	def getOutput(self):
 		return self.output
-
-	def getError(self):
-		return self.error		
 
 ###############################################################
 # Annotations code
@@ -104,8 +92,8 @@ class AnnotationsVisitor(c_ast.NodeVisitor):
 		line = node.coord.line
 		annotPos = closest_comment(line, self.comments)
 		annotation = ''
-		# print node.coord
-		# print annotPos, self.comments[annotPos]
+		print node.coord
+		print annotPos, self.comments[annotPos]
 		if abs(annotPos - line) > range :
 			# In case the distance between the line and comment is larger than
 			# range, assume there is no invariant for this coord
@@ -179,19 +167,25 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 	def __init__(self):
 		pass
 
+	#TODO Obtain a block statement and then add as first statement assume
 	def addAssumeAnnotations(self, n):
 		# print dir(n.stmt)
+		# TODO First create a list of block items
 		blockItems = []
+		# TODO Then transform annotation into an FuncCall of an assume from CBMC
 		if hasattr(n, 'annotation'):
 			assumeStr = self.transToAssume(n)
-			# print (n.coord.line, assumeStr)
+			print (n.coord.line, assumeStr)
 			text = 'void fake_func() {' + assumeStr + '}'
 			parser = c_parser.CParser()
 			ast = parser.parse(text, filename='<none>' )
 			# ast.show()
+			# TODO Add the created statement to block items
 			assumeFuncCall = ast.ext[0].body.block_items[0]
 			blockItems.insert(0, assumeFuncCall)
+			# TODO Add original block to block items
 			blockItems.insert(1, n.stmt)
+			# TODO Then create a new compound with all the statements
 			comp = c_ast.Compound(blockItems, n.stmt.coord)
 			n.stmt = comp
 			# s = super(CAnnotatedGenerator, self).visit_While(n)
@@ -232,7 +226,7 @@ class CAnnotatedGenerator(c_generator.CGenerator):
 #####################End of annotated code##############33
 
 def ensure_C99main(file) :
-	# print "Start of ensure_C99main"
+	print "Start of ensure_C99main"
 	openFile = open(file, 'r+')
 	code = openFile.read()
 	codepos = code.find('main(', 0, len(code) )
@@ -256,7 +250,7 @@ def ensure_C99main(file) :
 			openFile.truncate()
 			openFile.write(newcode)
 	openFile.close()
-	# print "End of ensure_C99main"
+	print "End of ensure_C99main"
 	return file
 
 # Test ensure_C99main function
@@ -283,7 +277,7 @@ def parse_annotated(file):
             ]
     )
     annotations = dict()
-    # print "===== %s =====" % file
+    print "===== %s =====" % file
     # fd = open(file, 'r')
     # original = fd.read()
     # print 'Original:::::::::::::::'
@@ -306,10 +300,10 @@ def parse_annotated(file):
     saveFile = open(assumedfile, 'w')
     saveFile.write(assumed)
     saveFile.close()
-    # print "Assumed:::::::::::::::::"
-    # print assumed
-    # print ":::::::::::::::::Assumed"
-    # print "=============================================\n"
+    print "Assumed:::::::::::::::::"
+    print assumed
+    print ":::::::::::::::::Assumed"
+    print "=============================================\n"
     return assumedfile
 
 # parse_invariant('/* invariant:\n  -n+x+y = 0\n  n-x >= 0\n  */')
@@ -319,18 +313,11 @@ def parse_annotated(file):
 #~ annotated_parse('anno_gopan.c')
 
 def abs_annotate(srcfile):
+	srcfile = ensure_C99main(srcfile)
 	sourcefile = srcfile
 
-	llvmfile = srcfile + '.bc'
-
-	config = {'name': clangpath, 'input': ['-emit-llvm', '-g', '-c', 
-				sourcefile, '-o', llvmfile] }
-	cmd = Command(config)
-	cmd.execute()
-	output = cmd.getOutput()
-
 	temp = sourcefile+'.tmp'
-	config2 = {'name':pagaipath, 'input':['-i', llvmfile, 
+	config2 = {'name':pagaipath, 'input':['-i', sourcefile, 
 				'--annotated', temp] }
 	cmd = Command(config2)
 	cmd.execute()
@@ -355,257 +342,36 @@ def abs_annotate(srcfile):
 	return annotated
 
 
-def cpdep(lib, origindir, dest, libsfound):
- 	""" Copies recursively library dependencies """
- 	libpath = origindir + "/" + lib
- 	if os.path.exists(libpath):
-	 	config4 = {'name':'cp', 'input':[libpath, dest]}
-		cmd = Command(config4)
-		cmd.execute()
-	else:
-		print "Dependency not found:" + lib
-	# Here starts recursive iteration
-	fd = open(lib)
-	libtxt = fd.read()
-	fd.close()
-	libs = os.listdir(origindir)
-	# Only run recursive on local dependencies, marked with ' " '
-	# Otherwise the dependency exponential problem could arise
-	# Also, check that dependency is not already part of libsfounb
-	# Otherwise will fall in redundancy
-	pattern = '#include "([A-Za-z0-9+-_]+)"'
-	prog = re.compile(pattern)
-	m = prog.search(libtxt)
-	while m:
-		newlib = m.group(1)
-		# print (newlib)
-		if not newlib in libsfound and newlib in libs:
-			cpdep(newlib, origindir, dest, libsfound)
-			libsfound.append(newlib)
-		pos = m.end()
-		# print (pos)
-		m = prog.search(libtxt, pos)
-
-def isInComments(stmnt, src):
-	cmntFlag = 0
-	for line in src.split('\n'):
-		pos_stmnt = line.find(stmnt, 0, len(line) )
-		pos_cmnt_begin = line.find("/*", 0, len(line) )
-		pos_cmnt_end = line.find("*/", 0, len(line) )
-		if pos_cmnt_begin != -1:
-			cmntFlag = 1
-		if pos_cmnt_end != -1:
-			if pos_cmnt_begin != -1 and pos_cmnt_begin > pos_cmnt_end:
-				pass
-			elif cmntFlag == 1:
-				cmntFlag = 0
-		if pos_stmnt != -1:
-			if line.startswith("//"):
-				return True
-			if pos_stmnt > pos_cmnt_begin and pos_stmnt < pos_cmnt_end:
-				return True;
-			if cmntFlag == 1:
-				return True
-
-	return False
-
-
-def pagai2pycparser(srcfile):
-	"""
-	Transforms an annotated file output from pagai to an input for pycparser.
-	"""
-	#Replace standard libraries with fake libraries of pycparser
-	fkd = os.path.abspath(fakelib_parser)
-	path = os.path.abspath(srcfile)
-	wd = os.path.dirname(path)
-
-
-	libs = os.listdir(fkd)
-
-	srcfd = open(srcfile, 'r')
-
-	src = srcfd.read()
-	srcfd.close()
-
-	libsfound = []
-
-	originallibs = []
-
-	codepos	= 0
-	for lib in libs:
-		if lib in src and not isInComments(lib, src):
-			#TODO In case there is an assert library, handle it specially
-			# Case like this is file fkp2013_variant_false-unreach.c
-			beginInclude = src.find(lib, 0, len(src) )
-		 	endInclude =  beginInclude + len(lib)
-		 	src = src[:beginInclude - 1] + '"' + lib + '"' + src[endInclude + 1:]
-		 	libsfound.append(lib)
-		 	# Is important to preserve the original libs so that can be restored
-		 	originallibs.append(lib)
-		 	cpdep(lib, fkd, wd, libsfound)
-
-	# print "Libs found: " + ', '.join(libsfound)
-
-	newfile = srcfile + '_pyc.c'
-
-	fd = open(newfile, "w")
-	fd.seek(0)
-	fd.truncate()
-	fd.write(src)
-	fd.close()
-
-	return (newfile, originallibs)
-
-#TODO test function to add fake-libs of pycparser
-# if __name__ == "__main__":
-# 	sourcefile = ""
-#  	if len(sys.argv) > 1:
-#  	    sourcefile  = sys.argv[1]
-#  	else:
-#  		quit()
-#  	pagai2pycparser(sourcefile)
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Taken from lazy-cseq-1.0
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-''' strip()  -  Strips every line in the given string
-				from the line with '_____STARTSTRIPPINGFROMHERE_____' as substring
-				to the one with '_____STOPSTRIPPINGFROMHERE_____' as substring.
-
-				Lines are identified by '\n'
-'''
-def strip(s):
-	s2 = ''
-	status = 0
-
-	for line in s.split('\n'):
-		if '_____STARTSTRIPPINGFROMHERE_____' in line:
-			status = 1
-			continue;
-
-
-		if '_____STOPSTRIPPINGFROMHERE_____' in line:
-			status = 2
-			continue;
-
-		if status == 0 or status == 2: s2 += line + '\n'
-
-	return s2
-
-
-'''
-	strip()  -  Strips every line in the given string
-				from the line with 'startmarker' as substring
-				to the one with 'endmarker' as substring.
-
-				Lines are identified by '\n'
-'''
-def strip2(s, startmarker='_____STARTSTRIPPINGFROMHERE_____', endmarker='_____STOPSTRIPPINGFROMHERE_____' ):
-	s2 = ''
-	status = 0
-
-	for line in s:
-		if line.startswith(startmarker) and status == 0:
-			# print "start marker found\n"
-			status = 1
-			continue;
-
-		if line.endswith(endmarker) and line.startswith(startmarker) and status == 1:
-			# print "end marker found\n"
-			status = 2
-			continue;
-
-		if status == 0 or status == 2: s2 += line + '\n'
-
-	return s2
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-End of code from lazy-cseq-1.0
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-def pyccparser2cbmc(srcfile, libs):
-	"""
-	Transforms the result of a parsed file from pycparser to a valid cbmc 
-	input.
-	"""
-	fd = open(srcfile, "r")
-	src = fd.read()
-	fd.close()
-
-	# Replace the definition of __VERIFIER_error with the one for CBMC
-	if "extern void __VERIFIER_error();" in src:
-		# print "__VERIFIER_error found"
-		pos = re.search("extern void __VERIFIER_error\(\);", src).pos
-		# print "position: " + str(pos)
-		vererr  = "extern void __VERIFIER_error() __attribute__ ((__noreturn__));" + '\n'
-		src = re.sub("extern void __VERIFIER_error\(\);", vererr, src)
-
-	# Remove the strip lines with original libs
-	if "_____STARTSTRIPPINGFROMHERE_____" in src:
-		# print "_____STARTSTRIPPINGFROMHERE_____ found"
-		pos = src.find("typedef int _____STARTSTRIPPINGFROMHERE_____;", 0, len(src) )
-		# print "position: " + str(pos)
-		libstr = ""
-		for lib in reversed(libs):
-			libstr += '#include <' + lib + '>' + '\n'
-		src = src[:pos] + libstr + '\n' + src[pos:]
-
-	src = strip(src)
-
-	newfile = srcfile + "_cbmc.c"
-	fd  = open(newfile, "w")
-	fd.write(src)
-	fd.close()
-
-	return newfile
-
-
-def bmc_analyze(sourcefile, unwind):
-	k_unwind = str(unwind)
-	config = {'name': cbmcpath, 'input': ['--unwind', k_unwind, 
-				'--no-unwinding-assertions', sourcefile] }
-	cmd = Command(config)
-	cmd.execute()
-	output = cmd.getOutput()
-	if not output:
-		output = cmd.getError()
-	newfile = sourcefile + "_cex"
-	fd = open(newfile, "w")
-	fd.write(output)
-	fd.close()	
-	# print output
-
 def main():
 	#Main function
 	sourcefile  = ''
 	if __name__ == "__main__":
- 	   if len(sys.argv) > 2:
+ 	   if len(sys.argv) > 1:
  	       sourcefile  = sys.argv[1]
- 	       rounds = sys.argv[2]
  	   else:
- 	       print "Usage: prototype.py <filename> <unwind_rounds>"
+ 	       print "Usage: prototype_1.0b.py <filename>"
  	       return 1
 	# log = TimeLog()
 	# log.setInit()
 	# log.displayInit()
-	annotated = abs_annotate(sourcefile)
+	# annotated = abs_annotate(sourcefile)
 	# log.setEnd()
 	# log.displayEnd()
 	# log.displaySeconds()
 
-	libs = []
-	readytoparse, libs = pagai2pycparser(annotated)
+	# assumed = parse_annotated(annotated)
+	sourcefile = ensure_C99main(sourcefile)
+	assumed = parse_annotated(sourcefile)
 
-	readytoparse = ensure_C99main(readytoparse)
-
-	assumed = parse_annotated(readytoparse)
-
-	cbmcready = pyccparser2cbmc(assumed, libs)
-
-	bmc_analyze(cbmcready, rounds)
 	
 
 main()
+
+# text = '''void fake_func()
+# {
+# __CPROVER_assume(5-i >= 0 && i >= 0 );
+# }'''
+
+# parser = c_parser.CParser()
+# ast = parser.parse(text, filename='<none>' )
+# ast.show()
