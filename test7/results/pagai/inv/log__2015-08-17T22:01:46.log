@@ -1,3 +1,0 @@
-[kernel] user error: option `-slevel' requires an integer as argument.
-                     use `frama-c -help' for more information.
-[kernel] Frama-C aborted: invalid user input.

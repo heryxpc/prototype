@@ -1,5 +1,0 @@
- __cs_cond_wait_1
-     __VERIFIER_assert
-     __cs_mutex_unlock
-         __VERIFIER_assert
-         __CSEQ_message
