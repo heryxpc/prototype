@@ -1,0 +1,7 @@
+23_lu-fig2.fixed_true-unreach-call.c:15:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(mStartLock==0);
+        ^
+23_lu-fig2.fixed_true-unreach-call.c:5:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

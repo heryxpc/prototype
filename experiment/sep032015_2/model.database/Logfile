@@ -1,0 +1,849 @@
+Registering file fib_bench_longer_false-unreach-call.c_cseq.c
+Checking C syntax of file "./fib_bench_longer_false-unreach-call.c_cseq.c"
+Preprocessing file ./fib_bench_longer_false-unreach-call.c_cseq.c
+Splitting file    ./model.database/Tmp/fib_bench_longer_false-unreach-call.c_cseq.cpp_processed.c
+  Module         main
+  Module         main_thread
+  Module         t2_0
+  Module         t1_0
+  Module         __cs_cond_signal
+  Module         __cs_cond_wait_2
+  Module         __cs_cond_wait_1
+  Module         __cs_cond_init
+  Module         __cs_mutex_unlock
+  Module         __cs_mutex_lock
+  Module         __cs_mutex_destroy
+  Module         __cs_mutex_init
+  Module         __cs_exit
+  Module         __cs_join
+  Module         __cs_create
+  Module         __CSEQ_message
+  Module         __cs_init_scalar
+  Module         __cs_safe_malloc
+  Module         __VERIFIER_assert
+  Module         fib_bench_longer_false-unreach-call.c_cseq!
+Workspace model created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build resource CALLGRAPH_FILE for module __CSEQ_message.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(fib_bench_longer_false-unreach-call.c_cseq!)
+  C_PARSER                       building   PARSED_CODE(__CSEQ_message)
+                                 building   CALLEES(__CSEQ_message)
+  CONTROLIZER                    building   CODE(__CSEQ_message)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__CSEQ_message)
+CALLGRAPH_FILE made for __CSEQ_message.
+Request: build resource CALLGRAPH_FILE for module __VERIFIER_assert.
+  C_PARSER                       building   PARSED_CODE(__VERIFIER_assert)
+                                 building   CALLEES(__VERIFIER_assert)
+  CONTROLIZER                    building   CODE(__VERIFIER_assert)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__VERIFIER_assert)
+CALLGRAPH_FILE made for __VERIFIER_assert.
+Request: build resource CALLGRAPH_FILE for module __cs_cond_init.
+  C_PARSER                       building   PARSED_CODE(__cs_cond_init)
+                                 building   CALLEES(__cs_cond_init)
+  CONTROLIZER                    building   CODE(__cs_cond_init)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_cond_init)
+CALLGRAPH_FILE made for __cs_cond_init.
+Request: build resource CALLGRAPH_FILE for module __cs_cond_signal.
+  C_PARSER                       building   PARSED_CODE(__cs_cond_signal)
+                                 building   CALLEES(__cs_cond_signal)
+  CONTROLIZER                    building   CODE(__cs_cond_signal)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_cond_signal)
+CALLGRAPH_FILE made for __cs_cond_signal.
+Request: build resource CALLGRAPH_FILE for module __cs_cond_wait_1.
+  C_PARSER                       building   PARSED_CODE(__cs_cond_wait_1)
+                                 building   CALLEES(__cs_cond_wait_1)
+  CONTROLIZER                    building   CODE(__cs_cond_wait_1)
+  C_PARSER                       building   PARSED_CODE(__cs_mutex_unlock)
+                                 building   CALLEES(__cs_mutex_unlock)
+  CONTROLIZER                    building   CODE(__cs_mutex_unlock)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_mutex_unlock)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_cond_wait_1)
+CALLGRAPH_FILE made for __cs_cond_wait_1.
+Request: build resource CALLGRAPH_FILE for module __cs_cond_wait_2.
+  C_PARSER                       building   PARSED_CODE(__cs_cond_wait_2)
+                                 building   CALLEES(__cs_cond_wait_2)
+  CONTROLIZER                    building   CODE(__cs_cond_wait_2)
+  C_PARSER                       building   PARSED_CODE(__cs_mutex_lock)
+                                 building   CALLEES(__cs_mutex_lock)
+  CONTROLIZER                    building   CODE(__cs_mutex_lock)
+  C_INITIALIZER                  building   C_SOURCE_FILE(__VERIFIER_assume)
+Registering synthesized file __VERIFIER_assume.cpp_processed.c
+Registering synthesized compilation unit __VERIFIER_assume!
+  C_PARSER                       building   PARSED_CODE(__VERIFIER_assume)
+                                 building   CALLEES(__VERIFIER_assume)
+  CONTROLIZER                    building   CODE(__VERIFIER_assume)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__VERIFIER_assume)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_mutex_lock)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_cond_wait_2)
+CALLGRAPH_FILE made for __cs_cond_wait_2.
+Request: build resource CALLGRAPH_FILE for module __cs_create.
+  C_PARSER                       building   PARSED_CODE(__cs_create)
+                                 building   CALLEES(__cs_create)
+  CONTROLIZER                    building   CODE(__cs_create)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_create)
+CALLGRAPH_FILE made for __cs_create.
+Request: build resource CALLGRAPH_FILE for module __cs_exit.
+  C_PARSER                       building   PARSED_CODE(__cs_exit)
+                                 building   CALLEES(__cs_exit)
+  CONTROLIZER                    building   CODE(__cs_exit)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_exit)
+CALLGRAPH_FILE made for __cs_exit.
+Request: build resource CALLGRAPH_FILE for module __cs_init_scalar.
+  C_PARSER                       building   PARSED_CODE(__cs_init_scalar)
+                                 building   CALLEES(__cs_init_scalar)
+  CONTROLIZER                    building   CODE(__cs_init_scalar)
+  C_INITIALIZER                  building   C_SOURCE_FILE(__VERIFIER_nondet_int)
+Registering synthesized file __VERIFIER_nondet_int.cpp_processed.c
+Registering synthesized compilation unit __VERIFIER_nondet_int!
+  C_PARSER                       building   PARSED_CODE(__VERIFIER_nondet_int)
+                                 building   CALLEES(__VERIFIER_nondet_int)
+  CONTROLIZER                    building   CODE(__VERIFIER_nondet_int)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__VERIFIER_nondet_int)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_init_scalar)
+CALLGRAPH_FILE made for __cs_init_scalar.
+Request: build resource CALLGRAPH_FILE for module __cs_join.
+  C_PARSER                       building   PARSED_CODE(__cs_join)
+                                 building   CALLEES(__cs_join)
+  CONTROLIZER                    building   CODE(__cs_join)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_join)
+CALLGRAPH_FILE made for __cs_join.
+Request: build resource CALLGRAPH_FILE for module __cs_mutex_destroy.
+  C_PARSER                       building   PARSED_CODE(__cs_mutex_destroy)
+                                 building   CALLEES(__cs_mutex_destroy)
+  CONTROLIZER                    building   CODE(__cs_mutex_destroy)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_mutex_destroy)
+CALLGRAPH_FILE made for __cs_mutex_destroy.
+Request: build resource CALLGRAPH_FILE for module __cs_mutex_init.
+  C_PARSER                       building   PARSED_CODE(__cs_mutex_init)
+                                 building   CALLEES(__cs_mutex_init)
+  CONTROLIZER                    building   CODE(__cs_mutex_init)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_mutex_init)
+CALLGRAPH_FILE made for __cs_mutex_init.
+Request: build resource CALLGRAPH_FILE for module __cs_mutex_lock.
+CALLGRAPH_FILE made for __cs_mutex_lock.
+Request: build resource CALLGRAPH_FILE for module __cs_mutex_unlock.
+CALLGRAPH_FILE made for __cs_mutex_unlock.
+Request: build resource CALLGRAPH_FILE for module __cs_safe_malloc.
+  C_PARSER                       building   PARSED_CODE(__cs_safe_malloc)
+                                 building   CALLEES(__cs_safe_malloc)
+  CONTROLIZER                    building   CODE(__cs_safe_malloc)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__cs_safe_malloc)
+CALLGRAPH_FILE made for __cs_safe_malloc.
+Request: build resource CALLGRAPH_FILE for module fib_bench_longer_false-unreach-call.c_cseq!.
+  CONTROLIZER                    building   CODE(fib_bench_longer_false-unreach-call.c_cseq!)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(fib_bench_longer_false-unreach-call.c_cseq!)
+CALLGRAPH_FILE made for fib_bench_longer_false-unreach-call.c_cseq!.
+Request: build resource CALLGRAPH_FILE for module main.
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_PARSER                       building   PARSED_CODE(t2_0)
+                                 building   CALLEES(t2_0)
+  CONTROLIZER                    building   CODE(t2_0)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(t2_0)
+  C_PARSER                       building   PARSED_CODE(t1_0)
+                                 building   CALLEES(t1_0)
+  CONTROLIZER                    building   CODE(t1_0)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(t1_0)
+  C_PARSER                       building   PARSED_CODE(main_thread)
+                                 building   CALLEES(main_thread)
+  CONTROLIZER                    building   CODE(main_thread)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(main_thread)
+  C_INITIALIZER                  building   C_SOURCE_FILE(__VERIFIER_nondet_uint)
+Registering synthesized file __VERIFIER_nondet_uint.cpp_processed.c
+Registering synthesized compilation unit __VERIFIER_nondet_uint!
+  C_PARSER                       building   PARSED_CODE(__VERIFIER_nondet_uint)
+                                 building   CALLEES(__VERIFIER_nondet_uint)
+  CONTROLIZER                    building   CODE(__VERIFIER_nondet_uint)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__VERIFIER_nondet_uint)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(main)
+CALLGRAPH_FILE made for main.
+Request: build resource CALLGRAPH_FILE for module main_thread.
+CALLGRAPH_FILE made for main_thread.
+Request: build resource CALLGRAPH_FILE for module t1_0.
+CALLGRAPH_FILE made for t1_0.
+Request: build resource CALLGRAPH_FILE for module t2_0.
+CALLGRAPH_FILE made for t2_0.
+Selecting rule: TRANSFORMERS_INTER_FULL
+Selecting rule: PRECONDITIONS_INTER_FULL
+Request: capply PARTIAL_EVAL for module [__CSEQ_message,__VERIFIER_assert,__VERIFIER_assume,__VERIFIER_assume!,__VERIFIER_nondet_int,__VERIFIER_nondet_int!,__VERIFIER_nondet_uint,__VERIFIER_nondet_uint!,__cs_cond_init,__cs_cond_signal,__cs_cond_wait_1,__cs_cond_wait_2,__cs_create,__cs_exit,__cs_init_scalar,__cs_join,__cs_mutex_destroy,__cs_mutex_init,__cs_mutex_lock,__cs_mutex_unlock,__cs_safe_malloc,fib_bench_longer_false-unreach-call.c_cseq!,main,main_thread,t1_0,t2_0].
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__CSEQ_message)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__CSEQ_message)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__CSEQ_message)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__CSEQ_message)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assert)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assert)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assert)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assert)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assume)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assume)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assume)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assume)
+  CONTROLIZER                    building   CODE(__VERIFIER_assume!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assume!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assume!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assume!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assume!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_int)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_int)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_int)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_int)
+  CONTROLIZER                    building   CODE(__VERIFIER_nondet_int!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_int!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_int!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_int!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_int!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_uint)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_uint)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_uint)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_uint)
+  CONTROLIZER                    building   CODE(__VERIFIER_nondet_uint!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_uint!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_uint!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_uint!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_uint!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_init)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_init)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_init)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_signal)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_signal)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_signal)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_signal)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_unlock)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_unlock)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_unlock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_wait_1)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_wait_1)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_wait_1)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_wait_1)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_lock)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_lock)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_lock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_wait_2)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_wait_2)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_wait_2)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_wait_2)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_create)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_create)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_create)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_create)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_exit)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_exit)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_exit)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_exit)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_init_scalar)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_init_scalar)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_init_scalar)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_init_scalar)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_join)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_join)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_join)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_join)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_destroy)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_destroy)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_destroy)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_destroy)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_init)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_init)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_lock)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_unlock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_safe_malloc)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_safe_malloc)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_safe_malloc)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_safe_malloc)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(fib_bench_longer_false-unreach-call.c_cseq!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(t2_0)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(t2_0)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(t2_0)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(t1_0)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(t1_0)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(t1_0)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main_thread)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main_thread)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main_thread)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main_thread)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(t1_0)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(t2_0)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__CSEQ_message)
+  CALLGRAPH                      building   CALLERS(__CSEQ_message)
+                                 building   CALLERS(__VERIFIER_assert)
+                                 building   CALLERS(__VERIFIER_assume)
+                                 building   CALLERS(__VERIFIER_assume!)
+                                 building   CALLERS(__VERIFIER_nondet_int)
+                                 building   CALLERS(__VERIFIER_nondet_int!)
+                                 building   CALLERS(__VERIFIER_nondet_uint)
+                                 building   CALLERS(__VERIFIER_nondet_uint!)
+                                 building   CALLERS(__cs_cond_init)
+                                 building   CALLERS(__cs_cond_signal)
+                                 building   CALLERS(__cs_cond_wait_1)
+                                 building   CALLERS(__cs_cond_wait_2)
+                                 building   CALLERS(__cs_create)
+                                 building   CALLERS(__cs_exit)
+                                 building   CALLERS(__cs_init_scalar)
+                                 building   CALLERS(__cs_join)
+                                 building   CALLERS(__cs_mutex_destroy)
+                                 building   CALLERS(__cs_mutex_init)
+                                 building   CALLERS(__cs_mutex_lock)
+                                 building   CALLERS(__cs_mutex_unlock)
+                                 building   CALLERS(__cs_safe_malloc)
+                                 building   CALLERS(fib_bench_longer_false-unreach-call.c_cseq!)
+                                 building   CALLERS(main)
+                                 building   CALLERS(main_thread)
+                                 building   CALLERS(t1_0)
+                                 building   CALLERS(t2_0)
+                                 building   HEIGHT(__CSEQ_message)
+                                 building   HEIGHT(__VERIFIER_assert)
+                                 building   HEIGHT(__VERIFIER_assume)
+                                 building   HEIGHT(__VERIFIER_assume!)
+                                 building   HEIGHT(__VERIFIER_nondet_int)
+                                 building   HEIGHT(__VERIFIER_nondet_int!)
+                                 building   HEIGHT(__VERIFIER_nondet_uint)
+                                 building   HEIGHT(__VERIFIER_nondet_uint!)
+                                 building   HEIGHT(__cs_cond_init)
+                                 building   HEIGHT(__cs_cond_signal)
+                                 building   HEIGHT(__cs_cond_wait_1)
+                                 building   HEIGHT(__cs_cond_wait_2)
+                                 building   HEIGHT(__cs_create)
+                                 building   HEIGHT(__cs_exit)
+                                 building   HEIGHT(__cs_init_scalar)
+                                 building   HEIGHT(__cs_join)
+                                 building   HEIGHT(__cs_mutex_destroy)
+                                 building   HEIGHT(__cs_mutex_init)
+                                 building   HEIGHT(__cs_mutex_lock)
+                                 building   HEIGHT(__cs_mutex_unlock)
+                                 building   HEIGHT(__cs_safe_malloc)
+                                 building   HEIGHT(fib_bench_longer_false-unreach-call.c_cseq!)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(main_thread)
+                                 building   HEIGHT(t1_0)
+                                 building   HEIGHT(t2_0)
+                                 building   DEPTH(__CSEQ_message)
+                                 building   DEPTH(__VERIFIER_assert)
+                                 building   DEPTH(__VERIFIER_assume)
+                                 building   DEPTH(__VERIFIER_assume!)
+                                 building   DEPTH(__VERIFIER_nondet_int)
+                                 building   DEPTH(__VERIFIER_nondet_int!)
+                                 building   DEPTH(__VERIFIER_nondet_uint)
+                                 building   DEPTH(__VERIFIER_nondet_uint!)
+                                 building   DEPTH(__cs_cond_init)
+                                 building   DEPTH(__cs_cond_signal)
+                                 building   DEPTH(__cs_cond_wait_1)
+                                 building   DEPTH(__cs_cond_wait_2)
+                                 building   DEPTH(__cs_create)
+                                 building   DEPTH(__cs_exit)
+                                 building   DEPTH(__cs_init_scalar)
+                                 building   DEPTH(__cs_join)
+                                 building   DEPTH(__cs_mutex_destroy)
+                                 building   DEPTH(__cs_mutex_init)
+                                 building   DEPTH(__cs_mutex_lock)
+                                 building   DEPTH(__cs_mutex_unlock)
+                                 building   DEPTH(__cs_safe_malloc)
+                                 building   DEPTH(fib_bench_longer_false-unreach-call.c_cseq!)
+                                 building   DEPTH(main)
+                                 building   DEPTH(main_thread)
+                                 building   DEPTH(t1_0)
+                                 building   DEPTH(t2_0)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_signal)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_signal)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_signal)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assume)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assert)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_int)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_init_scalar)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main_thread)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(t2_0)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(t1_0)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_uint)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main_thread)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main_thread)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_create)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_destroy)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_destroy)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_destroy)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_lock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_wait_2)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_wait_2)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_wait_2)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_lock)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_lock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_unlock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_wait_1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_wait_1)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_wait_1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_unlock)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_unlock)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__CSEQ_message)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__CSEQ_message)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assert)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assert)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_join)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_join)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_join)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_safe_malloc)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_safe_malloc)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_safe_malloc)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(t1_0)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(t1_0)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(t2_0)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(t2_0)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assume)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assume)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assume!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assume!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assume!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_init_scalar)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_init_scalar)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_int)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_int)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_int!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_int!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_int!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_uint)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_uint)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_uint!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_uint!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_uint!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_init)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_init)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_init)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_exit)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_exit)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_exit)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_init)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_init)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_init)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(fib_bench_longer_false-unreach-call.c_cseq!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(fib_bench_longer_false-unreach-call.c_cseq!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(fib_bench_longer_false-unreach-call.c_cseq!)
+  PARTIAL_EVAL                   updating   CODE(__CSEQ_message)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_assert)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_assume)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_assume!)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_nondet_int)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_nondet_int!)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_nondet_uint)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_nondet_uint!)
+  PARTIAL_EVAL                   updating   CODE(__cs_cond_init)
+  PARTIAL_EVAL                   updating   CODE(__cs_cond_signal)
+  PARTIAL_EVAL                   updating   CODE(__cs_cond_wait_1)
+  PARTIAL_EVAL                   updating   CODE(__cs_cond_wait_2)
+  PARTIAL_EVAL                   updating   CODE(__cs_create)
+  PARTIAL_EVAL                   updating   CODE(__cs_exit)
+  PARTIAL_EVAL                   updating   CODE(__cs_init_scalar)
+  PARTIAL_EVAL                   updating   CODE(__cs_join)
+  PARTIAL_EVAL                   updating   CODE(__cs_mutex_destroy)
+  PARTIAL_EVAL                   updating   CODE(__cs_mutex_init)
+  PARTIAL_EVAL                   updating   CODE(__cs_mutex_lock)
+  PARTIAL_EVAL                   updating   CODE(__cs_mutex_unlock)
+  PARTIAL_EVAL                   updating   CODE(__cs_safe_malloc)
+  PARTIAL_EVAL                   updating   CODE(fib_bench_longer_false-unreach-call.c_cseq!)
+  PARTIAL_EVAL                   updating   CODE(main)
+  PARTIAL_EVAL                   updating   CODE(main_thread)
+  PARTIAL_EVAL                   updating   CODE(t1_0)
+  PARTIAL_EVAL                   updating   CODE(t2_0)
+capply PARTIAL_EVAL made for [__CSEQ_message,__VERIFIER_assert,__VERIFIER_assume,__VERIFIER_assume!,__VERIFIER_nondet_int,__VERIFIER_nondet_int!,__VERIFIER_nondet_uint,__VERIFIER_nondet_uint!,__cs_cond_init,__cs_cond_signal,__cs_cond_wait_1,__cs_cond_wait_2,__cs_create,__cs_exit,__cs_init_scalar,__cs_join,__cs_mutex_destroy,__cs_mutex_init,__cs_mutex_lock,__cs_mutex_unlock,__cs_safe_malloc,fib_bench_longer_false-unreach-call.c_cseq!,main,main_thread,t1_0,t2_0].
+Selecting rule: PRINT_CODE_PRECONDITIONS
+Request: build phase/rule UNSPLIT for module __CSEQ_message.
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__CSEQ_message)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__CSEQ_message)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__CSEQ_message)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__CSEQ_message)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assert)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assert)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assert)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assert)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assume)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assume)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assume)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assume)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_assume!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_assume!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_assume!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_assume!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_int)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_int)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_int)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_int)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_int!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_int!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_int!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_int!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_uint)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_uint)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_uint)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_uint)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_nondet_uint!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_nondet_uint!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_nondet_uint!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_nondet_uint!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_init)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_init)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_init)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_signal)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_signal)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_signal)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_signal)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_unlock)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_unlock)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_unlock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_wait_1)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_wait_1)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_wait_1)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_wait_1)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_lock)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_lock)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_lock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_cond_wait_2)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_cond_wait_2)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_cond_wait_2)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_cond_wait_2)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_create)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_create)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_create)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_create)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_exit)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_exit)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_exit)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_exit)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_init_scalar)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_init_scalar)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_init_scalar)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_init_scalar)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_join)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_join)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_join)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_join)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_destroy)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_destroy)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_destroy)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_destroy)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_mutex_init)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_mutex_init)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_mutex_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_init)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_lock)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_mutex_unlock)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__cs_safe_malloc)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__cs_safe_malloc)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__cs_safe_malloc)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__cs_safe_malloc)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(fib_bench_longer_false-unreach-call.c_cseq!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(fib_bench_longer_false-unreach-call.c_cseq!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(t2_0)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(t2_0)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(t2_0)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(t1_0)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(t1_0)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(t1_0)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main_thread)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main_thread)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main_thread)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main_thread)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(t1_0)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(t2_0)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__CSEQ_message)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_signal)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_signal)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_signal)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assume)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assert)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_int)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_init_scalar)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main_thread)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(t2_0)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(t1_0)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_uint)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main_thread)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main_thread)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_create)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_destroy)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_destroy)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_destroy)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_lock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_wait_2)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_wait_2)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_wait_2)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_lock)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_lock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_unlock)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_wait_1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_wait_1)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_wait_1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_unlock)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_unlock)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__CSEQ_message)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__CSEQ_message)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__CSEQ_message)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assert)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assert)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_assert)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_join)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_join)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_join)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_safe_malloc)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_safe_malloc)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_safe_malloc)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(t1_0)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(t1_0)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(t2_0)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(t2_0)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assume)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assume)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_assume)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_assume!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_assume!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_assume!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_assume!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_init_scalar)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_init_scalar)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_int)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_int)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_nondet_int)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_int!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_int!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_int!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_nondet_int!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_uint)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_uint)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_nondet_uint)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_nondet_uint!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_nondet_uint!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_nondet_uint!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_nondet_uint!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_cond_init)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_cond_init)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_cond_init)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_cond_init)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_cond_signal)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_cond_wait_1)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_cond_wait_2)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_exit)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_exit)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_exit)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_exit)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_init_scalar)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_join)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_mutex_destroy)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__cs_mutex_init)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__cs_mutex_init)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__cs_mutex_init)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_mutex_init)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_mutex_lock)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_mutex_unlock)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__cs_safe_malloc)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(fib_bench_longer_false-unreach-call.c_cseq!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(fib_bench_longer_false-unreach-call.c_cseq!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(fib_bench_longer_false-unreach-call.c_cseq!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(fib_bench_longer_false-unreach-call.c_cseq!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(main)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(main_thread)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(t1_0)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(t2_0)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __CSEQ_message.
+Request: build phase/rule UNSPLIT for module __VERIFIER_assert.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_assert.
+Request: build phase/rule UNSPLIT for module __VERIFIER_assume.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_assume.
+Request: build phase/rule UNSPLIT for module __VERIFIER_assume!.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_assume!.
+Request: build phase/rule UNSPLIT for module __VERIFIER_nondet_int.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_nondet_int.
+Request: build phase/rule UNSPLIT for module __VERIFIER_nondet_int!.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_nondet_int!.
+Request: build phase/rule UNSPLIT for module __VERIFIER_nondet_uint.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_nondet_uint.
+Request: build phase/rule UNSPLIT for module __VERIFIER_nondet_uint!.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_nondet_uint!.
+Request: build phase/rule UNSPLIT for module __cs_cond_init.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_cond_init.
+Request: build phase/rule UNSPLIT for module __cs_cond_signal.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_cond_signal.
+Request: build phase/rule UNSPLIT for module __cs_cond_wait_1.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_cond_wait_1.
+Request: build phase/rule UNSPLIT for module __cs_cond_wait_2.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_cond_wait_2.
+Request: build phase/rule UNSPLIT for module __cs_create.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_create.
+Request: build phase/rule UNSPLIT for module __cs_exit.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_exit.
+Request: build phase/rule UNSPLIT for module __cs_init_scalar.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_init_scalar.
+Request: build phase/rule UNSPLIT for module __cs_join.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_join.
+Request: build phase/rule UNSPLIT for module __cs_mutex_destroy.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_mutex_destroy.
+Request: build phase/rule UNSPLIT for module __cs_mutex_init.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_mutex_init.
+Request: build phase/rule UNSPLIT for module __cs_mutex_lock.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_mutex_lock.
+Request: build phase/rule UNSPLIT for module __cs_mutex_unlock.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_mutex_unlock.
+Request: build phase/rule UNSPLIT for module __cs_safe_malloc.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __cs_safe_malloc.
+Request: build phase/rule UNSPLIT for module fib_bench_longer_false-unreach-call.c_cseq!.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for fib_bench_longer_false-unreach-call.c_cseq!.
+Request: build phase/rule UNSPLIT for module main.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Request: build phase/rule UNSPLIT for module main_thread.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main_thread.
+Request: build phase/rule UNSPLIT for module t1_0.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for t1_0.
+Request: build phase/rule UNSPLIT for module t2_0.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for t2_0.
+Module __CSEQ_message selected
+Request: build resource PRINTED_FILE for module __CSEQ_message.
+PRINTED_FILE made for __CSEQ_message.
+Module __VERIFIER_assert selected
+Request: build resource PRINTED_FILE for module __VERIFIER_assert.
+PRINTED_FILE made for __VERIFIER_assert.
+Module __VERIFIER_assume selected
+Request: build resource PRINTED_FILE for module __VERIFIER_assume.
+PRINTED_FILE made for __VERIFIER_assume.
+Module __VERIFIER_nondet_int selected
+Request: build resource PRINTED_FILE for module __VERIFIER_nondet_int.
+PRINTED_FILE made for __VERIFIER_nondet_int.
+Module __VERIFIER_nondet_uint selected
+Request: build resource PRINTED_FILE for module __VERIFIER_nondet_uint.
+PRINTED_FILE made for __VERIFIER_nondet_uint.
+Module __cs_cond_init selected
+Request: build resource PRINTED_FILE for module __cs_cond_init.
+PRINTED_FILE made for __cs_cond_init.
+Module __cs_cond_signal selected
+Request: build resource PRINTED_FILE for module __cs_cond_signal.
+PRINTED_FILE made for __cs_cond_signal.
+Module __cs_cond_wait_1 selected
+Request: build resource PRINTED_FILE for module __cs_cond_wait_1.
+PRINTED_FILE made for __cs_cond_wait_1.
+Module __cs_cond_wait_2 selected
+Request: build resource PRINTED_FILE for module __cs_cond_wait_2.
+PRINTED_FILE made for __cs_cond_wait_2.
+Module __cs_create selected
+Request: build resource PRINTED_FILE for module __cs_create.
+PRINTED_FILE made for __cs_create.
+Module __cs_exit selected
+Request: build resource PRINTED_FILE for module __cs_exit.
+PRINTED_FILE made for __cs_exit.
+Module __cs_init_scalar selected
+Request: build resource PRINTED_FILE for module __cs_init_scalar.
+PRINTED_FILE made for __cs_init_scalar.
+Module __cs_join selected
+Request: build resource PRINTED_FILE for module __cs_join.
+PRINTED_FILE made for __cs_join.
+Module __cs_mutex_destroy selected
+Request: build resource PRINTED_FILE for module __cs_mutex_destroy.
+PRINTED_FILE made for __cs_mutex_destroy.
+Module __cs_mutex_init selected
+Request: build resource PRINTED_FILE for module __cs_mutex_init.
+PRINTED_FILE made for __cs_mutex_init.
+Module __cs_mutex_lock selected
+Request: build resource PRINTED_FILE for module __cs_mutex_lock.
+PRINTED_FILE made for __cs_mutex_lock.
+Module __cs_mutex_unlock selected
+Request: build resource PRINTED_FILE for module __cs_mutex_unlock.
+PRINTED_FILE made for __cs_mutex_unlock.
+Module __cs_safe_malloc selected
+Request: build resource PRINTED_FILE for module __cs_safe_malloc.
+PRINTED_FILE made for __cs_safe_malloc.
+Module main selected
+Request: build resource PRINTED_FILE for module main.
+PRINTED_FILE made for main.
+Module main_thread selected
+Request: build resource PRINTED_FILE for module main_thread.
+PRINTED_FILE made for main_thread.
+Module t1_0 selected
+Request: build resource PRINTED_FILE for module t1_0.
+PRINTED_FILE made for t1_0.
+Module t2_0 selected
+Request: build resource PRINTED_FILE for module t2_0.
+PRINTED_FILE made for t2_0.
+Deletion of obsolete resources:
+23 destroyed.
+Closing all modules.
+  Closing module __CSEQ_message.
+  Closing module __VERIFIER_assert.
+  Closing module __VERIFIER_assume.
+  Closing module __VERIFIER_assume!.
+  Closing module __VERIFIER_nondet_int.
+  Closing module __VERIFIER_nondet_int!.
+  Closing module __VERIFIER_nondet_uint.
+  Closing module __VERIFIER_nondet_uint!.
+  Closing module __cs_cond_init.
+  Closing module __cs_cond_signal.
+  Closing module __cs_cond_wait_1.
+  Closing module __cs_cond_wait_2.
+  Closing module __cs_create.
+  Closing module __cs_exit.
+  Closing module __cs_init_scalar.
+  Closing module __cs_join.
+  Closing module __cs_mutex_destroy.
+  Closing module __cs_mutex_init.
+  Closing module __cs_mutex_lock.
+  Closing module __cs_mutex_unlock.
+  Closing module __cs_safe_malloc.
+  Closing module fib_bench_longer_false-unreach-call.c_cseq!.
+  Closing module main.
+  Closing module main_thread.
+  Closing module t1_0.
+  Closing module t2_0.
+Closing program.
+Closing workspace.
+Workspace model closed.
+

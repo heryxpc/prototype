@@ -1,0 +1,280 @@
+mix010_pso.opt_false-unreach-call.c:4:34: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+void __VERIFIER_atomic_begin() { __VERIFIER_assume(__global_lock==0); __global_lock=1; return; }
+                                 ^
+mix010_pso.opt_false-unreach-call.c:184:10: warning: implicit declaration of function 'nondet_0' is invalid in C99 [-Wimplicit-function-declaration]
+  return nondet_0();
+         ^
+mix010_pso.opt_false-unreach-call.c:184:10: warning: incompatible integer to pointer conversion returning 'int' from a function with result type 'void *' [-Wint-conversion]
+  return nondet_0();
+         ^~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:201:19: warning: implicit declaration of function 'nondet_1' is invalid in C99 [-Wimplicit-function-declaration]
+  weak$$choice0 = nondet_1();
+                  ^
+mix010_pso.opt_false-unreach-call.c:205:42: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z = !z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff1);
+                      ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:205:42: note: place parentheses around the '&&' expression to silence this warning
+  z = !z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff1);
+                                         ^
+                         (                                 )
+mix010_pso.opt_false-unreach-call.c:205:80: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z = !z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff1);
+                                                            ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:205:80: note: place parentheses around the '&&' expression to silence this warning
+  z = !z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff1);
+                                                                               ^
+                                                               (                                 )
+mix010_pso.opt_false-unreach-call.c:206:79: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff0));
+                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:206:79: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff0));
+                                                                              ^
+                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:206:117: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff0));
+                                                                                                 ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:206:117: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff0 : z$w_buff0));
+                                                                                                                    ^
+                                                                                                    (                                 )
+mix010_pso.opt_false-unreach-call.c:207:79: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff1 : z$w_buff1));
+                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:207:79: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff1 : z$w_buff1));
+                                                                              ^
+                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:207:117: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff1 : z$w_buff1));
+                                                                                                 ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:207:117: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd2 ? z$w_buff1 : z$w_buff1));
+                                                                                                                    ^
+                                                                                                    (                                 )
+mix010_pso.opt_false-unreach-call.c:208:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$w_buff0_used));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:208:89: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$w_buff0_used));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:208:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$w_buff0_used));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:208:127: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$w_buff0_used));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:209:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:209:89: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:209:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:209:127: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:210:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff0_thd2 = weak$$choice2 ? z$r_buff0_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff0_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$r_buff0_thd2));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:210:89: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff0_thd2 = weak$$choice2 ? z$r_buff0_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff0_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$r_buff0_thd2));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:210:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff0_thd2 = weak$$choice2 ? z$r_buff0_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff0_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$r_buff0_thd2));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:210:127: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff0_thd2 = weak$$choice2 ? z$r_buff0_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff0_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : z$r_buff0_thd2));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:211:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd2 = weak$$choice2 ? z$r_buff1_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff1_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:211:89: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd2 = weak$$choice2 ? z$r_buff1_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff1_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:211:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd2 = weak$$choice2 ? z$r_buff1_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff1_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:211:127: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd2 = weak$$choice2 ? z$r_buff1_thd2 : (!z$w_buff0_used || !z$r_buff0_thd2 && !z$w_buff1_used || !z$r_buff0_thd2 && !z$r_buff1_thd2 ? z$r_buff1_thd2 : (z$w_buff0_used && z$r_buff0_thd2 ? FALSE : FALSE));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:221:10: warning: incompatible integer to pointer conversion returning 'int' from a function with result type 'void *' [-Wint-conversion]
+  return nondet_0();
+         ^~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:245:42: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z = !z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff1);
+                      ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:245:42: note: place parentheses around the '&&' expression to silence this warning
+  z = !z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff1);
+                                         ^
+                         (                                 )
+mix010_pso.opt_false-unreach-call.c:245:80: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z = !z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff1);
+                                                            ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:245:80: note: place parentheses around the '&&' expression to silence this warning
+  z = !z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff1);
+                                                                               ^
+                                                               (                                 )
+mix010_pso.opt_false-unreach-call.c:246:79: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff0));
+                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:246:79: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff0));
+                                                                              ^
+                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:246:117: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff0));
+                                                                                                 ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:246:117: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0 = weak$$choice2 ? z$w_buff0 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff0 : z$w_buff0));
+                                                                                                                    ^
+                                                                                                    (                                 )
+mix010_pso.opt_false-unreach-call.c:247:79: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff1 : z$w_buff1));
+                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:247:79: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff1 : z$w_buff1));
+                                                                              ^
+                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:247:117: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff1 : z$w_buff1));
+                                                                                                 ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:247:117: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1 = weak$$choice2 ? z$w_buff1 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1 : (z$w_buff0_used && z$r_buff0_thd3 ? z$w_buff1 : z$w_buff1));
+                                                                                                                    ^
+                                                                                                    (                                 )
+mix010_pso.opt_false-unreach-call.c:248:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$w_buff0_used));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:248:89: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$w_buff0_used));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:248:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$w_buff0_used));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:248:127: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff0_used = weak$$choice2 ? z$w_buff0_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff0_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$w_buff0_used));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:249:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:249:89: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:249:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:249:127: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = weak$$choice2 ? z$w_buff1_used : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$w_buff1_used : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:250:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff0_thd3 = weak$$choice2 ? z$r_buff0_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff0_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$r_buff0_thd3));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:250:89: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff0_thd3 = weak$$choice2 ? z$r_buff0_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff0_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$r_buff0_thd3));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:250:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff0_thd3 = weak$$choice2 ? z$r_buff0_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff0_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$r_buff0_thd3));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:250:127: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff0_thd3 = weak$$choice2 ? z$r_buff0_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff0_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : z$r_buff0_thd3));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:251:89: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd3 = weak$$choice2 ? z$r_buff1_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff1_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                     ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:251:89: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd3 = weak$$choice2 ? z$r_buff1_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff1_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                        ^
+                                                                        (                                 )
+mix010_pso.opt_false-unreach-call.c:251:127: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd3 = weak$$choice2 ? z$r_buff1_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff1_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                                           ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:251:127: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd3 = weak$$choice2 ? z$r_buff1_thd3 : (!z$w_buff0_used || !z$r_buff0_thd3 && !z$w_buff1_used || !z$r_buff0_thd3 && !z$r_buff1_thd3 ? z$r_buff1_thd3 : (z$w_buff0_used && z$r_buff0_thd3 ? FALSE : FALSE));
+                                                                                                                              ^
+                                                                                                              (                                 )
+mix010_pso.opt_false-unreach-call.c:262:35: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$w_buff1_used;
+                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+mix010_pso.opt_false-unreach-call.c:262:35: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$w_buff1_used;
+                                  ^
+                   (                               )
+mix010_pso.opt_false-unreach-call.c:262:71: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$w_buff1_used;
+                                                    ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:262:71: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$w_buff1_used;
+                                                                      ^
+                                                       (                               )
+mix010_pso.opt_false-unreach-call.c:264:35: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd3 = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$r_buff1_thd3;
+                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+mix010_pso.opt_false-unreach-call.c:264:35: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd3 = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$r_buff1_thd3;
+                                  ^
+                   (                               )
+mix010_pso.opt_false-unreach-call.c:264:71: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd3 = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$r_buff1_thd3;
+                                                    ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:264:71: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd3 = z$w_buff0_used && z$r_buff0_thd3 || z$w_buff1_used && z$r_buff1_thd3 ? FALSE : z$r_buff1_thd3;
+                                                                      ^
+                                                       (                               )
+mix010_pso.opt_false-unreach-call.c:269:10: warning: incompatible integer to pointer conversion returning 'int' from a function with result type 'void *' [-Wint-conversion]
+  return nondet_0();
+         ^~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:297:38: warning: null passed to a callee which requires a non-null argument [-Wnonnull]
+  pthread_create(NULL, NULL, P0, NULL);
+                 ~~~~                ^
+mix010_pso.opt_false-unreach-call.c:298:38: warning: null passed to a callee which requires a non-null argument [-Wnonnull]
+  pthread_create(NULL, NULL, P1, NULL);
+                 ~~~~                ^
+mix010_pso.opt_false-unreach-call.c:299:38: warning: null passed to a callee which requires a non-null argument [-Wnonnull]
+  pthread_create(NULL, NULL, P2, NULL);
+                 ~~~~                ^
+mix010_pso.opt_false-unreach-call.c:307:35: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$w_buff1_used;
+                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+mix010_pso.opt_false-unreach-call.c:307:35: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$w_buff1_used;
+                                  ^
+                   (                               )
+mix010_pso.opt_false-unreach-call.c:307:71: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$w_buff1_used;
+                                                    ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:307:71: note: place parentheses around the '&&' expression to silence this warning
+  z$w_buff1_used = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$w_buff1_used;
+                                                                      ^
+                                                       (                               )
+mix010_pso.opt_false-unreach-call.c:309:35: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd0 = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$r_buff1_thd0;
+                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+mix010_pso.opt_false-unreach-call.c:309:35: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd0 = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$r_buff1_thd0;
+                                  ^
+                   (                               )
+mix010_pso.opt_false-unreach-call.c:309:71: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  z$r_buff1_thd0 = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$r_buff1_thd0;
+                                                    ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+mix010_pso.opt_false-unreach-call.c:309:71: note: place parentheses around the '&&' expression to silence this warning
+  z$r_buff1_thd0 = z$w_buff0_used && z$r_buff0_thd0 || z$w_buff1_used && z$r_buff1_thd0 ? FALSE : z$r_buff1_thd0;
+                                                                      ^
+                                                       (                               )
+45 warnings generated.

@@ -1,0 +1,26 @@
+fk2012_true-unreach-call.c:12:5: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+    __VERIFIER_assume(lock1 == 0);
+    ^
+fk2012_true-unreach-call.c:29:17: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+    int batch = __VERIFIER_nondet_int();
+                ^
+fk2012_true-unreach-call.c:36:9: warning: incompatible integer to pointer conversion returning 'int' from a function with result type 'void *' [-Wint-conversion]
+        return 1;
+               ^
+fk2012_true-unreach-call.c:46:9: warning: incompatible integer to pointer conversion returning 'int' from a function with result type 'void *' [-Wint-conversion]
+        return batch;
+               ^~~~~
+fk2012_true-unreach-call.c:57:5: warning: implicit declaration of function '__VERIFIER_assert' is invalid in C99 [-Wimplicit-function-declaration]
+    __VERIFIER_assert(counter >= 0);
+    ^
+fk2012_true-unreach-call.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+fk2012_true-unreach-call.c:61:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main () {
+^
+fk2012_true-unreach-call.c:61:1: note: change return type to 'int'
+void main () {
+^~~~
+int
+7 warnings generated.

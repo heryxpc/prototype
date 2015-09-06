@@ -1,0 +1,17 @@
+fkp2013_false-unreach-call.c:11:5: warning: implicit declaration of function '__VERIFIER_assert' is invalid in C99 [-Wimplicit-function-declaration]
+    __VERIFIER_assert(x < N);
+    ^
+fkp2013_false-unreach-call.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+fkp2013_false-unreach-call.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+fkp2013_false-unreach-call.c:20:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main(int argc, char* argv[]) {
+^
+fkp2013_false-unreach-call.c:20:1: note: change return type to 'int'
+void main(int argc, char* argv[]) {
+^~~~
+int
+4 warnings generated.

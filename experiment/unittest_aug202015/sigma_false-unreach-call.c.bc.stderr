@@ -1,0 +1,4 @@
+sigma_false-unreach-call.c:33:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        __VERIFIER_assume(t);
+        ^
+1 warning generated.

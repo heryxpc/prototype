@@ -1,0 +1,233 @@
+unknown[unknown] (build_real_resources) No source code for module __VERIFIER_assume.
+unknown[unknown] (build_real_resources) No source code for module __VERIFIER_assume.
+C_INITIALIZER[__VERIFIER_assume] (missing_file_initializer) no source file for __VERIFIER_assume: synthetic code is generated
+unknown[unknown] (make_required) More resources are now requested: 3 instead of 2...
+C_PARSER[__cs_create] (RemoveFromExterns) The C parser should not execute this call
+unknown[unknown] (activate_phase) Rule `TRANSFORMERS_INTER_FULL' already active
+unknown[unknown] (activate_phase) Rule `PRECONDITIONS_INTER_FULL' already active
+PROPER_EFFECTS[__cs_init_scalar] (generic_proper_effects_of_complex_address_call_expression) PIPS currently does not know how to precisely handle complex cast expressions
+INTERPROCEDURAL_SUMMARY_PRECONDITION[28_buggy_simple_loop1_vf_false-unreach-call_seq!] (ordinary_summary_precondition) empty precondition to 28_buggy_simple_loop1_vf_false-unreach-call_seq! because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_cond_signal] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_signal] (ordinary_summary_precondition) empty precondition to __cs_cond_signal because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_create] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_init_scalar] (generic_proper_effects_of_complex_address_call_expression) PIPS currently does not know how to precisely handle complex cast expressions
+TRANSFORMERS_INTER_FULL[__cs_init_scalar] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[main_thread] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main_thread] (call_to_transformer) Analyzable result of function "__cs_create" ignored.
+TRANSFORMERS_INTER_FULL[main_thread] (call_to_transformer) Analyzable result of function "__cs_create" ignored.
+TRANSFORMERS_INTER_FULL[thr1_1] (unstructured_to_transformer) 
+Control flow graph too large for any analysis (52 nodes)
+Have you fully restructured your code?
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (unstructured_to_transformer) 
+Control flow graph too large for any analysis (52 nodes)
+Have you fully restructured your code?
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_0" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_1" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_0" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_1" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[__cs_mutex_destroy] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_mutex_destroy] (ordinary_summary_precondition) empty precondition to __cs_mutex_destroy because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_lock] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_cond_wait_2] (call_to_transformer) Analyzable result of function "__cs_mutex_lock" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_wait_2] (ordinary_summary_precondition) empty precondition to __cs_cond_wait_2 because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_unlock] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_cond_wait_1] (call_to_transformer) Analyzable result of function "__cs_mutex_unlock" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_wait_1] (ordinary_summary_precondition) empty precondition to __cs_cond_wait_1 because not in call tree from main.
+PRECONDITIONS_INTER_FULL[thr1_0] (unstructured_to_flow_sensitive_postconditions) 
+Control flow graph too large for an accurate analysis (52 nodes)
+Have you fully restructured your code?
+PRECONDITIONS_INTER_FULL[thr1_1] (unstructured_to_flow_sensitive_postconditions) 
+Control flow graph too large for an accurate analysis (52 nodes)
+Have you fully restructured your code?
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_join] (ordinary_summary_precondition) empty precondition to __cs_join because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_safe_malloc] (any_user_call_site_to_transformer) Type incompatibility between call site and declaration for argument "f1" (rank 1) of function "__VERIFIER_assume" called from function "__cs_safe_malloc": int/void *
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_safe_malloc] (ordinary_summary_precondition) empty precondition to __cs_safe_malloc because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_assume] (any_user_call_site_to_transformer) Type incompatibility between call site and declaration for argument "f1" (rank 1) of function "__VERIFIER_assume" called from function "__cs_safe_malloc": int/void *
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_assume!] (ordinary_summary_precondition) empty precondition to __VERIFIER_assume! because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_bool] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_bool because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_char] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_char because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_uchar] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_uchar because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_cond_init] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_init] (ordinary_summary_precondition) empty precondition to __cs_cond_init because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_exit] (ordinary_summary_precondition) empty precondition to __cs_exit because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_init] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_mutex_init] (ordinary_summary_precondition) empty precondition to __cs_mutex_init because not in call tree from main.
+PARTIAL_EVAL[main_thread] (NormalizeReference) Reference to function "thr1_0" cannot be normalized.
+Is it an undeclared variable?
+PARTIAL_EVAL[main_thread] (NormalizeReference) Reference to function "thr1_1" cannot be normalized.
+Is it an undeclared variable?
+PROPER_EFFECTS[__cs_init_scalar] (generic_proper_effects_of_complex_address_call_expression) PIPS currently does not know how to precisely handle complex cast expressions
+INTERPROCEDURAL_SUMMARY_PRECONDITION[28_buggy_simple_loop1_vf_false-unreach-call_seq!] (ordinary_summary_precondition) empty precondition to 28_buggy_simple_loop1_vf_false-unreach-call_seq! because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_cond_signal] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_signal] (ordinary_summary_precondition) empty precondition to __cs_cond_signal because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_create] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_init_scalar] (generic_proper_effects_of_complex_address_call_expression) PIPS currently does not know how to precisely handle complex cast expressions
+TRANSFORMERS_INTER_FULL[__cs_init_scalar] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[main_thread] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main_thread] (call_to_transformer) Analyzable result of function "__cs_create" ignored.
+TRANSFORMERS_INTER_FULL[main_thread] (call_to_transformer) Analyzable result of function "__cs_create" ignored.
+TRANSFORMERS_INTER_FULL[thr1_1] (unstructured_to_transformer) 
+Control flow graph too large for any analysis (52 nodes)
+Have you fully restructured your code?
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_1] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (unstructured_to_transformer) 
+Control flow graph too large for any analysis (52 nodes)
+Have you fully restructured your code?
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[thr1_0] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_0" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_1" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_0" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Result of function "thr1_1" ignored.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "main_thread" ignored.
+TRANSFORMERS_INTER_FULL[__cs_mutex_destroy] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_mutex_destroy] (ordinary_summary_precondition) empty precondition to __cs_mutex_destroy because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_lock] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_cond_wait_2] (call_to_transformer) Analyzable result of function "__cs_mutex_lock" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_wait_2] (ordinary_summary_precondition) empty precondition to __cs_cond_wait_2 because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_unlock] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+TRANSFORMERS_INTER_FULL[__cs_cond_wait_1] (call_to_transformer) Analyzable result of function "__cs_mutex_unlock" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_wait_1] (ordinary_summary_precondition) empty precondition to __cs_cond_wait_1 because not in call tree from main.
+PRECONDITIONS_INTER_FULL[thr1_0] (unstructured_to_flow_sensitive_postconditions) 
+Control flow graph too large for an accurate analysis (52 nodes)
+Have you fully restructured your code?
+PRECONDITIONS_INTER_FULL[thr1_1] (unstructured_to_flow_sensitive_postconditions) 
+Control flow graph too large for an accurate analysis (52 nodes)
+Have you fully restructured your code?
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_join] (ordinary_summary_precondition) empty precondition to __cs_join because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_safe_malloc] (any_user_call_site_to_transformer) Type incompatibility between call site and declaration for argument "f1" (rank 1) of function "__VERIFIER_assume" called from function "__cs_safe_malloc": int/void *
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_safe_malloc] (ordinary_summary_precondition) empty precondition to __cs_safe_malloc because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_assume] (any_user_call_site_to_transformer) Type incompatibility between call site and declaration for argument "f1" (rank 1) of function "__VERIFIER_assume" called from function "__cs_safe_malloc": int/void *
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_assume!] (ordinary_summary_precondition) empty precondition to __VERIFIER_assume! because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_bool] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_bool because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_char] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_char because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_init_scalar] (any_user_call_site_to_transformer) Integer type conversion: actual 8 and formal 4
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__VERIFIER_nondet_uchar] (ordinary_summary_precondition) empty precondition to __VERIFIER_nondet_uchar because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_cond_init] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_cond_init] (ordinary_summary_precondition) empty precondition to __cs_cond_init because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_exit] (ordinary_summary_precondition) empty precondition to __cs_exit because not in call tree from main.
+TRANSFORMERS_INTER_FULL[__cs_mutex_init] (points_to_unary_operation_to_transformer) activate TRANSFORMERS_INTER_FULL_WITH_POINTS_TO and setproperty SEMANTICS_ANALYZE_CONSTANT_PATH TRUE can maybe make better transformer
+INTERPROCEDURAL_SUMMARY_PRECONDITION[__cs_mutex_init] (ordinary_summary_precondition) empty precondition to __cs_mutex_init because not in call tree from main.

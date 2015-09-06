@@ -1,0 +1,17 @@
+unknown[unknown] (build_real_resources) No source code for module pthread_create.
+unknown[unknown] (build_real_resources) No source code for module pthread_create.
+C_INITIALIZER[pthread_create] (missing_file_initializer) no source file for pthread_create: synthetic code is generated
+unknown[unknown] (make_required) More resources are now requested: 3 instead of 2...
+C_PARSER[pthread_create] (RemoveFromExterns) The C parser should not execute this call
+unknown[unknown] (activate_phase) Rule `TRANSFORMERS_INTER_FULL' already active
+unknown[unknown] (activate_phase) Rule `PRECONDITIONS_INTER_FULL' already active
+INTERPROCEDURAL_SUMMARY_PRECONDITION[28_buggy_simple_loop1_vf_false-unreach-call!] (ordinary_summary_precondition) empty precondition to 28_buggy_simple_loop1_vf_false-unreach-call! because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[thr1] (ordinary_summary_precondition) empty precondition to thr1 because not in call tree from main.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "pthread_create" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[pthread_create!] (ordinary_summary_precondition) empty precondition to pthread_create! because not in call tree from main.
+PARTIAL_EVAL[main] (NormalizeReference) Reference to function "thr1" cannot be normalized.
+Is it an undeclared variable?
+INTERPROCEDURAL_SUMMARY_PRECONDITION[28_buggy_simple_loop1_vf_false-unreach-call!] (ordinary_summary_precondition) empty precondition to 28_buggy_simple_loop1_vf_false-unreach-call! because not in call tree from main.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[thr1] (ordinary_summary_precondition) empty precondition to thr1 because not in call tree from main.
+TRANSFORMERS_INTER_FULL[main] (call_to_transformer) Analyzable result of function "pthread_create" ignored.
+INTERPROCEDURAL_SUMMARY_PRECONDITION[pthread_create!] (ordinary_summary_precondition) empty precondition to pthread_create! because not in call tree from main.

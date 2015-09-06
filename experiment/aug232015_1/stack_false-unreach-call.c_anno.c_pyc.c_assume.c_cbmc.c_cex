@@ -1,0 +1,128 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Converting
+Type-checking stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 4 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 5 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 4 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 5 (10 max) file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Adding SC constraints
+size of program expression: 10906 steps
+no slicing due to threads
+Generated 30 VCC(s), 30 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+171456 variables, 774311 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 6.254s
+Building error trace
+
+Counterexample:
+
+State 21 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 117 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 118 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 128 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 139 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 143 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 144 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 156 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[0]=0 (00000000000000000000000000000000)
+
+State 159 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 166 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 174 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 188 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 189 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 96 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 190 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 198 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 209 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=0 (00000000000000000000000000000000)
+
+State 231 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 232 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 73 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 233 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 74 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 234 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 241 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 254 file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 14 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED

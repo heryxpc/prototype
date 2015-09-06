@@ -1,0 +1,25 @@
+#!/bin/bash
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions 13_unverif_true-unreach-call.c > 13_unverif_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions 28_buggy_simple_loop1_vf_false-unreach-call.c > 28_buggy_simple_loop1_vf_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_false-unreach-call.c > fib_bench_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_longer_false-unreach-call.c > fib_bench_longer_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_longer_true-unreach-call.c > fib_bench_longer_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_longest_false-unreach-call.c > fib_bench_longest_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_longest_true-unreach-call.c > fib_bench_longest_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions fib_bench_true-unreach-call.c > fib_bench_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions indexer_true-unreach-call.c > indexer_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_false-unreach-call.c > queue_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_longer_false-unreach-call.c > queue_longer_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_longest_false-unreach-call.c > queue_longest_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_ok_longer_true-unreach-call.c > queue_ok_longer_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_ok_longest_true-unreach-call.c > queue_ok_longest_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_ok_true-unreach-call.c > queue_ok_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions reorder_2_false-unreach-call.c > reorder_2_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 18 --no-unwinding-assertions sigma_false-unreach-call.c > sigma_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_false-unreach-call.c > stack_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_longer_false-unreach-call.c > stack_longer_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_longer_true-unreach-call.c > stack_longer_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_longest_false-unreach-call.c > stack_longest_false-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_longest_true-unreach-call.c > stack_longest_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions stack_true-unreach-call.c > stack_true-unreach-call.c_cbmc_cex
+timeout 850 cbmc --unwind 11 --no-unwinding-assertions twostage_3_false-unreach-call.c > twostage_3_false-unreach-call.c_cbmc_cex

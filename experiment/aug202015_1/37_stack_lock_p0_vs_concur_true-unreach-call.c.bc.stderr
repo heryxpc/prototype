@@ -1,0 +1,7 @@
+37_stack_lock_p0_vs_concur_true-unreach-call.c:22:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(m==0);
+        ^
+37_stack_lock_p0_vs_concur_true-unreach-call.c:9:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

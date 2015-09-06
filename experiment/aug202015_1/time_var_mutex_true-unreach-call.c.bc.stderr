@@ -1,0 +1,4 @@
+time_var_mutex_true-unreach-call.c:46:3: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+  __VERIFIER_assume(inode == busy);
+  ^
+1 warning generated.

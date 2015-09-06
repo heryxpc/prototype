@@ -1,0 +1,10 @@
+03_incdec_true-unreach-call.c:17:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(m==0);
+        ^
+03_incdec_true-unreach-call.c:8:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+03_incdec_true-unreach-call.c:69:10: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+        int r = __VERIFIER_nondet_int();
+                ^
+2 warnings generated.

@@ -1,0 +1,27 @@
+ERROR:root:mix031_tso.oepc_false-unreach-call.c_anno.c_pyc.c:90:8: Illegal character '$'
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 281, in parse_annotated
+    '-D__asm__=',
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/__init__.py", line 96, in parse_file
+    ast= parser.parse(text, filename)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 132, in parse
+    return self.cparser.parse(text, lexer=self.clex, debug=debuglevel)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 265, in parse
+    return self.parseopt_notrack(input,lexer,debug,tracking,tokenfunc)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 921, in parseopt_notrack
+    lookahead = get_token()     # Get the next token
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_lexer.py", line 120, in token
+    g = self.lexer.token()
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/lex.py", line 384, in token
+    newtok = self.lexerrorf(tok)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_lexer.py", line 588, in t_error
+    self._error(msg, t)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_lexer.py", line 158, in _error
+    self.error_func(msg, location[0], location[1])
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 155, in _lex_error_func
+    self._parse_error(msg, self._coord(line, column))
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/plyparser.py", line 54, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+ParseError: mix031_tso.oepc_false-unreach-call.c_anno.c_pyc.c:90:8: Illegal character '$'

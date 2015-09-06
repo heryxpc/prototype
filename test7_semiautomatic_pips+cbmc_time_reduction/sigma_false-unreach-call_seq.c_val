@@ -1,0 +1,5 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] user error: source file "sigma_false-unreach-call_seq.c" does not exist
+[kernel] user error: stopping on file "sigma_false-unreach-call_seq.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.

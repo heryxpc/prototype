@@ -1,0 +1,31 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Converting
+Type-checking fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6898 variables, 27964 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 3.351s
+VERIFICATION SUCCESSFUL

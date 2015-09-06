@@ -1,0 +1,8 @@
+heryxpc@heryxpc-M11x-R2:sep032015_3$ ./run_cbmc_11.sh 
+./run_cbmc_11.sh: line 12:  4351 Killed                  timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_longer_false-unreach-call.c > queue_longer_false-unreach-call.c_cbmc_cex
+terminate called after throwing an instance of 'Minisat::OutOfMemoryException'
+timeout: the monitored command dumped core
+./run_cbmc_11.sh: line 13:  4382 Aborted                 timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_longest_false-unreach-call.c > queue_longest_false-unreach-call.c_cbmc_cex
+./run_cbmc_11.sh: line 14:  4409 Killed                  timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_ok_longer_true-unreach-call.c > queue_ok_longer_true-unreach-call.c_cbmc_cex
+./run_cbmc_11.sh: line 15:  4427 Killed                  timeout 850 cbmc --unwind 11 --no-unwinding-assertions queue_ok_longest_true-unreach-call.c > queue_ok_longest_true-unreach-call.c_cbmc_cex
+heryxpc@heryxpc-M11x-R2:sep032015_3$ timeout 850 cbmc --unwind 18 --no-unwinding-assertions sigma_false-unreach-call.c > sigma_false-unreach-call.c_cbmc_cex

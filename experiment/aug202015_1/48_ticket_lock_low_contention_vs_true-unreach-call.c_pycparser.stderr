@@ -1,0 +1,7 @@
+ERROR:root:local variable 'assumedfile' referenced before assignment
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 312, in parse_annotated
+    return assumedfile
+UnboundLocalError: local variable 'assumedfile' referenced before assignment

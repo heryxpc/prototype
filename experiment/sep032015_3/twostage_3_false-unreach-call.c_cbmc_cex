@@ -1,0 +1,276 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing twostage_3_false-unreach-call.c
+Converting
+Type-checking twostage_3_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 2 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 3 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 4 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 5 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 6 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 7 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 8 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 9 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 10 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Not unwinding loop main.0 iteration 11 (11 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.1 iteration 1 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 2 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 3 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 4 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 5 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 6 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 7 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 8 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 9 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 10 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Not unwinding loop main.1 iteration 11 (11 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.2 iteration 1 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 2 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 3 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 4 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 5 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 6 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 7 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 8 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 9 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 10 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Not unwinding loop main.2 iteration 11 (11 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.3 iteration 1 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 2 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 3 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 4 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 5 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 6 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 7 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 8 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 9 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 10 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Not unwinding loop main.3 iteration 11 (11 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Adding SC constraints
+size of program expression: 1945520 steps
+no slicing due to threads
+Generated 214 VCC(s), 214 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+8787443 variables, 42597750 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 193.038s
+Building error trace
+
+Counterexample:
+
+State 23  thread 0
+----------------------------------------------------
+  argv'[3]=irep("(\"nil\")")[3] (?)
+
+State 26 file twostage_3_false-unreach-call.c line 57 thread 0
+----------------------------------------------------
+  argc=3 (00000000000000000000000000000011)
+
+State 27 file twostage_3_false-unreach-call.c line 57 thread 0
+----------------------------------------------------
+  argv=argv' (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 28 file twostage_3_false-unreach-call.c line 58 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 29 file twostage_3_false-unreach-call.c line 58 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 33 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 34 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 35 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 36 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 37 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 38 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 39 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 51 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 55 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 56 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 57 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 58 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 59 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 60 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 61 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 73 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 93 file twostage_3_false-unreach-call.c line 70 function main thread 0
+----------------------------------------------------
+  data1Lock=&dynamic_object1 (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 111 file twostage_3_false-unreach-call.c line 71 function main thread 0
+----------------------------------------------------
+  data2Lock=&dynamic_object2 (0000100000000000000000000000000000000000000000000000000000000000)
+
+State 132 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  err$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 133 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  err$array_size0=2 (0000000000000000000000000000000000000000000000000000000000000010)
+
+State 134 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  tPool={ 0, 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 135 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  tPool$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 136 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  tPool$array_size0=1 (0000000000000000000000000000000000000000000000000000000000000001)
+
+State 137 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  rPool={ 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 138 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 178 file twostage_3_false-unreach-call.c line 85 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 180 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 223 file twostage_3_false-unreach-call.c line 85 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 225 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 228 file twostage_3_false-unreach-call.c line 91 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 235 file twostage_3_false-unreach-call.c line 22 function funcA thread 2
+----------------------------------------------------
+  data1Value=1 (00000000000000000000000000000001)
+
+State 286 file twostage_3_false-unreach-call.c line 92 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 288 file twostage_3_false-unreach-call.c line 91 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 291 file twostage_3_false-unreach-call.c line 98 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 298 file twostage_3_false-unreach-call.c line 41 function funcB thread 12
+----------------------------------------------------
+  t1=1 (00000000000000000000000000000001)
+
+State 313 file twostage_3_false-unreach-call.c line 22 function funcA thread 1
+----------------------------------------------------
+  data1Value=1 (00000000000000000000000000000001)
+
+State 320 file twostage_3_false-unreach-call.c line 45 function funcB thread 12
+----------------------------------------------------
+  t2=0 (00000000000000000000000000000000)
+
+State 343 file twostage_3_false-unreach-call.c line 26 function funcA thread 1
+----------------------------------------------------
+  data2Value=2 (00000000000000000000000000000010)
+
+State 352 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 12
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 353 file twostage_3_false-unreach-call.c line 33 function funcB thread 12
+----------------------------------------------------
+  t1=0 (00000000000000000000000000000000)
+
+State 354 file twostage_3_false-unreach-call.c line 33 function funcB thread 12
+----------------------------------------------------
+  t1=-1 (11111111111111111111111111111111)
+
+State 355 file twostage_3_false-unreach-call.c line 34 function funcB thread 12
+----------------------------------------------------
+  t2=0 (00000000000000000000000000000000)
+
+State 356 file twostage_3_false-unreach-call.c line 34 function funcB thread 12
+----------------------------------------------------
+  t2=-1 (11111111111111111111111111111111)
+
+State 372 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 390 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file twostage_3_false-unreach-call.c line 50 function funcB
+  assertion
+  FALSE
+
+VERIFICATION FAILED

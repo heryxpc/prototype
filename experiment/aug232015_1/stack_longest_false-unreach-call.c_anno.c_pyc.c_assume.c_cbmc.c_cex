@@ -1,0 +1,414 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Converting
+Type-checking stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 4 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 5 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 6 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 7 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 8 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t1.0 iteration 9 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Not unwinding loop t1.0 iteration 10 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 4 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 5 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 6 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 7 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 8 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Unwinding loop t2.0 iteration 9 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Not unwinding loop t2.0 iteration 10 (10 max) file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+Adding SC constraints
+size of program expression: 66425 steps
+no slicing due to threads
+Generated 60 VCC(s), 60 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+5345097 variables, 24802101 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 2121.49s
+Building error trace
+
+Counterexample:
+
+State 21 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 117 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 118 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 84 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 88 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 89 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 98 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[0]=0 (00000000000000000000000000000000)
+
+State 101 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 108 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 116 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 127 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 131 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 132 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 141 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[1]=0 (00000000000000000000000000000000)
+
+State 144 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=2 (00000000000000000000000000000010)
+
+State 151 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 159 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 170 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 174 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 175 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 184 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[2]=0 (00000000000000000000000000000000)
+
+State 187 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=3 (00000000000000000000000000000011)
+
+State 194 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 202 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 213 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 217 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 218 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 227 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[3]=0 (00000000000000000000000000000000)
+
+State 230 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=4 (00000000000000000000000000000100)
+
+State 237 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 245 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 256 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 260 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 261 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 270 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[4]=0 (00000000000000000000000000000000)
+
+State 273 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=5 (00000000000000000000000000000101)
+
+State 280 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 288 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 299 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 303 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 304 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 313 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[5]=0 (00000000000000000000000000000000)
+
+State 316 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=6 (00000000000000000000000000000110)
+
+State 323 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 331 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=6 (00000000000000000000000000000110)
+
+State 342 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=794 (00000000000000000000001100011010)
+
+State 346 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 347 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=794 (00000000000000000000001100011010)
+
+State 356 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[6]=794 (00000000000000000000001100011010)
+
+State 359 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=7 (00000000000000000000000000000111)
+
+State 366 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 374 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=7 (00000000000000000000000000000111)
+
+State 385 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 389 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 390 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 440 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 48 function push thread 1
+----------------------------------------------------
+  arr[7]=0 (00000000000000000000000000000000)
+
+State 443 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 21 function inc_top thread 1
+----------------------------------------------------
+  top=8 (00000000000000000000000000001000)
+
+State 450 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 86 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 458 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=8 (00000000000000000000000000001000)
+
+State 472 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 473 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 96 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 474 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 482 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 493 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=7 (00000000000000000000000000000111)
+
+State 514 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 527 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 535 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 536 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 73 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 537 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 74 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 538 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 75 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 549 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=6 (00000000000000000000000000000110)
+
+State 570 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 583 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 594 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=5 (00000000000000000000000000000101)
+
+State 615 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 628 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 639 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=4 (00000000000000000000000000000100)
+
+State 660 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 673 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 684 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=3 (00000000000000000000000000000011)
+
+State 705 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=5 (00000000000000000000000000000101)
+
+State 718 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 729 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=2 (00000000000000000000000000000010)
+
+State 750 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=6 (00000000000000000000000000000110)
+
+State 763 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 774 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 795 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=7 (00000000000000000000000000000111)
+
+State 808 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 819 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 26 function dec_top thread 2
+----------------------------------------------------
+  top=0 (00000000000000000000000000000000)
+
+State 840 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 97 function t2 thread 2
+----------------------------------------------------
+  i=8 (00000000000000000000000000001000)
+
+State 853 file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 104 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 14 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED

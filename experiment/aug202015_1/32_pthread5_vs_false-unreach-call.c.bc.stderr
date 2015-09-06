@@ -1,0 +1,10 @@
+32_pthread5_vs_false-unreach-call.c:24:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(mutex==0);
+        ^
+32_pthread5_vs_false-unreach-call.c:5:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+32_pthread5_vs_false-unreach-call.c:38:6: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+  if(__VERIFIER_nondet_int())
+     ^
+2 warnings generated.

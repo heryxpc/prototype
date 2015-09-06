@@ -1,0 +1,7 @@
+ main_thread
+     __cs_init_scalar
+         __VERIFIER_nondet_int
+     __cs_create
+         __CSEQ_message
+     __VERIFIER_assert
+     __VERIFIER_assume

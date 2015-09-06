@@ -1,0 +1,4 @@
+qrcu_false-unreach-call.c:36:3: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+  __VERIFIER_assume(myidx <= 0 && ctr1>0);
+  ^
+1 warning generated.

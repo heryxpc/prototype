@@ -1,0 +1,16 @@
+stack_longer_false-unreach-call.c:38:14: warning: expression result unused [-Wunused-value]
+  (top==0) ? TRUE : FALSE; 
+             ^~~~
+stack_longer_false-unreach-call.c:5:17: note: expanded from macro 'TRUE'
+#define TRUE      (1)
+                   ^
+stack_longer_false-unreach-call.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+stack_longer_false-unreach-call.c:85:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+stack_longer_false-unreach-call.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+4 warnings generated.

@@ -1,0 +1,49 @@
+queue_longer_false-unreach-call.c_cseq.c:55:59: warning: incompatible pointer to integer conversion passing 'void *' to parameter of type 'int' [-Wint-conversion]
+                                        __VERIFIER_assume(__cs_ptr);
+                                                          ^~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:2:34: note: passing argument to parameter here
+extern void __VERIFIER_assume(int);
+                                 ^
+queue_longer_false-unreach-call.c_cseq.c:137:41: warning: control reaches end of non-void function [-Wreturn-type]
+                                        }
+                                        ^
+queue_longer_false-unreach-call.c_cseq.c:299:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:358:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:417:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:476:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:535:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:594:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:653:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:712:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:771:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:830:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:889:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__enqueue_2;
+                                        ^~~~~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:1665:41: warning: expression result unused [-Wunused-value]
+                                        __cs_retval__init_1;
+                                        ^~~~~~~~~~~~~~~~~~~
+queue_longer_false-unreach-call.c_cseq.c:1693:102: warning: comparison of constant -1 with boolean expression is always false [-Wtautological-constant-out-of-range-compare]
+                                        __cs_local_main___cs_tmp_if_cond_9 = (!__cs_retval__empty_2) == (-1);
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+15 warnings generated.

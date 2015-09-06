@@ -1,0 +1,14 @@
+Logging time execution
+Executing command:clang-3.5 -emit-llvm -g -c queue_false-unreach-call.c -o queue_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_false-unreach-call.c.bc --annotated queue_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_false-unreach-call.c.tmp
+Executing command:rm queue_false-unreach-call.c.tmp
+Elapsed time between start and end:0.262385845184
+Logging time execution
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Elapsed time between start and end:0.0366458892822
+Logging time execution

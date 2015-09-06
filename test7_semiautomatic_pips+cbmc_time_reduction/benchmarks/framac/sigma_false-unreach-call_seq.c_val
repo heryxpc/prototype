@@ -1,0 +1,7 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing sigma_false-unreach-call.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -nostdinc -D__FC_MACHDEP_X86_32 -I/home/heryxpc/.opam/4.02.1/share/frama-c/libc -o '/tmp/sigma_false-unreach-call.c292c0c.i' 'sigma_false-unreach-call.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "sigma_false-unreach-call.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.

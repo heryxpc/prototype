@@ -1,0 +1,2121 @@
+[kernel] preprocessing with "gcc -C -E -I.  ../benchmarks/original/insertion_sort_false-unreach-call.c"
+../benchmarks/original/insertion_sort_false-unreach-call.c:16:[kernel] warning: Variable-sized local variable v
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+[value] computing for function __VERIFIER_nondet_uint <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:14.
+[value] Recording results for __VERIFIER_nondet_uint
+[value] Done for function __VERIFIER_nondet_uint
+[value] computing for function __builtin_alloca <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:16.
+[kernel] warning: Neither code nor specification for function __builtin_alloca, generating default assigns from the prototype
+[value] using specification for function __builtin_alloca
+[value] Done for function __builtin_alloca
+../benchmarks/original/insertion_sort_false-unreach-call.c:18:[kernel] warning: out of bounds read. assert \valid_read(v+j);
+../benchmarks/original/insertion_sort_false-unreach-call.c:18:[value] Assigning imprecise value to key.
+        The imprecision originates from Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value key.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[kernel] warning: pointer comparison: assert \pointer_comparable((void *)*(v+i), (void *)key);
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }} (size:<32>)).
+        The imprecision originates from Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[kernel] too many locations to update in array. Approximating.
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }} (size:<32>)).
+        The imprecision originates from Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[kernel] too many locations to update in array. Approximating.
+../benchmarks/original/insertion_sort_false-unreach-call.c:18:[value] Assigning imprecise value to key.
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }} (size:<32>)).
+        The imprecision originates from Library function
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:16}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value key.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:18:[value] Assigning imprecise value to key.
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value key.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [224..17179869400],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [224..17179869400],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [224..17179869400],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [256..17179869432],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+[value] Semantic level unrolling superposing up to 100 states
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] entering loop for the first time
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [96..17179869400],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179869400],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [128..17179869432],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:23:[value] assigning non deterministic value for the first time
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869432],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:22:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869240],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179869656],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179869688],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:20:[value] Reading left-value *(v + i).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179873240],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:25:[value] Assigning imprecise value to *(v + (i + 1))
+        (i.e. {{ alloced_return___builtin_alloca -> [32..17179873272],0%8 }} (size:<32>)).
+        The imprecision originates from Misaligned
+        {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [0..17179869176],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[kernel] warning: pointer comparison:
+                  assert \pointer_comparable((void *)*(v+(int)(k-1)), (void *)*(v+k));
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[kernel] warning: Neither code nor specification for function printf, generating default assigns from the prototype
+[value] using specification for function printf
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [32..17179869208],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [64..17179869240],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [96..17179869272],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [128..17179869304],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [160..17179869336],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [192..17179869368],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [224..17179869400],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [224..17179869400],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [256..17179869432],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [256..17179869432],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [288..17179869464],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [288..17179869464],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [320..17179869496],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [320..17179869496],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [352..17179869528],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [352..17179869528],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [384..17179869560],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [384..17179869560],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [416..17179869592],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [416..17179869592],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [448..17179869624],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [448..17179869624],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [480..17179869656],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [480..17179869656],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [512..17179869688],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [512..17179869688],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [544..17179869720],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [544..17179869720],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [576..17179869752],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [576..17179869752],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [608..17179869784],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [608..17179869784],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [640..17179869816],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [640..17179869816],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [672..17179869848],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [672..17179869848],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [704..17179869880],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [704..17179869880],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [736..17179869912],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [736..17179869912],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [768..17179869944],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [768..17179869944],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [800..17179869976],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [800..17179869976],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [832..17179870008],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [832..17179870008],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [864..17179870040],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [864..17179870040],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [896..17179870072],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [896..17179870072],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [928..17179870104],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [928..17179870104],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [960..17179870136],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [960..17179870136],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [992..17179870168],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [992..17179870168],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1024..17179870200],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1024..17179870200],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1056..17179870232],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1056..17179870232],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1088..17179870264],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1088..17179870264],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1120..17179870296],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1120..17179870296],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1152..17179870328],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1152..17179870328],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1184..17179870360],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1184..17179870360],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1216..17179870392],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1216..17179870392],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1248..17179870424],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1248..17179870424],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1280..17179870456],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1280..17179870456],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1312..17179870488],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1312..17179870488],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1344..17179870520],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1344..17179870520],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1376..17179870552],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1376..17179870552],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1408..17179870584],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1408..17179870584],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1440..17179870616],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1440..17179870616],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1472..17179870648],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1472..17179870648],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1504..17179870680],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1504..17179870680],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1536..17179870712],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1536..17179870712],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1568..17179870744],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:27:[value] entering loop for the first time
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1568..17179870744],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1600..17179870776],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1568..17179870776],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1600..17179870808],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1568..17179870808],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1600..17179870840],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + (k - 1)).
+        The location is {{ alloced_return___builtin_alloca -> [1568..17179872312],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+../benchmarks/original/insertion_sort_false-unreach-call.c:28:[value] Reading left-value *(v + k).
+        The location is {{ alloced_return___builtin_alloca -> [1600..17179872344],0%8 }}.
+        It contains a garbled mix of {alloced_return___builtin_alloca} because of
+        Misaligned {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+        ../benchmarks/original/insertion_sort_false-unreach-call.c:25}.
+[value] computing for function __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:28.
+[value] computing for function __VERIFIER_error <- __VERIFIER_assert <- main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:7.
+[value] computing for function printf <- __VERIFIER_error <- __VERIFIER_assert <- 
+                                main.
+        Called from ../benchmarks/original/insertion_sort_false-unreach-call.c:3.
+[value] Done for function printf
+[value] Recording results for __VERIFIER_error
+[value] Done for function __VERIFIER_error
+[value] Recording results for __VERIFIER_assert
+[value] Done for function __VERIFIER_assert
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value] Values at end of function __VERIFIER_nondet_uint:
+          __retres ∈ {100}
+[value] Values at end of function __VERIFIER_error:
+[value] Values at end of function __VERIFIER_assert:
+[value] Values at end of function main:
+          SIZE ∈ {100}
+          i ∈ [-1..127]
+          j ∈ [100..128]
+          k ∈ [100..127]
+          key ∈
+             {{ garbled mix of &{alloced_return___builtin_alloca}
+              (origin: Misaligned
+              {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+              ../benchmarks/original/insertion_sort_false-unreach-call.c:25}) }}
+          v ∈ {{ &alloced_return___builtin_alloca + [0..2147483647] }}
+          __lengthofv ∈ {100}
+          __retres ∈ {0}
+          alloced_return___builtin_alloca[bits 0 to 17179873303] ∈
+                                         {{ garbled mix of &{alloced_return___builtin_alloca}
+                                          (origin: Misaligned
+                                          {../benchmarks/original/insertion_sort_false-unreach-call.c:22;
+                                          ../benchmarks/original/insertion_sort_false-unreach-call.c:25}) }}
+                                         [bits 17179873304 to ...] ∈
+                                         {{ garbled mix of &{alloced_return___builtin_alloca}
+                                          (origin: Library function
+                                          {../benchmarks/original/insertion_sort_false-unreach-call.c:16}) }}
+/* Generated by Frama-C */
+/* compiler builtin: 
+   void *__builtin_alloca(unsigned int);   */
+/*@ assigns \at(\result,Post) \from *__format; */
+extern int printf(char const * __restrict __format , ...);
+
+void __VERIFIER_error(void)
+{
+  printf("ERROR raised\n");
+  return;
+}
+
+void __VERIFIER_assert(int cond)
+{
+  if (! cond) ERROR: __VERIFIER_error();
+  return;
+}
+
+unsigned int __VERIFIER_nondet_uint(void)
+{
+  unsigned int __retres;
+  __retres = (unsigned int)100;
+  return __retres;
+}
+
+int main(void)
+{
+  int __retres;
+  unsigned int SIZE;
+  int i;
+  int j;
+  int k;
+  int key;
+  int *v;
+  unsigned int __lengthofv;
+  SIZE = __VERIFIER_nondet_uint();
+  {
+    /*undefined sequence*/
+    __lengthofv = SIZE;
+    v = (int *)__builtin_alloca(sizeof(*v) * __lengthofv);
+  }
+  j = 1;
+  while ((unsigned int)j < SIZE) {
+    /*@ assert Value: mem_access: \valid_read(v+j); */
+    key = *(v + j);
+    i = j - 1;
+    while (1) {
+      if (i >= 0) {
+        /*@ assert
+            Value: ptr_comparison:
+              \pointer_comparable((void *)*(v+i), (void *)key);
+        */
+        if (! (*(v + i) > key)) break;
+      }
+      else break;
+      if (i < 2) *(v + (i + 1)) = *(v + i);
+      i --;
+    }
+    *(v + (i + 1)) = key;
+    j ++;
+  }
+  k = 1;
+  while ((unsigned int)k < SIZE) {
+    /*@ assert
+        Value: ptr_comparison:
+          \pointer_comparable((void *)*(v+(int)(k-1)), (void *)*(v+k));
+    */
+    __VERIFIER_assert(*(v + (k - 1)) <= *(v + k));
+    k ++;
+  }
+  __retres = 0;
+  return __retres;
+}
+
+

@@ -1,0 +1,266 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Converting
+Type-checking fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 4 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 5 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 6 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 7 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 8 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 9 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t1.0 iteration 10 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Not unwinding loop t1.0 iteration 11 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 4 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 5 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 6 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 7 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 8 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 9 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Unwinding loop t2.0 iteration 10 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Not unwinding loop t2.0 iteration 11 (11 max) file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+Adding SC constraints
+size of program expression: 4150 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+32998 variables, 154557 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 552.699s
+Building error trace
+
+Counterexample:
+
+State 19  thread 0
+----------------------------------------------------
+  argv'[8]=irep("(\"nil\")")[8] (?)
+
+State 22 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 47 thread 0
+----------------------------------------------------
+  argc=8 (00000000000000000000000000001000)
+
+State 23 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 47 thread 0
+----------------------------------------------------
+  argv=argv' (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 24 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 49 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 25 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 50 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 86 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=2 (00000000000000000000000000000010)
+
+State 87 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 89 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 90 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=1 (00000000000000000000000000000001)
+
+State 92 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=5 (00000000000000000000000000000101)
+
+State 93 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 95 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=8 (00000000000000000000000000001000)
+
+State 96 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=2 (00000000000000000000000000000010)
+
+State 98 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=13 (00000000000000000000000000001101)
+
+State 99 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 101 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=21 (00000000000000000000000000010101)
+
+State 102 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=3 (00000000000000000000000000000011)
+
+State 104 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=34 (00000000000000000000000000100010)
+
+State 105 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=4 (00000000000000000000000000000100)
+
+State 107 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=55 (00000000000000000000000000110111)
+
+State 108 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=4 (00000000000000000000000000000100)
+
+State 110 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=89 (00000000000000000000000001011001)
+
+State 111 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+State 113 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=144 (00000000000000000000000010010000)
+
+State 114 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=5 (00000000000000000000000000000101)
+
+State 116 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=233 (00000000000000000000000011101001)
+
+State 117 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=6 (00000000000000000000000000000110)
+
+State 119 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=377 (00000000000000000000000101111001)
+
+State 120 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=6 (00000000000000000000000000000110)
+
+State 122 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=610 (00000000000000000000001001100010)
+
+State 123 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=7 (00000000000000000000000000000111)
+
+State 125 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=987 (00000000000000000000001111011011)
+
+State 126 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=7 (00000000000000000000000000000111)
+
+State 128 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=1597 (00000000000000000000011000111101)
+
+State 129 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=8 (00000000000000000000000000001000)
+
+State 131 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=2584 (00000000000000000000101000011000)
+
+State 132 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=8 (00000000000000000000000000001000)
+
+State 134 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=4181 (00000000000000000001000001010101)
+
+State 135 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=9 (00000000000000000000000000001001)
+
+State 137 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=6765 (00000000000000000001101001101101)
+
+State 138 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=9 (00000000000000000000000000001001)
+
+State 140 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=10946 (00000000000000000010101011000010)
+
+State 141 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=10 (00000000000000000000000000001010)
+
+State 143 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=17711 (00000000000000000100010100101111)
+
+State 144 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=10 (00000000000000000000000000001010)
+
+State 146 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 41 function t2 thread 2
+----------------------------------------------------
+  j=28657 (00000000000000000110111111110001)
+
+State 147 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=11 (00000000000000000000000000001011)
+
+State 149 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 28 function t1 thread 1
+----------------------------------------------------
+  i=46368 (00000000000000001011010100100000)
+
+State 150 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 23 function t1 thread 1
+----------------------------------------------------
+  k=11 (00000000000000000000000000001011)
+
+State 156 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 157 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 37 function t2 thread 2
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 158 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 37 function t2 thread 2
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+State 159 file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 38 function t2 thread 2
+----------------------------------------------------
+  k=0 (00000000000000000000000000000000)
+
+Violated property:
+  file fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c line 56 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED

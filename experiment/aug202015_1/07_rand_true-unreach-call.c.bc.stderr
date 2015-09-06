@@ -1,0 +1,10 @@
+07_rand_true-unreach-call.c:15:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(m==0);
+        ^
+07_rand_true-unreach-call.c:8:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+07_rand_true-unreach-call.c:35:11: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+                nexts = __VERIFIER_nondet_int();
+                        ^
+2 warnings generated.

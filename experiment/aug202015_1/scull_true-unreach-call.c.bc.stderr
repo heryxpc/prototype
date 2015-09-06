@@ -1,0 +1,4 @@
+scull_true-unreach-call.c:9:10: fatal error: 'scull_safe.h' file not found
+#include "scull_safe.h"
+         ^
+1 error generated.

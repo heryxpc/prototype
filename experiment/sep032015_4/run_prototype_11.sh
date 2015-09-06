@@ -1,0 +1,25 @@
+#!/bin/bash
+./prototype_1.3b.py 13_unverif_true-unreach-call.c 11 > 13_unverif_true-unreach-call.c_log
+./prototype_1.3b.py 28_buggy_simple_loop1_vf_false-unreach-call.c 11 > 28_buggy_simple_loop1_vf_false-unreach-call.c_log
+./prototype_1.3b.py fib_bench_false-unreach-call.c 11 > fib_bench_false-unreach-call.c_log
+./prototype_1.3b.py fib_bench_longer_false-unreach-call.c 11 > fib_bench_longer_false-unreach-call.c_log
+./prototype_1.3b.py fib_bench_longer_true-unreach-call.c 11 > fib_bench_longer_true-unreach-call.c_log
+./prototype_1.3b.py fib_bench_longest_false-unreach-call.c 11 > fib_bench_longest_false-unreach-call.c_log
+./prototype_1.3b.py fib_bench_longest_true-unreach-call.c 11 > fib_bench_longest_true-unreach-call.c_log
+./prototype_1.3b.py fib_bench_true-unreach-call.c 11 > fib_bench_true-unreach-call.c_log
+./prototype_1.3b.py indexer_true-unreach-call.c 11 > indexer_true-unreach-call.c_log
+./prototype_1.3b.py queue_false-unreach-call.c 11 > queue_false-unreach-call.c_log
+./prototype_1.3b.py queue_longer_false-unreach-call.c 11 > queue_longer_false-unreach-call.c_log
+./prototype_1.3b.py queue_longest_false-unreach-call.c 11 > queue_longest_false-unreach-call.c_log
+./prototype_1.3b.py queue_ok_longer_true-unreach-call.c 11 > queue_ok_longer_true-unreach-call.c_log
+./prototype_1.3b.py queue_ok_longest_true-unreach-call.c 11 > queue_ok_longest_true-unreach-call.c_log
+./prototype_1.3b.py queue_ok_true-unreach-call.c 11 > queue_ok_true-unreach-call.c_log
+./prototype_1.3b.py reorder_2_false-unreach-call.c 11 > reorder_2_false-unreach-call.c_log
+./prototype_1.3b.py sigma_false-unreach-call.c 18 > sigma_false-unreach-call.c_log
+./prototype_1.3b.py stack_false-unreach-call.c 11 > stack_false-unreach-call.c_log
+./prototype_1.3b.py stack_longer_false-unreach-call.c 11 > stack_longer_false-unreach-call.c_log
+./prototype_1.3b.py stack_longer_true-unreach-call.c 11 > stack_longer_true-unreach-call.c_log
+./prototype_1.3b.py stack_longest_false-unreach-call.c 11 > stack_longest_false-unreach-call.c_log
+./prototype_1.3b.py stack_longest_true-unreach-call.c 11 > stack_longest_true-unreach-call.c_log
+./prototype_1.3b.py stack_true-unreach-call.c 11 > stack_true-unreach-call.c_log
+./prototype_1.3b.py twostage_3_false-unreach-call.c 11 > twostage_3_false-unreach-call.c_log

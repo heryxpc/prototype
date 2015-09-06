@@ -1,0 +1,19 @@
+ERROR:root:42_FreeBSD__rdma_addr__sliced_true-unreach-call.c_anno.c_pyc.c:30:1: before: {
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 281, in parse_annotated
+    '-D__asm__=',
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/__init__.py", line 96, in parse_file
+    ast= parser.parse(text, filename)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 132, in parse
+    return self.cparser.parse(text, lexer=self.clex, debug=debuglevel)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 265, in parse
+    return self.parseopt_notrack(input,lexer,debug,tracking,tokenfunc)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 1047, in parseopt_notrack
+    tok = self.errorfunc(errtoken)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 1436, in p_error
+    column=self.clex.find_tok_column(p)))
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/plyparser.py", line 54, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+ParseError: 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c_anno.c_pyc.c:30:1: before: {

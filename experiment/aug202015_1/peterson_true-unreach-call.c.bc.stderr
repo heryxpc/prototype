@@ -1,0 +1,7 @@
+peterson_true-unreach-call.c:23:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+peterson_true-unreach-call.c:34:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.

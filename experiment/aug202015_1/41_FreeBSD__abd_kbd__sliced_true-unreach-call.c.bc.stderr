@@ -1,0 +1,46 @@
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:32:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(MTX==0);
+        ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:9:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:44:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mtx_unlock(MTX);
+        ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:50:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mtx_unlock(MTX); }
+        ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:58:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mtx_unlock(MTX);
+                ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:60:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mtx_unlock(MTX); }
+        ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:65:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mtx_unlock(MTX); }
+        ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:70:12: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+    switch(__VERIFIER_nondet_int())
+           ^
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:79:9: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mtx_unlock(MTX);
+        ^~~~~~~~~~~~~~~
+41_FreeBSD__abd_kbd__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mtx_unlock'
+#define mtx_unlock(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+8 warnings generated.

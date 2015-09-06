@@ -1,0 +1,10 @@
+47_ticket_lock_hc_backoff_vs_true-unreach-call.c:18:3: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+  assume(t != -1); /* pretend "integer-semantics" */
+  ^
+47_ticket_lock_hc_backoff_vs_true-unreach-call.c:10:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+47_ticket_lock_hc_backoff_vs_true-unreach-call.c:59:9: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+  while(__VERIFIER_nondet_int()) pthread_create(&t, 0, thr1, 0);
+        ^
+2 warnings generated.

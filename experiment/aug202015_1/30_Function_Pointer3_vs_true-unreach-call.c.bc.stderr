@@ -1,0 +1,10 @@
+30_Function_Pointer3_vs_true-unreach-call.c:13:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(mutex==0);
+        ^
+30_Function_Pointer3_vs_true-unreach-call.c:5:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+30_Function_Pointer3_vs_true-unreach-call.c:39:7: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+  if( __VERIFIER_nondet_int() )
+      ^
+2 warnings generated.

@@ -1,0 +1,125 @@
+heryxpc@heryxpc-M11x-R2:aug212015_1$ ./run_exp_phtread_lit_4rounds.sh 
+Executing command:clang-3.5 -emit-llvm -g -c fk2012_true-unreach-call.c -o fk2012_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fk2012_true-unreach-call.c.bc --annotated fk2012_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fk2012_true-unreach-call.c.tmp
+Executing command:rm fk2012_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+File fk2012_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fkp2013_false-unreach-call.c -o fkp2013_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fkp2013_false-unreach-call.c.bc --annotated fkp2013_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fkp2013_false-unreach-call.c.tmp
+Executing command:rm fkp2013_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug212015_1
+File %s does not complain with C99: %s fkp2013_false-unreach-call.c_anno.c_pyc.c oid 
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fkp2013_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fkp2013_true-unreach-call.c -o fkp2013_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fkp2013_true-unreach-call.c.bc --annotated fkp2013_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fkp2013_true-unreach-call.c.tmp
+Executing command:rm fkp2013_true-unreach-call.c.tmp
+File fkp2013_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fkp2013_variant_false-unreach-call.c -o fkp2013_variant_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fkp2013_variant_false-unreach-call.c.bc --annotated fkp2013_variant_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fkp2013_variant_false-unreach-call.c.tmp
+Executing command:rm fkp2013_variant_false-unreach-call.c.tmp
+File fkp2013_variant_false-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fkp2013_variant_true-unreach-call.c -o fkp2013_variant_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fkp2013_variant_true-unreach-call.c.bc --annotated fkp2013_variant_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fkp2013_variant_true-unreach-call.c.tmp
+Executing command:rm fkp2013_variant_true-unreach-call.c.tmp
+File fkp2013_variant_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fkp2014_true-unreach-call.c -o fkp2014_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fkp2014_true-unreach-call.c.bc --annotated fkp2014_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fkp2014_true-unreach-call.c.tmp
+Executing command:rm fkp2014_true-unreach-call.c.tmp
+File fkp2014_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c qw2004_false-unreach-call.c -o qw2004_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i qw2004_false-unreach-call.c.bc --annotated qw2004_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g qw2004_false-unreach-call.c.tmp
+Executing command:rm qw2004_false-unreach-call.c.tmp
+File qw2004_false-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c qw2004_true-unreach-call.c -o qw2004_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i qw2004_true-unreach-call.c.bc --annotated qw2004_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g qw2004_true-unreach-call.c.tmp
+Executing command:rm qw2004_true-unreach-call.c.tmp
+File qw2004_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c qw2004_variant_true-unreach-call.c -o qw2004_variant_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i qw2004_variant_true-unreach-call.c.bc --annotated qw2004_variant_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g qw2004_variant_true-unreach-call.c.tmp
+Executing command:rm qw2004_variant_true-unreach-call.c.tmp
+File qw2004_variant_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c sssc12_true-unreach-call.c -o sssc12_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i sssc12_true-unreach-call.c.bc --annotated sssc12_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g sssc12_true-unreach-call.c.tmp
+Executing command:rm sssc12_true-unreach-call.c.tmp
+File sssc12_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c sssc12_variant_true-unreach-call.c -o sssc12_variant_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i sssc12_variant_true-unreach-call.c.bc --annotated sssc12_variant_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g sssc12_variant_true-unreach-call.c.tmp
+Executing command:rm sssc12_variant_true-unreach-call.c.tmp
+File sssc12_variant_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings

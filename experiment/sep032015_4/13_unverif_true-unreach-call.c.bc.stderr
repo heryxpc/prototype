@@ -1,0 +1,7 @@
+13_unverif_true-unreach-call.c:15:3: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+  assume(r!=-1); //to avoid overflows
+  ^
+13_unverif_true-unreach-call.c:7:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

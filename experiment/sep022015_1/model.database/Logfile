@@ -1,0 +1,207 @@
+Registering file 28_buggy_simple_loop1_vf_false-unreach-call.c
+Checking C syntax of file "./28_buggy_simple_loop1_vf_false-unreach-call.c"
+Preprocessing file ./28_buggy_simple_loop1_vf_false-unreach-call.c
+Splitting file    ./model.database/Tmp/28_buggy_simple_loop1_vf_false-unreach-call.cpp_processed.c
+  Module         main
+  Module         thr1
+  Module         __VERIFIER_error
+  Module         28_buggy_simple_loop1_vf_false-unreach-call!
+Workspace model created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build resource CALLGRAPH_FILE for module 28_buggy_simple_loop1_vf_false-unreach-call!.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  CONTROLIZER                    building   CODE(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(28_buggy_simple_loop1_vf_false-unreach-call!)
+CALLGRAPH_FILE made for 28_buggy_simple_loop1_vf_false-unreach-call!.
+Request: build resource CALLGRAPH_FILE for module __VERIFIER_error.
+  C_PARSER                       building   PARSED_CODE(__VERIFIER_error)
+                                 building   CALLEES(__VERIFIER_error)
+  CONTROLIZER                    building   CODE(__VERIFIER_error)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(__VERIFIER_error)
+CALLGRAPH_FILE made for __VERIFIER_error.
+Request: build resource CALLGRAPH_FILE for module main.
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_INITIALIZER                  building   C_SOURCE_FILE(pthread_create)
+Registering synthesized file pthread_create.cpp_processed.c
+Registering synthesized compilation unit pthread_create!
+  C_PARSER                       building   PARSED_CODE(pthread_create)
+                                 building   CALLEES(pthread_create)
+  CONTROLIZER                    building   CODE(pthread_create)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(pthread_create)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(main)
+CALLGRAPH_FILE made for main.
+Request: build resource CALLGRAPH_FILE for module thr1.
+  C_PARSER                       building   PARSED_CODE(thr1)
+                                 building   CALLEES(thr1)
+  CONTROLIZER                    building   CODE(thr1)
+  PRINT_CALL_GRAPH               building   CALLGRAPH_FILE(thr1)
+CALLGRAPH_FILE made for thr1.
+Selecting rule: TRANSFORMERS_INTER_FULL
+Selecting rule: PRECONDITIONS_INTER_FULL
+Request: capply PARTIAL_EVAL for module [28_buggy_simple_loop1_vf_false-unreach-call!,__VERIFIER_error,main,pthread_create,pthread_create!,thr1].
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_error)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_error)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_error)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_error)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(pthread_create)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(pthread_create)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(pthread_create)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(pthread_create)
+  CONTROLIZER                    building   CODE(pthread_create!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(pthread_create!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(pthread_create!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(pthread_create!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(pthread_create!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(thr1)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(thr1)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(thr1)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(thr1)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  CALLGRAPH                      building   CALLERS(28_buggy_simple_loop1_vf_false-unreach-call!)
+                                 building   CALLERS(__VERIFIER_error)
+                                 building   CALLERS(main)
+                                 building   CALLERS(pthread_create)
+                                 building   CALLERS(pthread_create!)
+                                 building   CALLERS(thr1)
+                                 building   HEIGHT(28_buggy_simple_loop1_vf_false-unreach-call!)
+                                 building   HEIGHT(__VERIFIER_error)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(pthread_create)
+                                 building   HEIGHT(pthread_create!)
+                                 building   HEIGHT(thr1)
+                                 building   DEPTH(28_buggy_simple_loop1_vf_false-unreach-call!)
+                                 building   DEPTH(__VERIFIER_error)
+                                 building   DEPTH(main)
+                                 building   DEPTH(pthread_create)
+                                 building   DEPTH(pthread_create!)
+                                 building   DEPTH(thr1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_error)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(thr1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(thr1)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(thr1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_error)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_error)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(pthread_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(pthread_create)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(pthread_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(pthread_create!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(pthread_create!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(pthread_create!)
+  PARTIAL_EVAL                   updating   CODE(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PARTIAL_EVAL                   updating   CODE(__VERIFIER_error)
+  PARTIAL_EVAL                   updating   CODE(main)
+  PARTIAL_EVAL                   updating   CODE(pthread_create)
+  PARTIAL_EVAL                   updating   CODE(pthread_create!)
+  PARTIAL_EVAL                   updating   CODE(thr1)
+capply PARTIAL_EVAL made for [28_buggy_simple_loop1_vf_false-unreach-call!,__VERIFIER_error,main,pthread_create,pthread_create!,thr1].
+Selecting rule: PRINT_CODE_PRECONDITIONS
+Request: build phase/rule UNSPLIT for module 28_buggy_simple_loop1_vf_false-unreach-call!.
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(__VERIFIER_error)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(__VERIFIER_error)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(__VERIFIER_error)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(__VERIFIER_error)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(pthread_create)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(pthread_create)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(pthread_create)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(pthread_create)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(pthread_create!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(pthread_create!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(pthread_create!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(pthread_create!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(thr1)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(thr1)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(thr1)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(thr1)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(28_buggy_simple_loop1_vf_false-unreach-call!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(28_buggy_simple_loop1_vf_false-unreach-call!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(__VERIFIER_error)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(thr1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(thr1)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(thr1)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(__VERIFIER_error)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(__VERIFIER_error)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(__VERIFIER_error)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(pthread_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(pthread_create)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(pthread_create)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(pthread_create)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(pthread_create!)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(pthread_create!)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(pthread_create!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(pthread_create!)
+  PRINT_CODE_PRECONDITIONS       building   PRINTED_FILE(thr1)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for 28_buggy_simple_loop1_vf_false-unreach-call!.
+Request: build phase/rule UNSPLIT for module __VERIFIER_error.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for __VERIFIER_error.
+Request: build phase/rule UNSPLIT for module main.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Request: build phase/rule UNSPLIT for module pthread_create.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for pthread_create.
+Request: build phase/rule UNSPLIT for module pthread_create!.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for pthread_create!.
+Request: build phase/rule UNSPLIT for module thr1.
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for thr1.
+Module __VERIFIER_error selected
+Request: build resource PRINTED_FILE for module __VERIFIER_error.
+PRINTED_FILE made for __VERIFIER_error.
+Module main selected
+Request: build resource PRINTED_FILE for module main.
+PRINTED_FILE made for main.
+Module pthread_create selected
+Request: build resource PRINTED_FILE for module pthread_create.
+PRINTED_FILE made for pthread_create.
+Module thr1 selected
+Request: build resource PRINTED_FILE for module thr1.
+PRINTED_FILE made for thr1.
+Deletion of obsolete resources:
+5 destroyed.
+Closing all modules.
+  Closing module 28_buggy_simple_loop1_vf_false-unreach-call!.
+  Closing module __VERIFIER_error.
+  Closing module main.
+  Closing module pthread_create.
+  Closing module pthread_create!.
+  Closing module thr1.
+Closing program.
+Closing workspace.
+Workspace model closed.
+

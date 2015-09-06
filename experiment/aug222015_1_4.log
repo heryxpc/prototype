@@ -1,0 +1,2560 @@
+CBMC version 5.1 64-bit x86_64 linux
+Parsing bigshot_p_false-unreach-call.c
+Converting
+Type-checking bigshot_p_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop thread2.0 iteration 1 (4 max) file bigshot_p_false-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 2 (4 max) file bigshot_p_false-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 3 (4 max) file bigshot_p_false-unreach-call.c line 18 function thread2 thread 2
+Not unwinding loop thread2.0 iteration 4 (4 max) file bigshot_p_false-unreach-call.c line 18 function thread2 thread 2
+Adding SC constraints
+size of program expression: 571 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+9139 variables, 30084 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 0.174s
+Building error trace
+
+Counterexample:
+
+State 16 file bigshot_p_false-unreach-call.c line 24 function main thread 0
+----------------------------------------------------
+  t1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 17 file bigshot_p_false-unreach-call.c line 24 function main thread 0
+----------------------------------------------------
+  t2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 109 file bigshot_p_false-unreach-call.c line 13 function thread1 thread 1
+----------------------------------------------------
+  v=dynamic_object1 (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 120 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 137 file bigshot_p_false-unreach-call.c line 31 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file bigshot_p_false-unreach-call.c line 7 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m0.999s
+user	0m0.944s
+sys	0m0.061s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing bigshot_s2_true-unreach-call.c
+Converting
+Type-checking bigshot_s2_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop thread2.0 iteration 1 (4 max) file bigshot_s2_true-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 2 (4 max) file bigshot_s2_true-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 3 (4 max) file bigshot_s2_true-unreach-call.c line 18 function thread2 thread 2
+Not unwinding loop thread2.0 iteration 4 (4 max) file bigshot_s2_true-unreach-call.c line 18 function thread2 thread 2
+Adding SC constraints
+size of program expression: 558 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+8973 variables, 29384 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 0.229s
+VERIFICATION SUCCESSFUL
+
+real	0m1.042s
+user	0m0.976s
+sys	0m0.073s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing bigshot_s_true-unreach-call.c
+Converting
+Type-checking bigshot_s_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop thread2.0 iteration 1 (4 max) file bigshot_s_true-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 2 (4 max) file bigshot_s_true-unreach-call.c line 18 function thread2 thread 2
+Unwinding loop thread2.0 iteration 3 (4 max) file bigshot_s_true-unreach-call.c line 18 function thread2 thread 2
+Not unwinding loop thread2.0 iteration 4 (4 max) file bigshot_s_true-unreach-call.c line 18 function thread2 thread 2
+Adding SC constraints
+size of program expression: 570 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+9078 variables, 29794 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 0.22s
+VERIFICATION SUCCESSFUL
+
+real	0m1.043s
+user	0m0.972s
+sys	0m0.078s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_false-unreach-call.c
+Converting
+Type-checking fib_bench_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_false-unreach-call.c line 14 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_false-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_false-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_false-unreach-call.c line 25 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_false-unreach-call.c line 25 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6902 variables, 28036 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 4.665s
+VERIFICATION SUCCESSFUL
+
+real	0m5.413s
+user	0m5.340s
+sys	0m0.072s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `fib_bench_false-unreach-call.cil.c'
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longer_false-unreach-call.c
+Converting
+Type-checking fib_bench_longer_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_longer_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_longer_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_longer_false-unreach-call.c line 14 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_longer_false-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_longer_false-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_longer_false-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_longer_false-unreach-call.c line 25 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_longer_false-unreach-call.c line 25 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6900 variables, 28030 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 4.918s
+VERIFICATION SUCCESSFUL
+
+real	0m5.749s
+user	0m5.678s
+sys	0m0.065s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `fib_bench_longer_false-unreach-call.cil.c'
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.004s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longer_true-unreach-call.c
+Converting
+Type-checking fib_bench_longer_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_longer_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_longer_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_longer_true-unreach-call.c line 14 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_longer_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_longer_true-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_longer_true-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_longer_true-unreach-call.c line 25 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_longer_true-unreach-call.c line 25 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6896 variables, 27958 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 3.531s
+VERIFICATION SUCCESSFUL
+
+real	0m4.282s
+user	0m4.221s
+sys	0m0.061s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `fib_bench_longer_true-unreach-call.cil.c'
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longest_false-unreach-call.c
+Converting
+Type-checking fib_bench_longest_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_longest_false-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_longest_false-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_longest_false-unreach-call.c line 16 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_longest_false-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_longest_false-unreach-call.c line 27 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_longest_false-unreach-call.c line 27 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_longest_false-unreach-call.c line 27 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_longest_false-unreach-call.c line 27 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6902 variables, 28036 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 3.282s
+VERIFICATION SUCCESSFUL
+
+real	0m4.035s
+user	0m3.964s
+sys	0m0.070s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_longest_true-unreach-call.c
+Converting
+Type-checking fib_bench_longest_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_longest_true-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_longest_true-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_longest_true-unreach-call.c line 16 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_longest_true-unreach-call.c line 16 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_longest_true-unreach-call.c line 27 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_longest_true-unreach-call.c line 27 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_longest_true-unreach-call.c line 27 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_longest_true-unreach-call.c line 27 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6898 variables, 27964 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 4.123s
+VERIFICATION SUCCESSFUL
+
+real	0m4.905s
+user	0m4.824s
+sys	0m0.078s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing fib_bench_true-unreach-call.c
+Converting
+Type-checking fib_bench_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file fib_bench_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file fib_bench_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file fib_bench_true-unreach-call.c line 14 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file fib_bench_true-unreach-call.c line 14 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file fib_bench_true-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file fib_bench_true-unreach-call.c line 25 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file fib_bench_true-unreach-call.c line 25 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file fib_bench_true-unreach-call.c line 25 function t2 thread 2
+Adding SC constraints
+size of program expression: 608 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+6898 variables, 27964 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 4.918s
+VERIFICATION SUCCESSFUL
+
+real	0m5.681s
+user	0m5.614s
+sys	0m0.065s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `fib_bench_true-unreach-call.cil.c'
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing indexer_true-unreach-call.c
+Converting
+Type-checking indexer_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 69 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 69 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 69 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 69 function main thread 0
+Unwinding loop main.1 iteration 1 (4 max) file indexer_true-unreach-call.c line 72 function main thread 0
+Unwinding loop main.1 iteration 2 (4 max) file indexer_true-unreach-call.c line 72 function main thread 0
+Unwinding loop main.1 iteration 3 (4 max) file indexer_true-unreach-call.c line 72 function main thread 0
+Not unwinding loop main.1 iteration 4 (4 max) file indexer_true-unreach-call.c line 72 function main thread 0
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.1 iteration 1 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.1 iteration 2 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.1 iteration 3 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 1
+Not unwinding loop thread_routine.1 iteration 4 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 1
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.1 iteration 1 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.1 iteration 2 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.1 iteration 3 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 2
+Not unwinding loop thread_routine.1 iteration 4 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 2
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.1 iteration 1 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.1 iteration 2 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.1 iteration 3 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 3
+Not unwinding loop thread_routine.1 iteration 4 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 3
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.1 iteration 1 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.1 iteration 2 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.1 iteration 3 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 1 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 2 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Unwinding loop thread_routine.0 iteration 3 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Not unwinding loop thread_routine.0 iteration 4 (4 max) file indexer_true-unreach-call.c line 57 function thread_routine thread 4
+Not unwinding loop thread_routine.1 iteration 4 (4 max) file indexer_true-unreach-call.c line 41 function thread_routine thread 4
+Adding SC constraints
+size of program expression: 2231840 steps
+no slicing due to threads
+Generated 144 VCC(s), 144 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+terminate called after throwing an instance of 'Minisat::OutOfMemoryException'
+./run_exp_4rounds.sh: line 19: 27733 Aborted                 (core dumped) cbmc --unwind 4 --no-unwinding-assertions indexer_true-unreach-call.c
+
+real	57m55.384s
+user	56m37.880s
+sys	0m29.776s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing lazy01_false-unreach-call.c
+Converting
+Type-checking lazy01_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Adding SC constraints
+size of program expression: 978 steps
+no slicing due to threads
+Generated 7 VCC(s), 7 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+21056 variables, 80600 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 0.712s
+Building error trace
+
+Counterexample:
+
+State 27 file lazy01_false-unreach-call.c line 40 function main thread 0
+----------------------------------------------------
+  t1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 28 file lazy01_false-unreach-call.c line 40 function main thread 0
+----------------------------------------------------
+  t2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 29 file lazy01_false-unreach-call.c line 40 function main thread 0
+----------------------------------------------------
+  t3=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 76 file lazy01_false-unreach-call.c line 12 function thread1 thread 1
+----------------------------------------------------
+  data=1 (00000000000000000000000000000001)
+
+State 164 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 172 file lazy01_false-unreach-call.c line 20 function thread2 thread 2
+----------------------------------------------------
+  data=3 (00000000000000000000000000000011)
+
+State 194 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file lazy01_false-unreach-call.c line 29 function thread3
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m1.726s
+user	0m1.482s
+sys	0m0.112s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_false-unreach-call.c
+Converting
+Type-checking queue_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_false-unreach-call.c line 104 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_false-unreach-call.c line 104 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_false-unreach-call.c line 104 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_false-unreach-call.c line 104 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_false-unreach-call.c line 127 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_false-unreach-call.c line 127 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_false-unreach-call.c line 127 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_false-unreach-call.c line 127 function t2 thread 2
+Adding SC constraints
+size of program expression: 72833 steps
+no slicing due to threads
+Generated 23 VCC(s), 23 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+1611109 variables, 7979984 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 143.298s
+Building error trace
+
+Counterexample:
+
+State 22 file queue_false-unreach-call.c line 146 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 23 file queue_false-unreach-call.c line 146 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 24 file queue_false-unreach-call.c line 148 function main thread 0
+----------------------------------------------------
+  enqueue_flag=TRUE (00000001)
+
+State 25 file queue_false-unreach-call.c line 149 function main thread 0
+----------------------------------------------------
+  dequeue_flag=FALSE (00000000)
+
+State 28 file queue_false-unreach-call.c line 151 function main thread 0
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 29 file queue_false-unreach-call.c line 28 function init thread 0
+----------------------------------------------------
+  queue.head=0 (00000000000000000000000000000000)
+
+State 30 file queue_false-unreach-call.c line 29 function init thread 0
+----------------------------------------------------
+  queue.tail=0 (00000000000000000000000000000000)
+
+State 31 file queue_false-unreach-call.c line 30 function init thread 0
+----------------------------------------------------
+  queue.amount=0 (00000000000000000000000000000000)
+
+State 38 file queue_false-unreach-call.c line 153 function main thread 0
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+queue is empty
+
+
+State 144 file queue_false-unreach-call.c line 92 function t1 thread 1
+----------------------------------------------------
+  value=1024 (00000000000000000000010000000000)
+
+State 148 file queue_false-unreach-call.c line 93 function t1 thread 1
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 149 file queue_false-unreach-call.c line 93 function t1 thread 1
+----------------------------------------------------
+  x=1024 (00000000000000000000010000000000)
+
+State 150 file queue_false-unreach-call.c line 57 function enqueue thread 1
+----------------------------------------------------
+  queue.element[0]=1024 (00000000000000000000010000000000)
+
+State 151 file queue_false-unreach-call.c line 58 function enqueue thread 1
+----------------------------------------------------
+  queue.amount=1 (00000000000000000000000000000001)
+
+State 153 file queue_false-unreach-call.c line 65 function enqueue thread 1
+----------------------------------------------------
+  queue.tail=1 (00000000000000000000000000000001)
+
+State 158 file queue_false-unreach-call.c line 97 function t1 thread 1
+----------------------------------------------------
+  stored_elements[0]=1024 (00000000000000000000010000000000)
+
+State 162 file queue_false-unreach-call.c line 98 function t1 thread 1
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 176 file queue_false-unreach-call.c line 104 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 192 file queue_false-unreach-call.c line 127 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 202 file queue_false-unreach-call.c line 109 function t1 thread 1
+----------------------------------------------------
+  value=0 (00000000000000000000000000000000)
+
+State 205 file queue_false-unreach-call.c line 110 function t1 thread 1
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 206 file queue_false-unreach-call.c line 110 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 207 file queue_false-unreach-call.c line 57 function enqueue thread 1
+----------------------------------------------------
+  queue.element[1]=0 (00000000000000000000000000000000)
+
+State 208 file queue_false-unreach-call.c line 58 function enqueue thread 1
+----------------------------------------------------
+  queue.amount=2 (00000000000000000000000000000010)
+
+State 210 file queue_false-unreach-call.c line 65 function enqueue thread 1
+----------------------------------------------------
+  queue.tail=2 (00000000000000000000000000000010)
+
+State 214 file queue_false-unreach-call.c line 111 function t1 thread 1
+----------------------------------------------------
+  stored_elements[1]=0 (00000000000000000000000000000000)
+
+State 215 file queue_false-unreach-call.c line 112 function t1 thread 1
+----------------------------------------------------
+  enqueue_flag=FALSE (00000000)
+
+State 216 file queue_false-unreach-call.c line 113 function t1 thread 1
+----------------------------------------------------
+  dequeue_flag=TRUE (00000001)
+
+State 224 file queue_false-unreach-call.c line 104 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 237 file queue_false-unreach-call.c line 132 function t2 thread 2
+----------------------------------------------------
+  q=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 238 file queue_false-unreach-call.c line 73 function dequeue thread 2
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 239 file queue_false-unreach-call.c line 75 function dequeue thread 2
+----------------------------------------------------
+  x=1024 (00000000000000000000010000000000)
+
+State 245 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=queue.element (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 246 file queue_false-unreach-call.c line 125 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 247 file queue_false-unreach-call.c line 127 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 251 file queue_false-unreach-call.c line 76 function dequeue thread 2
+----------------------------------------------------
+  queue.amount=1 (00000000000000000000000000000001)
+
+State 253 file queue_false-unreach-call.c line 82 function dequeue thread 2
+----------------------------------------------------
+  queue.head=1 (00000000000000000000000000000001)
+
+Violated property:
+  file queue_false-unreach-call.c line 133 function t2
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	2m38.050s
+user	2m36.532s
+sys	0m1.167s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `queue_false-unreach-call.cil.c'
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.004s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_longer_false-unreach-call.c
+Converting
+Type-checking queue_longer_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_longer_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_longer_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_longer_false-unreach-call.c line 103 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_longer_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_longer_false-unreach-call.c line 126 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_longer_false-unreach-call.c line 126 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_longer_false-unreach-call.c line 126 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_longer_false-unreach-call.c line 126 function t2 thread 2
+Adding SC constraints
+size of program expression: 72833 steps
+no slicing due to threads
+Generated 23 VCC(s), 23 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+25049889 variables, 123801324 clauses
+./run_exp_4rounds.sh: line 23: 27992 Killed                  cbmc --unwind 4 --no-unwinding-assertions queue_longer_false-unreach-call.c
+
+real	87m56.318s
+user	76m26.488s
+sys	2m38.931s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_longest_false-unreach-call.c
+Converting
+Type-checking queue_longest_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_longest_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_longest_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_longest_false-unreach-call.c line 103 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_longest_false-unreach-call.c line 103 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_longest_false-unreach-call.c line 126 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_longest_false-unreach-call.c line 126 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_longest_false-unreach-call.c line 126 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_longest_false-unreach-call.c line 126 function t2 thread 2
+Adding SC constraints
+size of program expression: 72833 steps
+no slicing due to threads
+Generated 23 VCC(s), 23 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+./run_exp_4rounds.sh: line 24: 28138 Killed                  cbmc --unwind 4 --no-unwinding-assertions queue_longest_false-unreach-call.c
+
+real	4m12.031s
+user	3m4.043s
+sys	0m42.900s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_ok_longer_true-unreach-call.c
+Converting
+Type-checking queue_ok_longer_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_ok_longer_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_ok_longer_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_ok_longer_true-unreach-call.c line 93 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_ok_longer_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_ok_longer_true-unreach-call.c line 114 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_ok_longer_true-unreach-call.c line 114 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_ok_longer_true-unreach-call.c line 114 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_ok_longer_true-unreach-call.c line 114 function t2 thread 2
+Adding SC constraints
+size of program expression: 52754 steps
+no slicing due to threads
+Generated 8 VCC(s), 8 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+21421200 variables, 105759958 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 6445.65s
+VERIFICATION SUCCESSFUL
+
+real	107m44.885s
+user	99m19.665s
+sys	2m1.148s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_ok_longest_true-unreach-call.c
+Converting
+Type-checking queue_ok_longest_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_ok_longest_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_ok_longest_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_ok_longest_true-unreach-call.c line 93 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_ok_longest_true-unreach-call.c line 93 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_ok_longest_true-unreach-call.c line 114 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_ok_longest_true-unreach-call.c line 114 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_ok_longest_true-unreach-call.c line 114 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_ok_longest_true-unreach-call.c line 114 function t2 thread 2
+Adding SC constraints
+size of program expression: 52754 steps
+no slicing due to threads
+Generated 8 VCC(s), 8 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+./run_exp_4rounds.sh: line 26: 28358 Killed                  cbmc --unwind 4 --no-unwinding-assertions queue_ok_longest_true-unreach-call.c
+
+real	4m2.068s
+user	2m56.824s
+sys	0m40.756s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing queue_ok_true-unreach-call.c
+Converting
+Type-checking queue_ok_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file queue_ok_true-unreach-call.c line 94 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file queue_ok_true-unreach-call.c line 94 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file queue_ok_true-unreach-call.c line 94 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file queue_ok_true-unreach-call.c line 94 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file queue_ok_true-unreach-call.c line 115 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file queue_ok_true-unreach-call.c line 115 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file queue_ok_true-unreach-call.c line 115 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file queue_ok_true-unreach-call.c line 115 function t2 thread 2
+Adding SC constraints
+size of program expression: 52754 steps
+no slicing due to threads
+Generated 8 VCC(s), 8 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+1302480 variables, 6452278 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 73.335s
+VERIFICATION SUCCESSFUL
+
+real	1m19.822s
+user	1m18.745s
+sys	0m0.767s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `queue_ok_true-unreach-call.cil.c'
+
+real	0m0.003s
+user	0m0.004s
+sys	0m0.000s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing reorder_2_false-unreach-call.c
+Converting
+Type-checking reorder_2_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 38 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.1 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 45 function main thread 0
+Unwinding loop main.1 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 45 function main thread 0
+Unwinding loop main.1 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 45 function main thread 0
+Not unwinding loop main.1 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 45 function main thread 0
+Unwinding loop main.2 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 53 function main thread 0
+Unwinding loop main.2 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 53 function main thread 0
+Unwinding loop main.2 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 53 function main thread 0
+Not unwinding loop main.2 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 53 function main thread 0
+Unwinding loop main.3 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 60 function main thread 0
+Unwinding loop main.3 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 60 function main thread 0
+Unwinding loop main.3 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 60 function main thread 0
+Not unwinding loop main.3 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 60 function main thread 0
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 2
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 2
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 2
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 2
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 3
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 3
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 3
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 3
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 4
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 4
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 4
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 4
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 5
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 5
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 5
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 5
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 6
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 6
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 6
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 6
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 7
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 7
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 7
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 7
+Unwinding loop checkThread.0 iteration 1 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 8
+Unwinding loop checkThread.0 iteration 2 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 8
+Unwinding loop checkThread.0 iteration 3 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 8
+Not unwinding loop checkThread.0 iteration 4 (4 max) file reorder_2_false-unreach-call.c line 81 function checkThread thread 8
+Adding SC constraints
+size of program expression: 7016 steps
+no slicing due to threads
+Generated 28 VCC(s), 28 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+94510 variables, 326000 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.741s
+Building error trace
+
+Counterexample:
+
+State 21  thread 0
+----------------------------------------------------
+  argv'[3]=irep("(\"nil\")")[3] (?)
+
+State 24 file reorder_2_false-unreach-call.c line 20 thread 0
+----------------------------------------------------
+  argc=3 (00000000000000000000000000000011)
+
+State 25 file reorder_2_false-unreach-call.c line 20 thread 0
+----------------------------------------------------
+  argv=argv' (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 26 file reorder_2_false-unreach-call.c line 21 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 27 file reorder_2_false-unreach-call.c line 21 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 31 file reorder_2_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 32 file reorder_2_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 33 file reorder_2_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 34 file reorder_2_false-unreach-call.c line 28 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 35 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 36 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 37 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 49 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 53 file reorder_2_false-unreach-call.c line 29 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 54 file reorder_2_false-unreach-call.c line 29 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 55 file reorder_2_false-unreach-call.c line 29 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 56 file reorder_2_false-unreach-call.c line 29 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 57 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 58 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 59 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 71 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 74 file reorder_2_false-unreach-call.c line 35 function main thread 0
+----------------------------------------------------
+  err$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 75 file reorder_2_false-unreach-call.c line 35 function main thread 0
+----------------------------------------------------
+  err$array_size0=2 (0000000000000000000000000000000000000000000000000000000000000010)
+
+State 76 file reorder_2_false-unreach-call.c line 35 function main thread 0
+----------------------------------------------------
+  setPool={ 0, 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 77 file reorder_2_false-unreach-call.c line 36 function main thread 0
+----------------------------------------------------
+  setPool$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 78 file reorder_2_false-unreach-call.c line 36 function main thread 0
+----------------------------------------------------
+  setPool$array_size0=2 (0000000000000000000000000000000000000000000000000000000000000010)
+
+State 79 file reorder_2_false-unreach-call.c line 36 function main thread 0
+----------------------------------------------------
+  checkPool={ 0, 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 80 file reorder_2_false-unreach-call.c line 38 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 116 file reorder_2_false-unreach-call.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 118 file reorder_2_false-unreach-call.c line 38 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 157 file reorder_2_false-unreach-call.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 159 file reorder_2_false-unreach-call.c line 38 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 162 file reorder_2_false-unreach-call.c line 45 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 199 file reorder_2_false-unreach-call.c line 46 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 201 file reorder_2_false-unreach-call.c line 45 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 240 file reorder_2_false-unreach-call.c line 46 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 242 file reorder_2_false-unreach-call.c line 45 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 245 file reorder_2_false-unreach-call.c line 53 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 246 file reorder_2_false-unreach-call.c line 71 function setThread thread 2
+----------------------------------------------------
+  a=1 (00000000000000000000000000000001)
+
+State 247 file reorder_2_false-unreach-call.c line 71 function setThread thread 1
+----------------------------------------------------
+  a=1 (00000000000000000000000000000001)
+
+State 261 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+Violated property:
+  file reorder_2_false-unreach-call.c line 80 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m4.012s
+user	0m3.853s
+sys	0m0.164s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing reorder_5_false-unreach-call.c
+Converting
+Type-checking reorder_5_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file reorder_bad.c line 38 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file reorder_bad.c line 38 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file reorder_bad.c line 38 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file reorder_bad.c line 38 function main thread 0
+Unwinding loop main.1 iteration 1 (4 max) file reorder_bad.c line 45 function main thread 0
+Unwinding loop main.1 iteration 2 (4 max) file reorder_bad.c line 45 function main thread 0
+Unwinding loop main.1 iteration 3 (4 max) file reorder_bad.c line 45 function main thread 0
+Not unwinding loop main.1 iteration 4 (4 max) file reorder_bad.c line 45 function main thread 0
+Unwinding loop main.2 iteration 1 (4 max) file reorder_bad.c line 53 function main thread 0
+Unwinding loop main.2 iteration 2 (4 max) file reorder_bad.c line 53 function main thread 0
+Unwinding loop main.2 iteration 3 (4 max) file reorder_bad.c line 53 function main thread 0
+Not unwinding loop main.2 iteration 4 (4 max) file reorder_bad.c line 53 function main thread 0
+Unwinding loop main.3 iteration 1 (4 max) file reorder_bad.c line 60 function main thread 0
+Unwinding loop main.3 iteration 2 (4 max) file reorder_bad.c line 60 function main thread 0
+Unwinding loop main.3 iteration 3 (4 max) file reorder_bad.c line 60 function main thread 0
+Not unwinding loop main.3 iteration 4 (4 max) file reorder_bad.c line 60 function main thread 0
+Adding SC constraints
+size of program expression: 6967 steps
+no slicing due to threads
+Generated 7 VCC(s), 7 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+98223 variables, 337085 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.828s
+Building error trace
+
+Counterexample:
+
+State 21  thread 0
+----------------------------------------------------
+  argv'[1]=irep("(\"nil\")")[1] (?)
+
+State 24 file reorder_bad.c line 20 thread 0
+----------------------------------------------------
+  argc=1 (00000000000000000000000000000001)
+
+State 25 file reorder_bad.c line 20 thread 0
+----------------------------------------------------
+  argv=argv' (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 26 file reorder_bad.c line 21 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 27 file reorder_bad.c line 21 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 29 file reorder_bad.c line 35 function main thread 0
+----------------------------------------------------
+  err$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 30 file reorder_bad.c line 35 function main thread 0
+----------------------------------------------------
+  err$array_size0=4 (0000000000000000000000000000000000000000000000000000000000000100)
+
+State 31 file reorder_bad.c line 35 function main thread 0
+----------------------------------------------------
+  setPool={ 0, 0, 0, 2147483650 } ({ 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000010000000000000000000000000000010 })
+
+State 32 file reorder_bad.c line 36 function main thread 0
+----------------------------------------------------
+  setPool$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 33 file reorder_bad.c line 36 function main thread 0
+----------------------------------------------------
+  setPool$array_size0=1 (0000000000000000000000000000000000000000000000000000000000000001)
+
+State 34 file reorder_bad.c line 36 function main thread 0
+----------------------------------------------------
+  checkPool={ 2147483651 } ({ 0000000000000000000000000000000010000000000000000000000000000011 })
+
+State 35 file reorder_bad.c line 38 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 71 file reorder_bad.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 73 file reorder_bad.c line 38 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 112 file reorder_bad.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 114 file reorder_bad.c line 38 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 116 file reorder_bad.c line 71 function setThread thread 1
+----------------------------------------------------
+  a=1 (00000000000000000000000000000001)
+
+State 154 file reorder_bad.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 156 file reorder_bad.c line 38 function main thread 0
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 158 file reorder_bad.c line 71 function setThread thread 2
+----------------------------------------------------
+  a=1 (00000000000000000000000000000001)
+
+State 167 file reorder_bad.c line 71 function setThread thread 3
+----------------------------------------------------
+  a=1 (00000000000000000000000000000001)
+
+State 197 file reorder_bad.c line 39 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 199 file reorder_bad.c line 38 function main thread 0
+----------------------------------------------------
+  i=4 (00000000000000000000000000000100)
+
+State 205 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 209 file reorder_bad.c line 72 function setThread thread 2
+----------------------------------------------------
+  b=-1 (11111111111111111111111111111111)
+
+Violated property:
+  file reorder_bad.c line 80 function checkThread
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m4.030s
+user	0m3.922s
+sys	0m0.117s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `reorder_5_false-unreach-call.cil.c'
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing sigma_false-unreach-call.c
+Converting
+Type-checking sigma_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file sigma_false-unreach-call.c line 33 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file sigma_false-unreach-call.c line 33 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file sigma_false-unreach-call.c line 33 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file sigma_false-unreach-call.c line 33 function main thread 0
+Unwinding loop main.1 iteration 1 (4 max) file sigma_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.1 iteration 2 (4 max) file sigma_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.1 iteration 3 (4 max) file sigma_false-unreach-call.c line 38 function main thread 0
+Not unwinding loop main.1 iteration 4 (4 max) file sigma_false-unreach-call.c line 38 function main thread 0
+Unwinding loop main.2 iteration 1 (4 max) file sigma_false-unreach-call.c line 42 function main thread 0
+Unwinding loop main.2 iteration 2 (4 max) file sigma_false-unreach-call.c line 42 function main thread 0
+Unwinding loop main.2 iteration 3 (4 max) file sigma_false-unreach-call.c line 42 function main thread 0
+Not unwinding loop main.2 iteration 4 (4 max) file sigma_false-unreach-call.c line 42 function main thread 0
+Adding SC constraints
+size of program expression: 1522 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+91271 variables, 91795 clauses
+SAT checker inconsistent: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 0.231s
+VERIFICATION SUCCESSFUL
+
+real	0m1.169s
+user	0m1.090s
+sys	0m0.082s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing singleton_false-unreach-call.c
+Converting
+Type-checking singleton_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Adding SC constraints
+size of program expression: 1920 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+28423 variables, 116942 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.605s
+Building error trace
+
+Counterexample:
+
+State 16 file singleton_false-unreach-call.c line 49 function main thread 0
+----------------------------------------------------
+  t=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 104 file singleton_false-unreach-call.c line 13 function thread1 thread 2
+----------------------------------------------------
+  v=&dynamic_object1 (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 115 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 3
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 258 file singleton_false-unreach-call.c line 19 function thread2 thread 3
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 266 file singleton_false-unreach-call.c line 25 function thread3 thread 4
+----------------------------------------------------
+  dynamic_object1=89 (01011001)
+
+State 267 file singleton_false-unreach-call.c line 19 function thread2 thread 6
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 281 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 4
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 288 file singleton_false-unreach-call.c line 19 function thread2 thread 5
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 303 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 5
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 323 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 6
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 343 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 354 file singleton_false-unreach-call.c line 54 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file singleton_false-unreach-call.c line 7 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.622s
+user	0m2.548s
+sys	0m0.074s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing singleton_with-uninit-problems-true.c
+Converting
+Type-checking singleton_with-uninit-problems-true
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Unwinding recursion pthread_create iteration 1 (4 max)
+Unwinding recursion __actual_thread_spawn iteration 1 (4 max)
+Adding SC constraints
+size of program expression: 1930 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+28461 variables, 117043 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.501s
+Building error trace
+
+Counterexample:
+
+State 16 file singleton_with-uninit-problems-true.c line 49 function main thread 0
+----------------------------------------------------
+  t=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 98 file singleton_with-uninit-problems-true.c line 13 function thread1 thread 2
+----------------------------------------------------
+  v=&dynamic_object1 (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 115 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 3
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 192 file singleton_with-uninit-problems-true.c line 19 function thread2 thread 3
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 272 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 4
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 273 file singleton_with-uninit-problems-true.c line 25 function thread3 thread 4
+----------------------------------------------------
+  dynamic_object1=89 (01011001)
+
+State 287 file singleton_with-uninit-problems-true.c line 19 function thread2 thread 5
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 293 file singleton_with-uninit-problems-true.c line 19 function thread2 thread 6
+----------------------------------------------------
+  dynamic_object1=88 (01011000)
+
+State 299 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 6
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 311 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 5
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 343 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 357 file singleton_with-uninit-problems-true.c line 54 function main thread 0
+----------------------------------------------------
+  expression=0 (00000000000000000000000000000000)
+
+Violated property:
+  file singleton_with-uninit-problems-true.c line 7 function __VERIFIER_assert
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.522s
+user	0m2.455s
+sys	0m0.071s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_false-unreach-call.c
+Converting
+Type-checking stack_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_false-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_false-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_false-unreach-call.c line 79 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_false-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_false-unreach-call.c line 94 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_false-unreach-call.c line 94 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_false-unreach-call.c line 94 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_false-unreach-call.c line 94 function t2 thread 2
+Adding SC constraints
+size of program expression: 6351 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+112660 variables, 493849 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 5.083s
+Building error trace
+
+Counterexample:
+
+State 21 file stack_false-unreach-call.c line 109 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stack_false-unreach-call.c line 109 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 128 file stack_false-unreach-call.c line 94 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 139 file stack_false-unreach-call.c line 82 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 143 file stack_false-unreach-call.c line 83 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 144 file stack_false-unreach-call.c line 83 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 153 file stack_false-unreach-call.c line 53 function push thread 1
+----------------------------------------------------
+  arr[0]=0 (00000000000000000000000000000000)
+
+State 156 file stack_false-unreach-call.c line 26 function inc_top thread 1
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 163 file stack_false-unreach-call.c line 85 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 171 file stack_false-unreach-call.c line 79 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 185 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 186 file stack_false-unreach-call.c line 92 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 187 file stack_false-unreach-call.c line 94 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 198 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 199 file stack_false-unreach-call.c line 76 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 200 file stack_false-unreach-call.c line 77 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 201 file stack_false-unreach-call.c line 79 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 209 file stack_false-unreach-call.c line 99 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 220 file stack_false-unreach-call.c line 31 function dec_top thread 2
+----------------------------------------------------
+  top=0 (00000000000000000000000000000000)
+
+State 241 file stack_false-unreach-call.c line 94 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 254 file stack_false-unreach-call.c line 99 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_false-unreach-call.c line 20 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m6.785s
+user	0m6.646s
+sys	0m0.130s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_longer_false-unreach-call.c
+Converting
+Type-checking stack_longer_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+Adding SC constraints
+size of program expression: 6351 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+599508 variables, 2566329 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 125.721s
+Building error trace
+
+Counterexample:
+
+State 21 file stack_longer_false-unreach-call.c line 106 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stack_longer_false-unreach-call.c line 106 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 128 file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 145 file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 156 file stack_longer_false-unreach-call.c line 79 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 160 file stack_longer_false-unreach-call.c line 80 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 161 file stack_longer_false-unreach-call.c line 80 function t1 thread 1
+----------------------------------------------------
+  x=0 (00000000000000000000000000000000)
+
+State 170 file stack_longer_false-unreach-call.c line 50 function push thread 1
+----------------------------------------------------
+  arr[0]=0 (00000000000000000000000000000000)
+
+State 173 file stack_longer_false-unreach-call.c line 23 function inc_top thread 1
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 180 file stack_longer_false-unreach-call.c line 82 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 188 file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 200 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 201 file stack_longer_false-unreach-call.c line 73 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 202 file stack_longer_false-unreach-call.c line 74 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 203 file stack_longer_false-unreach-call.c line 76 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 216 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 217 file stack_longer_false-unreach-call.c line 89 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 218 file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 226 file stack_longer_false-unreach-call.c line 96 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 237 file stack_longer_false-unreach-call.c line 28 function dec_top thread 2
+----------------------------------------------------
+  top=0 (00000000000000000000000000000000)
+
+State 258 file stack_longer_false-unreach-call.c line 91 function t2 thread 2
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 271 file stack_longer_false-unreach-call.c line 96 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longer_false-unreach-call.c line 18 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	2m7.547s
+user	2m6.919s
+sys	0m0.415s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_longer_true-unreach-call.c
+Converting
+Type-checking stack_longer_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_longer_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_longer_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_longer_true-unreach-call.c line 77 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_longer_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_longer_true-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_longer_true-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_longer_true-unreach-call.c line 91 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_longer_true-unreach-call.c line 91 function t2 thread 2
+Adding SC constraints
+size of program expression: 6425 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+600393 variables, 2570715 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 414.722s
+VERIFICATION SUCCESSFUL
+
+real	6m56.529s
+user	6m55.223s
+sys	0m0.477s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_longest_false-unreach-call.c
+Converting
+Type-checking stack_longest_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+Adding SC constraints
+size of program expression: 6351 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+1092256 variables, 4666845 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 422.729s
+Building error trace
+
+Counterexample:
+
+State 21 file stack_longest_false-unreach-call.c line 107 function main thread 0
+----------------------------------------------------
+  id1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stack_longest_false-unreach-call.c line 107 function main thread 0
+----------------------------------------------------
+  id2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 84 file stack_longest_false-unreach-call.c line 80 function t1 thread 1
+----------------------------------------------------
+  tmp=3 (00000000000000000000000000000011)
+
+State 88 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 89 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  x=3 (00000000000000000000000000000011)
+
+State 98 file stack_longest_false-unreach-call.c line 51 function push thread 1
+----------------------------------------------------
+  arr[0]=3 (00000000000000000000000000000011)
+
+State 101 file stack_longest_false-unreach-call.c line 24 function inc_top thread 1
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 108 file stack_longest_false-unreach-call.c line 83 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 154 file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 165 file stack_longest_false-unreach-call.c line 80 function t1 thread 1
+----------------------------------------------------
+  tmp=510 (00000000000000000000000111111110)
+
+State 169 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 170 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  x=510 (00000000000000000000000111111110)
+
+State 179 file stack_longest_false-unreach-call.c line 51 function push thread 1
+----------------------------------------------------
+  arr[1]=510 (00000000000000000000000111111110)
+
+State 182 file stack_longest_false-unreach-call.c line 24 function inc_top thread 1
+----------------------------------------------------
+  top=2 (00000000000000000000000000000010)
+
+State 189 file stack_longest_false-unreach-call.c line 83 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 197 file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 208 file stack_longest_false-unreach-call.c line 80 function t1 thread 1
+----------------------------------------------------
+  tmp=766 (00000000000000000000001011111110)
+
+State 212 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 213 file stack_longest_false-unreach-call.c line 81 function t1 thread 1
+----------------------------------------------------
+  x=766 (00000000000000000000001011111110)
+
+State 222 file stack_longest_false-unreach-call.c line 51 function push thread 1
+----------------------------------------------------
+  arr[2]=766 (00000000000000000000001011111110)
+
+State 225 file stack_longest_false-unreach-call.c line 24 function inc_top thread 1
+----------------------------------------------------
+  top=3 (00000000000000000000000000000011)
+
+State 232 file stack_longest_false-unreach-call.c line 83 function t1 thread 1
+----------------------------------------------------
+  flag=TRUE (00000001)
+
+State 240 file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 254 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 255 file stack_longest_false-unreach-call.c line 90 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 256 file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 264 file stack_longest_false-unreach-call.c line 97 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 275 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 276 file stack_longest_false-unreach-call.c line 74 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 277 file stack_longest_false-unreach-call.c line 75 function t1 thread 1
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 278 file stack_longest_false-unreach-call.c line 77 function t1 thread 1
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 289 file stack_longest_false-unreach-call.c line 29 function dec_top thread 2
+----------------------------------------------------
+  top=2 (00000000000000000000000000000010)
+
+State 310 file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 323 file stack_longest_false-unreach-call.c line 97 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 334 file stack_longest_false-unreach-call.c line 29 function dec_top thread 2
+----------------------------------------------------
+  top=1 (00000000000000000000000000000001)
+
+State 355 file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 368 file stack_longest_false-unreach-call.c line 97 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 379 file stack_longest_false-unreach-call.c line 29 function dec_top thread 2
+----------------------------------------------------
+  top=0 (00000000000000000000000000000000)
+
+State 400 file stack_longest_false-unreach-call.c line 92 function t2 thread 2
+----------------------------------------------------
+  i=3 (00000000000000000000000000000011)
+
+State 413 file stack_longest_false-unreach-call.c line 97 function t2 thread 2
+----------------------------------------------------
+  stack=arr (0000011100000000000000000000000000000000000000000000000000000000)
+stack underflow
+
+
+Violated property:
+  file stack_longest_false-unreach-call.c line 19 function error
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	7m4.890s
+user	7m3.594s
+sys	0m0.664s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_longest_true-unreach-call.c
+Converting
+Type-checking stack_longest_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_longest_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_longest_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_longest_true-unreach-call.c line 77 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_longest_true-unreach-call.c line 77 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_longest_true-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_longest_true-unreach-call.c line 91 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_longest_true-unreach-call.c line 91 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_longest_true-unreach-call.c line 91 function t2 thread 2
+Adding SC constraints
+size of program expression: 6425 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+1093141 variables, 4671231 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 1007.39s
+VERIFICATION SUCCESSFUL
+
+real	16m49.463s
+user	16m46.833s
+sys	0m0.843s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stack_true-unreach-call.c
+Converting
+Type-checking stack_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop t1.0 iteration 1 (4 max) file stack_true-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t1.0 iteration 2 (4 max) file stack_true-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t1.0 iteration 3 (4 max) file stack_true-unreach-call.c line 79 function t1 thread 1
+Not unwinding loop t1.0 iteration 4 (4 max) file stack_true-unreach-call.c line 79 function t1 thread 1
+Unwinding loop t2.0 iteration 1 (4 max) file stack_true-unreach-call.c line 93 function t2 thread 2
+Unwinding loop t2.0 iteration 2 (4 max) file stack_true-unreach-call.c line 93 function t2 thread 2
+Unwinding loop t2.0 iteration 3 (4 max) file stack_true-unreach-call.c line 93 function t2 thread 2
+Not unwinding loop t2.0 iteration 4 (4 max) file stack_true-unreach-call.c line 93 function t2 thread 2
+Adding SC constraints
+size of program expression: 6425 steps
+no slicing due to threads
+Generated 24 VCC(s), 24 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+113545 variables, 498235 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 146.771s
+VERIFICATION SUCCESSFUL
+
+real	2m28.410s
+user	2m27.855s
+sys	0m0.268s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stateful01_false-unreach-call.c
+Converting
+Type-checking stateful01_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Adding SC constraints
+size of program expression: 1206 steps
+no slicing due to threads
+Generated 9 VCC(s), 9 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+27222 variables, 107204 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 1.172s
+Building error trace
+
+Counterexample:
+
+State 21 file stateful01_false-unreach-call.c line 34 function main thread 0
+----------------------------------------------------
+  t1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 22 file stateful01_false-unreach-call.c line 34 function main thread 0
+----------------------------------------------------
+  t2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 39 file stateful01_false-unreach-call.c line 39 function main thread 0
+----------------------------------------------------
+  data1=10 (00000000000000000000000000001010)
+
+State 40 file stateful01_false-unreach-call.c line 40 function main thread 0
+----------------------------------------------------
+  data2=10 (00000000000000000000000000001010)
+
+State 121 file stateful01_false-unreach-call.c line 11 function thread1 thread 1
+----------------------------------------------------
+  data1=11 (00000000000000000000000000001011)
+
+State 136 file stateful01_false-unreach-call.c line 15 function thread1 thread 1
+----------------------------------------------------
+  data2=11 (00000000000000000000000000001011)
+
+State 153 file stateful01_false-unreach-call.c line 23 function thread2 thread 2
+----------------------------------------------------
+  data1=16 (00000000000000000000000000010000)
+
+State 173 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 2
+----------------------------------------------------
+  arg=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 177 file stateful01_false-unreach-call.c line 27 function thread2 thread 2
+----------------------------------------------------
+  data2=5 (00000000000000000000000000000101)
+
+Violated property:
+  file stateful01_false-unreach-call.c line 50 function main
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m2.043s
+user	0m1.968s
+sys	0m0.067s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing stateful01_true-unreach-call.c
+Converting
+Type-checking stateful01_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Adding SC constraints
+size of program expression: 1206 steps
+no slicing due to threads
+Generated 9 VCC(s), 9 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+27222 variables, 107204 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 3.316s
+VERIFICATION SUCCESSFUL
+
+real	0m4.150s
+user	0m4.044s
+sys	0m0.103s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing sync01_true-unreach-call.c
+Converting
+Type-checking sync01_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop thread1.0 iteration 1 (4 max) file sync01_true-unreach-call.c line 15 function thread1 thread 1
+Unwinding loop thread1.0 iteration 2 (4 max) file sync01_true-unreach-call.c line 15 function thread1 thread 1
+Unwinding loop thread1.0 iteration 3 (4 max) file sync01_true-unreach-call.c line 15 function thread1 thread 1
+Not unwinding loop thread1.0 iteration 4 (4 max) file sync01_true-unreach-call.c line 15 function thread1 thread 1
+Unwinding loop thread2.0 iteration 1 (4 max) file sync01_true-unreach-call.c line 29 function thread2 thread 2
+Unwinding loop thread2.0 iteration 2 (4 max) file sync01_true-unreach-call.c line 29 function thread2 thread 2
+Unwinding loop thread2.0 iteration 3 (4 max) file sync01_true-unreach-call.c line 29 function thread2 thread 2
+Not unwinding loop thread2.0 iteration 4 (4 max) file sync01_true-unreach-call.c line 29 function thread2 thread 2
+Adding SC constraints
+size of program expression: 8037 steps
+no slicing due to threads
+Generated 21 VCC(s), 21 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+153116 variables, 671142 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 7.803s
+VERIFICATION SUCCESSFUL
+
+real	0m10.463s
+user	0m10.307s
+sys	0m0.144s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing twostage_3_false-unreach-call.c
+Converting
+Type-checking twostage_3_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file twostage_3_false-unreach-call.c line 84 function main thread 0
+Unwinding loop main.1 iteration 1 (4 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 2 (4 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.1 iteration 3 (4 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Not unwinding loop main.1 iteration 4 (4 max) file twostage_3_false-unreach-call.c line 91 function main thread 0
+Unwinding loop main.2 iteration 1 (4 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 2 (4 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.2 iteration 3 (4 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Not unwinding loop main.2 iteration 4 (4 max) file twostage_3_false-unreach-call.c line 98 function main thread 0
+Unwinding loop main.3 iteration 1 (4 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 2 (4 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Unwinding loop main.3 iteration 3 (4 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Not unwinding loop main.3 iteration 4 (4 max) file twostage_3_false-unreach-call.c line 105 function main thread 0
+Adding SC constraints
+size of program expression: 85536 steps
+no slicing due to threads
+Generated 74 VCC(s), 74 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+1099691 variables, 5131141 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 31.392s
+Building error trace
+
+Counterexample:
+
+State 23  thread 0
+----------------------------------------------------
+  argv'[3]=irep("(\"nil\")")[3] (?)
+
+State 26 file twostage_3_false-unreach-call.c line 57 thread 0
+----------------------------------------------------
+  argc=3 (00000000000000000000000000000011)
+
+State 27 file twostage_3_false-unreach-call.c line 57 thread 0
+----------------------------------------------------
+  argv=argv' (0000001000000000000000000000000000000000000000000000000000000000)
+
+State 28 file twostage_3_false-unreach-call.c line 58 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 29 file twostage_3_false-unreach-call.c line 58 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 33 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 34 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 35 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 36 file twostage_3_false-unreach-call.c line 65 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 37 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 38 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 39 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 51 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 55 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 56 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  s=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 57 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  format=((signed char *)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 58 file twostage_3_false-unreach-call.c line 66 function main thread 0
+----------------------------------------------------
+  format="%d" (0000010100000000000000000000000000000000000000000000000000000000)
+
+State 59 file <builtin-library>-sscanf line 15 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 60 file <builtin-library>-sscanf line 16 function sscanf thread 0
+----------------------------------------------------
+  list=&format!0@1 (0000011000000000000000000000000000000000000000000000000000000000)
+
+State 61 file <builtin-library>-sscanf line 17 function sscanf thread 0
+----------------------------------------------------
+  result=0 (00000000000000000000000000000000)
+
+State 73 file <builtin-library>-sscanf line 18 function sscanf thread 0
+----------------------------------------------------
+  list=((void **)NULL) (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 93 file twostage_3_false-unreach-call.c line 70 function main thread 0
+----------------------------------------------------
+  data1Lock=&dynamic_object1 (0000011100000000000000000000000000000000000000000000000000000000)
+
+State 111 file twostage_3_false-unreach-call.c line 71 function main thread 0
+----------------------------------------------------
+  data2Lock=&dynamic_object2 (0000100000000000000000000000000000000000000000000000000000000000)
+
+State 132 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  err$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 133 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  err$array_size0=2 (0000000000000000000000000000000000000000000000000000000000000010)
+
+State 134 file twostage_3_false-unreach-call.c line 81 function main thread 0
+----------------------------------------------------
+  tPool={ 0, 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000, 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 135 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  tPool$array_size0=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 136 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  tPool$array_size0=1 (0000000000000000000000000000000000000000000000000000000000000001)
+
+State 137 file twostage_3_false-unreach-call.c line 82 function main thread 0
+----------------------------------------------------
+  rPool={ 0 } ({ 0000000000000000000000000000000000000000000000000000000000000000 })
+
+State 138 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 178 file twostage_3_false-unreach-call.c line 85 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 180 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 224 file twostage_3_false-unreach-call.c line 85 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 226 file twostage_3_false-unreach-call.c line 84 function main thread 0
+----------------------------------------------------
+  i=2 (00000000000000000000000000000010)
+
+State 229 file twostage_3_false-unreach-call.c line 91 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 270 file twostage_3_false-unreach-call.c line 92 function main thread 0
+----------------------------------------------------
+  err=0 (00000000000000000000000000000000)
+
+State 272 file twostage_3_false-unreach-call.c line 91 function main thread 0
+----------------------------------------------------
+  i=1 (00000000000000000000000000000001)
+
+State 275 file twostage_3_false-unreach-call.c line 98 function main thread 0
+----------------------------------------------------
+  i=0 (00000000000000000000000000000000)
+
+State 280 file twostage_3_false-unreach-call.c line 22 function funcA thread 1
+----------------------------------------------------
+  data1Value=1 (00000000000000000000000000000001)
+
+State 296 file twostage_3_false-unreach-call.c line 41 function funcB thread 5
+----------------------------------------------------
+  t1=1 (00000000000000000000000000000001)
+
+State 313 file twostage_3_false-unreach-call.c line 45 function funcB thread 5
+----------------------------------------------------
+  t2=0 (00000000000000000000000000000000)
+
+State 322 file twostage_3_false-unreach-call.c line 22 function funcA thread 2
+----------------------------------------------------
+  data1Value=1 (00000000000000000000000000000001)
+
+State 346 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 1
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 355 file <builtin-library>-pthread_create line 20 function __actual_thread_spawn thread 5
+----------------------------------------------------
+  param=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 356 file twostage_3_false-unreach-call.c line 33 function funcB thread 5
+----------------------------------------------------
+  t1=0 (00000000000000000000000000000000)
+
+State 357 file twostage_3_false-unreach-call.c line 33 function funcB thread 5
+----------------------------------------------------
+  t1=-1 (11111111111111111111111111111111)
+
+State 358 file twostage_3_false-unreach-call.c line 34 function funcB thread 5
+----------------------------------------------------
+  t2=0 (00000000000000000000000000000000)
+
+State 359 file twostage_3_false-unreach-call.c line 34 function funcB thread 5
+----------------------------------------------------
+  t2=-1 (11111111111111111111111111111111)
+
+State 372 file twostage_3_false-unreach-call.c line 26 function funcA thread 1
+----------------------------------------------------
+  data2Value=2 (00000000000000000000000000000010)
+
+Violated property:
+  file twostage_3_false-unreach-call.c line 50 function funcB
+  assertion
+  FALSE
+
+VERIFICATION FAILED
+
+real	0m49.132s
+user	0m48.438s
+sys	0m0.620s
+CBMC version 5.1 64-bit x86_64 linux
+failed to open input file `twostage_3_false-unreach-call.cil.c'
+
+real	0m0.004s
+user	0m0.004s
+sys	0m0.000s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing 01_inc_true-unreach-call.c
+Converting
+Type-checking 01_inc_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file 01_inc_true-unreach-call.c line 48 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file 01_inc_true-unreach-call.c line 48 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file 01_inc_true-unreach-call.c line 48 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file 01_inc_true-unreach-call.c line 48 function main thread 0
+Adding SC constraints
+size of program expression: 2845 steps
+no slicing due to threads
+Generated 4 VCC(s), 4 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+16643 variables, 75247 clauses
+SAT checker: negated claim is UNSATISFIABLE, i.e., holds
+Runtime decision procedure: 11.588s
+VERIFICATION SUCCESSFUL
+
+real	0m12.485s
+user	0m12.390s
+sys	0m0.079s
+CBMC version 5.1 64-bit x86_64 linux
+Parsing 02_inc_cas_true-unreach-call.c
+Converting
+Type-checking 02_inc_cas_true-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 (4 max) file 02_inc_cas_true-unreach-call.c line 51 function main thread 0
+Unwinding loop main.0 iteration 2 (4 max) file 02_inc_cas_true-unreach-call.c line 51 function main thread 0
+Unwinding loop main.0 iteration 3 (4 max) file 02_inc_cas_true-unreach-call.c line 51 function main thread 0
+Not unwinding loop main.0 iteration 4 (4 max) file 02_inc_cas_true-unreach-call.c line 51 function main thread 0
+Unwinding loop thr1.0 iteration 1 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 1
+Unwinding loop thr1.0 iteration 2 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 1
+Unwinding loop thr1.0 iteration 3 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 1
+Not unwinding loop thr1.0 iteration 4 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 1
+Unwinding loop thr1.0 iteration 1 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 2
+Unwinding loop thr1.0 iteration 2 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 2
+Unwinding loop thr1.0 iteration 3 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 2
+Not unwinding loop thr1.0 iteration 4 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 2
+Unwinding loop thr1.0 iteration 1 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 3
+Unwinding loop thr1.0 iteration 2 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 3
+Unwinding loop thr1.0 iteration 3 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 3
+Not unwinding loop thr1.0 iteration 4 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 3
+Unwinding loop thr1.0 iteration 1 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 4
+Unwinding loop thr1.0 iteration 2 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 4
+Unwinding loop thr1.0 iteration 3 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 4
+Not unwinding loop thr1.0 iteration 4 (4 max) file 02_inc_cas_true-unreach-call.c line 42 function thr1 thread 4
+Adding SC constraints
+size of program expression: 10190 steps
+no slicing due to threads
+Generated 4 VCC(s), 4 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+49910 variables, 232353 clauses

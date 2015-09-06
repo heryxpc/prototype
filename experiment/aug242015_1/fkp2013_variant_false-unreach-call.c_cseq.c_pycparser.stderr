@@ -1,0 +1,19 @@
+ERROR:root:fkp2013_variant_false-unreach-call.c_cseq.c_anno.c_pyc.c:75: Multiple type specifiers with a type tag
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 281, in parse_annotated
+    '-D__asm__=',
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/__init__.py", line 96, in parse_file
+    ast= parser.parse(text, filename)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 132, in parse
+    return self.cparser.parse(text, lexer=self.clex, debug=debuglevel)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 265, in parse
+    return self.parseopt_notrack(input,lexer,debug,tracking,tokenfunc)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/ply/yacc.py", line 971, in parseopt_notrack
+    p.callable(pslice)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_parser.py", line 483, in p_decl_body
+    'Multiple type specifiers with a type tag', coord)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/plyparser.py", line 54, in _parse_error
+    raise ParseError("%s: %s" % (coord, msg))
+ParseError: fkp2013_variant_false-unreach-call.c_cseq.c_anno.c_pyc.c:75: Multiple type specifiers with a type tag

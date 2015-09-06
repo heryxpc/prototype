@@ -1,0 +1,100 @@
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:31:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(MTX==0);
+        ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:9:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:51:6: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+        if (__VERIFIER_nondet_int())
+            ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:69:4: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                        mutex_exit(MTX);
+                        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:75:4: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                        mutex_exit(MTX);
+                        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:79:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:83:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:87:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);}
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:96:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:103:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:117:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX); }
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:124:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX); }
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:130:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:136:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:142:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:151:4: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                        mutex_exit(MTX);
+                        ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:153:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:155:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+43_NetBSD__sysmon_power__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+17 warnings generated.

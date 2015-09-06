@@ -1,0 +1,26 @@
+
+delete model
+create model ../benchmarks/insertion_sort_false-unreach-call.c
+module main
+
+setenv LINEAR_USE_GMP "1"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty SEMANTICS_COMPUTE_TRANSFORMERS_IN_CONTEXT TRUE
+setproperty SEMANTICS_FIX_POINT_OPERATOR "derivative"
+setproperty SEMANTICS_USE_TRANSFORMER_LISTS TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty UNSPAGHETTIFY_TEST_RESTRUCTURING=TRUE
+setproperty UNSPAGHETTIFY_RECURSIVE_DECOMPOSITION=TRUE
+setproperty PRETTYPRINT_ALL_DECLARATIONS TRUE
+
+apply REFINE_TRANSFORMERS
+activate PRINT_CODE_TRANSFORMERS
+activate PRINT_CODE_PRECONDITIONS
+display PRINTED_FILE[%%ALLFUNC]
+close
+
+! /home/heryxpc/Documents/soton/dissertation/tools/pips/MYPIPS/prod/pips/utils/logfile_to_tpips model.database > gen_insertion_sort_false-unreach-call.tpips
+
+delete model
+quit
+# EOF

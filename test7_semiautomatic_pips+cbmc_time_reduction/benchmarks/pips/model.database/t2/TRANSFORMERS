@@ -1,0 +1,7 @@
+5
+2
+0 T78 (R76 "t2:0`k" )T62 E28 ((1 t2:0`k 1 *SEMANTICS*:o#0 )( (1 t2:0`k ))())))5
+0 T78 ()T62 E28 (()()())))1
+0 T78 (R76 "TOP-LEVEL:j" )T62 E28 ((1 TOP-LEVEL:i 1 TOP-LEVEL:j 1 TOP-LEVEL:j#init )()())))3
+0 T78 (R76 "t2:0`k" R76 "TOP-LEVEL:j" )T62 E28 ((1 TOP-LEVEL:i 1 TOP-LEVEL:j 1 TOP-LEVEL:j#init 1 t2:0`k )()( (-1 t2:0`k ) (-4 . 1 t2:0`k )))))4
+0 T78 (R76 "TOP-LEVEL:j" )T62 E28 ((1 TOP-LEVEL:i 1 TOP-LEVEL:j 1 TOP-LEVEL:j#init )( (-1 TOP-LEVEL:i -1 TOP-LEVEL:j#init 1 TOP-LEVEL:j ))())))

@@ -1,0 +1,7 @@
+queue_ok_longer_true-unreach-call.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+queue_ok_longer_true-unreach-call.c:138:21: warning: comparison of constant -1 with boolean expression is always false [-Wtautological-constant-out-of-range-compare]
+  if (!empty(&queue)==EMPTY) {
+      ~~~~~~~~~~~~~~^ ~~~~~
+2 warnings generated.

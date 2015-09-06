@@ -1,0 +1,15 @@
+ERROR:root:execv() arg 2 must contain only strings
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 281, in parse_annotated
+    '-D__asm__=',
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/__init__.py", line 89, in parse_file
+    text = preprocess_file(filename, cpp_path, cpp_args)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/__init__.py", line 44, in preprocess_file
+    universal_newlines=True)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1327, in _execute_child
+    raise child_exception
+TypeError: execv() arg 2 must contain only strings

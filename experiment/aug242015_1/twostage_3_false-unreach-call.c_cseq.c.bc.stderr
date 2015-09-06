@@ -1,0 +1,24 @@
+twostage_3_false-unreach-call.c_cseq.c:55:59: warning: incompatible pointer to integer conversion passing 'void *' to parameter of type 'int' [-Wint-conversion]
+                                        __VERIFIER_assume(__cs_ptr);
+                                                          ^~~~~~~~
+twostage_3_false-unreach-call.c_cseq.c:2:34: note: passing argument to parameter here
+extern void __VERIFIER_assume(int);
+                                 ^
+twostage_3_false-unreach-call.c_cseq.c:137:41: warning: control reaches end of non-void function [-Wreturn-type]
+                                        }
+                                        ^
+twostage_3_false-unreach-call.c_cseq.c:1058:59: warning: incompatible pointer to integer conversion passing '__cs_t *' (aka 'int *') to parameter of type 'int'; dereference with * [-Wint-conversion]
+                                        __VERIFIER_assume(__cs_local_main_tPool);
+                                                          ^~~~~~~~~~~~~~~~~~~~~
+                                                          *
+twostage_3_false-unreach-call.c_cseq.c:2:34: note: passing argument to parameter here
+extern void __VERIFIER_assume(int);
+                                 ^
+twostage_3_false-unreach-call.c_cseq.c:1061:59: warning: incompatible pointer to integer conversion passing '__cs_t *' (aka 'int *') to parameter of type 'int'; dereference with * [-Wint-conversion]
+                                        __VERIFIER_assume(__cs_local_main_rPool);
+                                                          ^~~~~~~~~~~~~~~~~~~~~
+                                                          *
+twostage_3_false-unreach-call.c_cseq.c:2:34: note: passing argument to parameter here
+extern void __VERIFIER_assume(int);
+                                 ^
+4 warnings generated.

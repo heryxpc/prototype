@@ -1,0 +1,10 @@
+25_stack_longest_true-unreach-call.c:13:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(*m==0);
+        ^
+25_stack_longest_true-unreach-call.c:8:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+25_stack_longest_true-unreach-call.c:87:12: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+        int arg = __VERIFIER_nondet_int();
+                  ^
+2 warnings generated.

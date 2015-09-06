@@ -1,0 +1,162 @@
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:1:
+./_fake_defines.h:4:9: warning: 'NULL' macro redefined [-Wmacro-redefined]
+#define NULL    0
+        ^
+/usr/lib/llvm-3.5/bin/../lib/clang/3.5.0/include/stddef.h:101:11: note: previous definition is here
+#  define NULL ((void*)0)
+          ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:7:13: error: typedef redefinition with different types ('int' vs 'unsigned long')
+typedef int size_t;  
+            ^
+/usr/lib/llvm-3.5/bin/../lib/clang/3.5.0/include/stddef.h:58:23: note: previous definition is here
+typedef __SIZE_TYPE__ size_t;
+                      ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:9:13: error: typedef redefinition with different types ('int' vs 'signed char')
+typedef int __int8_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:36:21: note: previous definition is here
+typedef signed char __int8_t;
+                    ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:10:13: error: typedef redefinition with different types ('int' vs 'unsigned char')
+typedef int __uint8_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:37:23: note: previous definition is here
+typedef unsigned char __uint8_t;
+                      ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:11:13: error: typedef redefinition with different types ('int' vs 'short')
+typedef int __int16_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:38:26: note: previous definition is here
+typedef signed short int __int16_t;
+                         ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:12:13: error: typedef redefinition with different types ('int' vs 'unsigned short')
+typedef int __uint16_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:39:28: note: previous definition is here
+typedef unsigned short int __uint16_t;
+                           ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:16:13: error: typedef redefinition with different types ('int' vs 'unsigned int')
+typedef int __uint32_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:41:22: note: previous definition is here
+typedef unsigned int __uint32_t;
+                     ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:22:13: error: typedef redefinition with different types ('int' vs 'unsigned long')
+typedef int __dev_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:124:25: note: previous definition is here
+__STD_TYPE __DEV_T_TYPE __dev_t;        /* Type of device numbers.  */
+                        ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:23:13: error: typedef redefinition with different types ('int' vs 'unsigned int')
+typedef int __uid_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:125:25: note: previous definition is here
+__STD_TYPE __UID_T_TYPE __uid_t;        /* Type of user identifications.  */
+                        ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:24:13: error: typedef redefinition with different types ('int' vs 'unsigned int')
+typedef int __gid_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:126:25: note: previous definition is here
+__STD_TYPE __GID_T_TYPE __gid_t;        /* Type of group identifications.  */
+                        ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:36:13: error: typedef redefinition with different types ('int' vs 'long')
+typedef int __off_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:131:25: note: previous definition is here
+__STD_TYPE __OFF_T_TYPE __off_t;        /* Type of file sizes and offsets.  */
+                        ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:38:13: error: typedef redefinition with different types ('int' vs '__off64_t' (aka 'long'))
+typedef int __loff_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/types.h:181:19: note: previous definition is here
+typedef __off64_t __loff_t;     /* Type of file sizes and offsets (LFS).  */
+                  ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:45:13: error: typedef redefinition with different types ('int' vs '__clock_t' (aka 'long'))
+typedef int clock_t;
+            ^
+/usr/include/time.h:59:19: note: previous definition is here
+typedef __clock_t clock_t;
+                  ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:46:13: error: typedef redefinition with different types ('int' vs '__time_t' (aka 'long'))
+typedef int time_t;
+            ^
+/usr/include/time.h:75:18: note: previous definition is here
+typedef __time_t time_t;
+                 ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:62:13: error: typedef redefinition with different types ('int' vs '__timer_t' (aka 'void *'))
+typedef int timer_t;
+            ^
+/usr/include/time.h:103:19: note: previous definition is here
+typedef __timer_t timer_t;
+                  ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:82:13: error: typedef redefinition with different types ('int' vs 'unsigned long')
+typedef int pthread_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:60:27: note: previous definition is here
+typedef unsigned long int pthread_t;
+                          ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:83:13: error: typedef redefinition with different types ('int' vs 'union pthread_attr_t')
+typedef int pthread_attr_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:69:30: note: previous definition is here
+typedef union pthread_attr_t pthread_attr_t;
+                             ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:84:13: error: typedef redefinition with different types ('int' vs 'union pthread_mutex_t')
+typedef int pthread_mutex_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:127:3: note: previous definition is here
+} pthread_mutex_t;
+  ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:85:13: error: typedef redefinition with different types ('int' vs 'union pthread_mutexattr_t')
+typedef int pthread_mutexattr_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:133:3: note: previous definition is here
+} pthread_mutexattr_t;
+  ^
+In file included from fkp2013_variant_true-unreach-call.c:5:
+In file included from ./assert.h:2:
+./_fake_typedefs.h:86:13: error: typedef redefinition with different types ('int' vs 'union pthread_cond_t')
+typedef int pthread_cond_t;
+            ^
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:153:3: note: previous definition is here
+} pthread_cond_t;
+  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.

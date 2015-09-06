@@ -1,0 +1,7 @@
+18_read_write_lock_true-unreach-call.c:12:5: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+    assume(w==0);
+    ^
+18_read_write_lock_true-unreach-call.c:5:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

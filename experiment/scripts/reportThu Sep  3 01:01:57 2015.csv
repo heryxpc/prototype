@@ -1,0 +1,16 @@
+Tool:
+executable,/home/bjowac/impara/trunk/src/impara/impara
+parameters,--eager --error-label ERROR
+=======
+Detailed outcomes:
+=======
+Summary:
+available results,0
+correct results,0
+correct proofs,0
+correct alarms,0
+wrong proofs,0
+wrong alarms,0
+unknown results,0
+CPU time,0
+score,0

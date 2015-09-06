@@ -1,0 +1,4 @@
+45_monabsex1_vs_true-unreach-call.c:11:10: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+        int l = __VERIFIER_nondet_int();
+                ^
+1 warning generated.

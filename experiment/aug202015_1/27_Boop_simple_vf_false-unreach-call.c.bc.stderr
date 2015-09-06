@@ -1,0 +1,7 @@
+27_Boop_simple_vf_false-unreach-call.c:61:21: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+      rval = (void*)__VERIFIER_nondet_int();
+                    ^
+27_Boop_simple_vf_false-unreach-call.c:61:14: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+      rval = (void*)__VERIFIER_nondet_int();
+             ^
+2 warnings generated.

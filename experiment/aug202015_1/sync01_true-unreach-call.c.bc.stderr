@@ -1,0 +1,7 @@
+sync01_true-unreach-call.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+sync01_true-unreach-call.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.

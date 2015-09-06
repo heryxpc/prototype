@@ -1,0 +1,4 @@
+38_rand_cas_vs_concur_true-unreach-call.c:14:15: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+                nC_return = __VERIFIER_nondet_int();
+                            ^
+1 warning generated.

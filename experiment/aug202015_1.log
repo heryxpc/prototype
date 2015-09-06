@@ -1,0 +1,1283 @@
+heryxpc@heryxpc-M11x-R2:aug202015_1$ ./run_exp_4rounds.sh 
+Executing command:clang-3.5 -emit-llvm -g -c bigshot_p_false-unreach-call.c -o bigshot_p_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i bigshot_p_false-unreach-call.c.bc --annotated bigshot_p_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g bigshot_p_false-unreach-call.c.tmp
+Executing command:rm bigshot_p_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c bigshot_s2_true-unreach-call.c -o bigshot_s2_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i bigshot_s2_true-unreach-call.c.bc --annotated bigshot_s2_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g bigshot_s2_true-unreach-call.c.tmp
+Executing command:rm bigshot_s2_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c bigshot_s_true-unreach-call.c -o bigshot_s_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i bigshot_s_true-unreach-call.c.bc --annotated bigshot_s_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g bigshot_s_true-unreach-call.c.tmp
+Executing command:rm bigshot_s_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_false-unreach-call.c -o fib_bench_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_false-unreach-call.c.bc --annotated fib_bench_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_false-unreach-call.c.tmp
+Executing command:rm fib_bench_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_false-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_false-unreach-call.cil.c -o fib_bench_false-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_false-unreach-call.cil.c.bc --annotated fib_bench_false-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_false-unreach-call.cil.c.tmp
+Executing command:rm fib_bench_false-unreach-call.cil.c.tmp
+File fib_bench_false-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longer_false-unreach-call.c -o fib_bench_longer_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longer_false-unreach-call.c.bc --annotated fib_bench_longer_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longer_false-unreach-call.c.tmp
+Executing command:rm fib_bench_longer_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_longer_false-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_longer_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longer_false-unreach-call.cil.c -o fib_bench_longer_false-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longer_false-unreach-call.cil.c.bc --annotated fib_bench_longer_false-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longer_false-unreach-call.cil.c.tmp
+Executing command:rm fib_bench_longer_false-unreach-call.cil.c.tmp
+File fib_bench_longer_false-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longer_true-unreach-call.c -o fib_bench_longer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longer_true-unreach-call.c.bc --annotated fib_bench_longer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longer_true-unreach-call.c.tmp
+Executing command:rm fib_bench_longer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_longer_true-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_longer_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longer_true-unreach-call.cil.c -o fib_bench_longer_true-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longer_true-unreach-call.cil.c.bc --annotated fib_bench_longer_true-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longer_true-unreach-call.cil.c.tmp
+Executing command:rm fib_bench_longer_true-unreach-call.cil.c.tmp
+File fib_bench_longer_true-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longest_false-unreach-call.c -o fib_bench_longest_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longest_false-unreach-call.c.bc --annotated fib_bench_longest_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longest_false-unreach-call.c.tmp
+Executing command:rm fib_bench_longest_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_longest_false-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_longest_true-unreach-call.c -o fib_bench_longest_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_longest_true-unreach-call.c.bc --annotated fib_bench_longest_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_longest_true-unreach-call.c.tmp
+Executing command:rm fib_bench_longest_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_longest_true-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_true-unreach-call.c -o fib_bench_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_true-unreach-call.c.bc --annotated fib_bench_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_true-unreach-call.c.tmp
+Executing command:rm fib_bench_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s fib_bench_true-unreach-call.c_anno.c_pyc.c int
+
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions fib_bench_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c fib_bench_true-unreach-call.cil.c -o fib_bench_true-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i fib_bench_true-unreach-call.cil.c.bc --annotated fib_bench_true-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g fib_bench_true-unreach-call.cil.c.tmp
+Executing command:rm fib_bench_true-unreach-call.cil.c.tmp
+File fib_bench_true-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c indexer_true-unreach-call.c -o indexer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i indexer_true-unreach-call.c.bc --annotated indexer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g indexer_true-unreach-call.c.tmp
+Executing command:rm indexer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions indexer_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c lazy01_false-unreach-call.c -o lazy01_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i lazy01_false-unreach-call.c.bc --annotated lazy01_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g lazy01_false-unreach-call.c.tmp
+Executing command:rm lazy01_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c queue_false-unreach-call.c -o queue_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_false-unreach-call.c.bc --annotated queue_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_false-unreach-call.c.tmp
+Executing command:rm queue_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_false-unreach-call.cil.c -o queue_false-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_false-unreach-call.cil.c.bc --annotated queue_false-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_false-unreach-call.cil.c.tmp
+Executing command:rm queue_false-unreach-call.cil.c.tmp
+File queue_false-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c queue_longer_false-unreach-call.c -o queue_longer_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_longer_false-unreach-call.c.bc --annotated queue_longer_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_longer_false-unreach-call.c.tmp
+Executing command:rm queue_longer_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_longest_false-unreach-call.c -o queue_longest_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_longest_false-unreach-call.c.bc --annotated queue_longest_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_longest_false-unreach-call.c.tmp
+Executing command:rm queue_longest_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_ok_longer_true-unreach-call.c -o queue_ok_longer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_ok_longer_true-unreach-call.c.bc --annotated queue_ok_longer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_ok_longer_true-unreach-call.c.tmp
+Executing command:rm queue_ok_longer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_ok_longest_true-unreach-call.c -o queue_ok_longest_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_ok_longest_true-unreach-call.c.bc --annotated queue_ok_longest_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_ok_longest_true-unreach-call.c.tmp
+Executing command:rm queue_ok_longest_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_ok_true-unreach-call.c -o queue_ok_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_ok_true-unreach-call.c.bc --annotated queue_ok_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_ok_true-unreach-call.c.tmp
+Executing command:rm queue_ok_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/assert.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'
+Executing command:clang-3.5 -emit-llvm -g -c queue_ok_true-unreach-call.cil.c -o queue_ok_true-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i queue_ok_true-unreach-call.cil.c.bc --annotated queue_ok_true-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g queue_ok_true-unreach-call.cil.c.tmp
+Executing command:rm queue_ok_true-unreach-call.cil.c.tmp
+File queue_ok_true-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c reorder_2_false-unreach-call.c -o reorder_2_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i reorder_2_false-unreach-call.c.bc --annotated reorder_2_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g reorder_2_false-unreach-call.c.tmp
+Executing command:rm reorder_2_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions reorder_2_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c reorder_5_false-unreach-call.c -o reorder_5_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i reorder_5_false-unreach-call.c.bc --annotated reorder_5_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g reorder_5_false-unreach-call.c.tmp
+Executing command:rm reorder_5_false-unreach-call.c.tmp
+File reorder_5_false-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c reorder_5_false-unreach-call.cil.c -o reorder_5_false-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i reorder_5_false-unreach-call.cil.c.bc --annotated reorder_5_false-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g reorder_5_false-unreach-call.cil.c.tmp
+Executing command:rm reorder_5_false-unreach-call.cil.c.tmp
+File reorder_5_false-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c sigma_false-unreach-call.c -o sigma_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i sigma_false-unreach-call.c.bc --annotated sigma_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g sigma_false-unreach-call.c.tmp
+Executing command:rm sigma_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions sigma_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c singleton_false-unreach-call.c -o singleton_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i singleton_false-unreach-call.c.bc --annotated singleton_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g singleton_false-unreach-call.c.tmp
+Executing command:rm singleton_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c singleton_with-uninit-problems-true.c -o singleton_with-uninit-problems-true.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i singleton_with-uninit-problems-true.c.bc --annotated singleton_with-uninit-problems-true.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g singleton_with-uninit-problems-true.c.tmp
+Executing command:rm singleton_with-uninit-problems-true.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/string.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c stack_false-unreach-call.c -o stack_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_false-unreach-call.c.bc --annotated stack_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_false-unreach-call.c.tmp
+Executing command:rm stack_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stack_longer_false-unreach-call.c -o stack_longer_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_longer_false-unreach-call.c.bc --annotated stack_longer_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_longer_false-unreach-call.c.tmp
+Executing command:rm stack_longer_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_longer_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stack_longer_true-unreach-call.c -o stack_longer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_longer_true-unreach-call.c.bc --annotated stack_longer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_longer_true-unreach-call.c.tmp
+Executing command:rm stack_longer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_longer_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stack_longest_false-unreach-call.c -o stack_longest_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_longest_false-unreach-call.c.bc --annotated stack_longest_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_longest_false-unreach-call.c.tmp
+Executing command:rm stack_longest_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_longest_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stack_longest_true-unreach-call.c -o stack_longest_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_longest_true-unreach-call.c.bc --annotated stack_longest_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_longest_true-unreach-call.c.tmp
+Executing command:rm stack_longest_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_longest_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stack_true-unreach-call.c -o stack_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_true-unreach-call.c.bc --annotated stack_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_true-unreach-call.c.tmp
+Executing command:rm stack_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions stack_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c stateful01_false-unreach-call.c -o stateful01_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stateful01_false-unreach-call.c.bc --annotated stateful01_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stateful01_false-unreach-call.c.tmp
+Executing command:rm stateful01_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c stateful01_true-unreach-call.c -o stateful01_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stateful01_true-unreach-call.c.bc --annotated stateful01_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stateful01_true-unreach-call.c.tmp
+Executing command:rm stateful01_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c sync01_true-unreach-call.c -o sync01_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i sync01_true-unreach-call.c.bc --annotated sync01_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g sync01_true-unreach-call.c.tmp
+Executing command:rm sync01_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c twostage_3_false-unreach-call.c -o twostage_3_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i twostage_3_false-unreach-call.c.bc --annotated twostage_3_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g twostage_3_false-unreach-call.c.tmp
+Executing command:rm twostage_3_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions twostage_3_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c twostage_3_false-unreach-call.cil.c -o twostage_3_false-unreach-call.cil.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i twostage_3_false-unreach-call.cil.c.bc --annotated twostage_3_false-unreach-call.cil.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g twostage_3_false-unreach-call.cil.c.tmp
+Executing command:rm twostage_3_false-unreach-call.cil.c.tmp
+File twostage_3_false-unreach-call.cil.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c 01_inc_true-unreach-call.c -o 01_inc_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 01_inc_true-unreach-call.c.bc --annotated 01_inc_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 01_inc_true-unreach-call.c.tmp
+Executing command:rm 01_inc_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 02_inc_cas_true-unreach-call.c -o 02_inc_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 02_inc_cas_true-unreach-call.c.bc --annotated 02_inc_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 02_inc_cas_true-unreach-call.c.tmp
+Executing command:rm 02_inc_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 03_incdec_true-unreach-call.c -o 03_incdec_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 03_incdec_true-unreach-call.c.bc --annotated 03_incdec_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 03_incdec_true-unreach-call.c.tmp
+Executing command:rm 03_incdec_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 04_incdec_cas_true-unreach-call.c -o 04_incdec_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 04_incdec_cas_true-unreach-call.c.bc --annotated 04_incdec_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 04_incdec_cas_true-unreach-call.c.tmp
+Executing command:rm 04_incdec_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 05_tas_true-unreach-call.c -o 05_tas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 05_tas_true-unreach-call.c.bc --annotated 05_tas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 05_tas_true-unreach-call.c.tmp
+Executing command:rm 05_tas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 06_ticket_true-unreach-call.c -o 06_ticket_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 06_ticket_true-unreach-call.c.bc --annotated 06_ticket_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 06_ticket_true-unreach-call.c.tmp
+Executing command:rm 06_ticket_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 07_rand_true-unreach-call.c -o 07_rand_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 07_rand_true-unreach-call.c.bc --annotated 07_rand_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 07_rand_true-unreach-call.c.tmp
+Executing command:rm 07_rand_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s 07_rand_true-unreach-call.c_anno.c_pyc.c read
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 07_rand_true-unreach-call.c_anno.c_pyc.c:61:48: before: main
+Executing command:clang-3.5 -emit-llvm -g -c 08_rand_cas_true-unreach-call.c -o 08_rand_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 08_rand_cas_true-unreach-call.c.bc --annotated 08_rand_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 08_rand_cas_true-unreach-call.c.tmp
+Executing command:rm 08_rand_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+File %s does not complain with C99: %s 08_rand_cas_true-unreach-call.c_anno.c_pyc.c read
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 08_rand_cas_true-unreach-call.c_anno.c_pyc.c:87:48: before: main
+Executing command:clang-3.5 -emit-llvm -g -c 09_fmaxsym_true-unreach-call.c -o 09_fmaxsym_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 09_fmaxsym_true-unreach-call.c.bc --annotated 09_fmaxsym_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 09_fmaxsym_true-unreach-call.c.tmp
+Executing command:rm 09_fmaxsym_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 10_fmaxsym_cas_true-unreach-call.c -o 10_fmaxsym_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 10_fmaxsym_cas_true-unreach-call.c.bc --annotated 10_fmaxsym_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 10_fmaxsym_cas_true-unreach-call.c.tmp
+Executing command:rm 10_fmaxsym_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 11_fmaxsymopt_true-unreach-call.c -o 11_fmaxsymopt_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 11_fmaxsymopt_true-unreach-call.c.bc --annotated 11_fmaxsymopt_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 11_fmaxsymopt_true-unreach-call.c.tmp
+Executing command:rm 11_fmaxsymopt_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 12_fmaxsymopt_cas_true-unreach-call.c -o 12_fmaxsymopt_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 12_fmaxsymopt_cas_true-unreach-call.c.bc --annotated 12_fmaxsymopt_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 12_fmaxsymopt_cas_true-unreach-call.c.tmp
+Executing command:rm 12_fmaxsymopt_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 13_unverif_true-unreach-call.c -o 13_unverif_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 13_unverif_true-unreach-call.c.bc --annotated 13_unverif_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 13_unverif_true-unreach-call.c.tmp
+Executing command:rm 13_unverif_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions 13_unverif_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c 14_spin2003_true-unreach-call.c -o 14_spin2003_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 14_spin2003_true-unreach-call.c.bc --annotated 14_spin2003_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 14_spin2003_true-unreach-call.c.tmp
+Executing command:rm 14_spin2003_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 15_dekker_true-unreach-call.c -o 15_dekker_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 15_dekker_true-unreach-call.c.bc --annotated 15_dekker_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 15_dekker_true-unreach-call.c.tmp
+Executing command:rm 15_dekker_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 16_peterson_true-unreach-call.c -o 16_peterson_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 16_peterson_true-unreach-call.c.bc --annotated 16_peterson_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 16_peterson_true-unreach-call.c.tmp
+Executing command:rm 16_peterson_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 17_szymanski_true-unreach-call.c -o 17_szymanski_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 17_szymanski_true-unreach-call.c.bc --annotated 17_szymanski_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 17_szymanski_true-unreach-call.c.tmp
+Executing command:rm 17_szymanski_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 18_read_write_lock_true-unreach-call.c -o 18_read_write_lock_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 18_read_write_lock_true-unreach-call.c.bc --annotated 18_read_write_lock_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 18_read_write_lock_true-unreach-call.c.tmp
+Executing command:rm 18_read_write_lock_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 19_time_var_mutex_true-unreach-call.c -o 19_time_var_mutex_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 19_time_var_mutex_true-unreach-call.c.bc --annotated 19_time_var_mutex_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 19_time_var_mutex_true-unreach-call.c.tmp
+Executing command:rm 19_time_var_mutex_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 20_lamport_true-unreach-call.c -o 20_lamport_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 20_lamport_true-unreach-call.c.bc --annotated 20_lamport_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 20_lamport_true-unreach-call.c.tmp
+Executing command:rm 20_lamport_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 23_lu-fig2.fixed_true-unreach-call.c -o 23_lu-fig2.fixed_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 23_lu-fig2.fixed_true-unreach-call.c.bc --annotated 23_lu-fig2.fixed_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 23_lu-fig2.fixed_true-unreach-call.c.tmp
+Executing command:rm 23_lu-fig2.fixed_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 25_stack_longer_false-unreach-call.c -o 25_stack_longer_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 25_stack_longer_false-unreach-call.c.bc --annotated 25_stack_longer_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 25_stack_longer_false-unreach-call.c.tmp
+Executing command:rm 25_stack_longer_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 25_stack_longer_true-unreach-call.c -o 25_stack_longer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 25_stack_longer_true-unreach-call.c.bc --annotated 25_stack_longer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 25_stack_longer_true-unreach-call.c.tmp
+Executing command:rm 25_stack_longer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 25_stack_longest_false-unreach-call.c -o 25_stack_longest_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 25_stack_longest_false-unreach-call.c.bc --annotated 25_stack_longest_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 25_stack_longest_false-unreach-call.c.tmp
+Executing command:rm 25_stack_longest_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 25_stack_longest_true-unreach-call.c -o 25_stack_longest_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 25_stack_longest_true-unreach-call.c.bc --annotated 25_stack_longest_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 25_stack_longest_true-unreach-call.c.tmp
+Executing command:rm 25_stack_longest_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 25_stack_true-unreach-call.c -o 25_stack_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 25_stack_true-unreach-call.c.bc --annotated 25_stack_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 25_stack_true-unreach-call.c.tmp
+Executing command:rm 25_stack_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 26_stack_cas_longer_false-unreach-call.c -o 26_stack_cas_longer_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 26_stack_cas_longer_false-unreach-call.c.bc --annotated 26_stack_cas_longer_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 26_stack_cas_longer_false-unreach-call.c.tmp
+Executing command:rm 26_stack_cas_longer_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 26_stack_cas_longer_true-unreach-call.c -o 26_stack_cas_longer_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 26_stack_cas_longer_true-unreach-call.c.bc --annotated 26_stack_cas_longer_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 26_stack_cas_longer_true-unreach-call.c.tmp
+Executing command:rm 26_stack_cas_longer_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 26_stack_cas_longest_false-unreach-call.c -o 26_stack_cas_longest_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 26_stack_cas_longest_false-unreach-call.c.bc --annotated 26_stack_cas_longest_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 26_stack_cas_longest_false-unreach-call.c.tmp
+Executing command:rm 26_stack_cas_longest_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 26_stack_cas_longest_true-unreach-call.c -o 26_stack_cas_longest_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 26_stack_cas_longest_true-unreach-call.c.bc --annotated 26_stack_cas_longest_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 26_stack_cas_longest_true-unreach-call.c.tmp
+Executing command:rm 26_stack_cas_longest_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 26_stack_cas_true-unreach-call.c -o 26_stack_cas_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 26_stack_cas_true-unreach-call.c.bc --annotated 26_stack_cas_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 26_stack_cas_true-unreach-call.c.tmp
+Executing command:rm 26_stack_cas_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 27_Boop_simple_vf_false-unreach-call.c -o 27_Boop_simple_vf_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 27_Boop_simple_vf_false-unreach-call.c.bc --annotated 27_Boop_simple_vf_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 27_Boop_simple_vf_false-unreach-call.c.tmp
+Executing command:rm 27_Boop_simple_vf_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 28_buggy_simple_loop1_vf_false-unreach-call.c -o 28_buggy_simple_loop1_vf_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 28_buggy_simple_loop1_vf_false-unreach-call.c.bc --annotated 28_buggy_simple_loop1_vf_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 28_buggy_simple_loop1_vf_false-unreach-call.c.tmp
+Executing command:rm 28_buggy_simple_loop1_vf_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 4 --no-unwinding-assertions 28_buggy_simple_loop1_vf_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Executing command:clang-3.5 -emit-llvm -g -c 29_conditionals_vs_true-unreach-call.c -o 29_conditionals_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 29_conditionals_vs_true-unreach-call.c.bc --annotated 29_conditionals_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 29_conditionals_vs_true-unreach-call.c.tmp
+Executing command:rm 29_conditionals_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 30_Function_Pointer3_vs_true-unreach-call.c -o 30_Function_Pointer3_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 30_Function_Pointer3_vs_true-unreach-call.c.bc --annotated 30_Function_Pointer3_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 30_Function_Pointer3_vs_true-unreach-call.c.tmp
+Executing command:rm 30_Function_Pointer3_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 31_simple_loop5_vs_true-unreach-call.c -o 31_simple_loop5_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 31_simple_loop5_vs_true-unreach-call.c.bc --annotated 31_simple_loop5_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 31_simple_loop5_vs_true-unreach-call.c.tmp
+Executing command:rm 31_simple_loop5_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 32_pthread5_vs_false-unreach-call.c -o 32_pthread5_vs_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 32_pthread5_vs_false-unreach-call.c.bc --annotated 32_pthread5_vs_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 32_pthread5_vs_false-unreach-call.c.tmp
+Executing command:rm 32_pthread5_vs_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 33_double_lock_p1_vs_true-unreach-call.c -o 33_double_lock_p1_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 33_double_lock_p1_vs_true-unreach-call.c.bc --annotated 33_double_lock_p1_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 33_double_lock_p1_vs_true-unreach-call.c.tmp
+Executing command:rm 33_double_lock_p1_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 34_double_lock_p2_vs_true-unreach-call.c -o 34_double_lock_p2_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 34_double_lock_p2_vs_true-unreach-call.c.bc --annotated 34_double_lock_p2_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 34_double_lock_p2_vs_true-unreach-call.c.tmp
+Executing command:rm 34_double_lock_p2_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 35_double_lock_p3_vs_true-unreach-call.c -o 35_double_lock_p3_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 35_double_lock_p3_vs_true-unreach-call.c.bc --annotated 35_double_lock_p3_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 35_double_lock_p3_vs_true-unreach-call.c.tmp
+Executing command:rm 35_double_lock_p3_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 36_stack_cas_p0_vs_concur_true-unreach-call.c -o 36_stack_cas_p0_vs_concur_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 36_stack_cas_p0_vs_concur_true-unreach-call.c.bc --annotated 36_stack_cas_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 36_stack_cas_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:rm 36_stack_cas_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 37_stack_lock_p0_vs_concur_true-unreach-call.c -o 37_stack_lock_p0_vs_concur_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 37_stack_lock_p0_vs_concur_true-unreach-call.c.bc --annotated 37_stack_lock_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 37_stack_lock_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:rm 37_stack_lock_p0_vs_concur_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 38_rand_cas_vs_concur_true-unreach-call.c -o 38_rand_cas_vs_concur_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 38_rand_cas_vs_concur_true-unreach-call.c.bc --annotated 38_rand_cas_vs_concur_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 38_rand_cas_vs_concur_true-unreach-call.c.tmp
+Executing command:rm 38_rand_cas_vs_concur_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 39_rand_lock_p0_vs_true-unreach-call.c -o 39_rand_lock_p0_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 39_rand_lock_p0_vs_true-unreach-call.c.bc --annotated 39_rand_lock_p0_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 39_rand_lock_p0_vs_true-unreach-call.c.tmp
+Executing command:rm 39_rand_lock_p0_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 40_barrier_vf_false-unreach-call.c -o 40_barrier_vf_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 40_barrier_vf_false-unreach-call.c.bc --annotated 40_barrier_vf_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 40_barrier_vf_false-unreach-call.c.tmp
+Executing command:rm 40_barrier_vf_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 40_barrier_vf_false-unreach-call.c_anno.c_pyc.c:13:1: before: {
+Executing command:clang-3.5 -emit-llvm -g -c 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c -o 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c.bc --annotated 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c.tmp
+Executing command:rm 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 41_FreeBSD__abd_kbd__sliced_true-unreach-call.c_anno.c_pyc.c:31:1: before: {
+Executing command:clang-3.5 -emit-llvm -g -c 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c -o 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c.bc --annotated 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c.tmp
+Executing command:rm 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 42_FreeBSD__rdma_addr__sliced_true-unreach-call.c_anno.c_pyc.c:30:1: before: {
+Executing command:clang-3.5 -emit-llvm -g -c 43_NetBSD__sysmon_power__sliced_true-unreach-call.c -o 43_NetBSD__sysmon_power__sliced_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 43_NetBSD__sysmon_power__sliced_true-unreach-call.c.bc --annotated 43_NetBSD__sysmon_power__sliced_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 43_NetBSD__sysmon_power__sliced_true-unreach-call.c.tmp
+Executing command:rm 43_NetBSD__sysmon_power__sliced_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/sys /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 610, in main
+    readytoparse, libs = pagai2pycparser(annotated)
+  File "./prototype_1.2b.py", line 455, in pagai2pycparser
+    cpdep(lib, fkd, wd, libsfound)
+  File "./prototype_1.2b.py", line 378, in cpdep
+    fd = open(lib)
+IOError: [Errno 2] No such file or directory: 'sys'
+Executing command:clang-3.5 -emit-llvm -g -c 44_Solaris__space_map__sliced_true-unreach-call.c -o 44_Solaris__space_map__sliced_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 44_Solaris__space_map__sliced_true-unreach-call.c.bc --annotated 44_Solaris__space_map__sliced_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 44_Solaris__space_map__sliced_true-unreach-call.c.tmp
+Executing command:rm 44_Solaris__space_map__sliced_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 44_Solaris__space_map__sliced_true-unreach-call.c_anno.c_pyc.c:30:1: before: {
+Executing command:clang-3.5 -emit-llvm -g -c 45_monabsex1_vs_true-unreach-call.c -o 45_monabsex1_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 45_monabsex1_vs_true-unreach-call.c.bc --annotated 45_monabsex1_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 45_monabsex1_vs_true-unreach-call.c.tmp
+Executing command:rm 45_monabsex1_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 46_monabsex2_vs_true-unreach-call.c -o 46_monabsex2_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 46_monabsex2_vs_true-unreach-call.c.bc --annotated 46_monabsex2_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 46_monabsex2_vs_true-unreach-call.c.tmp
+Executing command:rm 46_monabsex2_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+pycparser.plyparser.ParseError: 46_monabsex2_vs_true-unreach-call.c_anno.c_pyc.c:11:1: before: {
+Executing command:clang-3.5 -emit-llvm -g -c 47_ticket_lock_hc_backoff_vs_true-unreach-call.c -o 47_ticket_lock_hc_backoff_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 47_ticket_lock_hc_backoff_vs_true-unreach-call.c.bc --annotated 47_ticket_lock_hc_backoff_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 47_ticket_lock_hc_backoff_vs_true-unreach-call.c.tmp
+Executing command:rm 47_ticket_lock_hc_backoff_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c 48_ticket_lock_low_contention_vs_true-unreach-call.c -o 48_ticket_lock_low_contention_vs_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i 48_ticket_lock_low_contention_vs_true-unreach-call.c.bc --annotated 48_ticket_lock_low_contention_vs_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g 48_ticket_lock_low_contention_vs_true-unreach-call.c.tmp
+Executing command:rm 48_ticket_lock_low_contention_vs_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c dekker_true-unreach-call.c -o dekker_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i dekker_true-unreach-call.c.bc --annotated dekker_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g dekker_true-unreach-call.c.tmp
+Executing command:rm dekker_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c lamport_true-unreach-call.c -o lamport_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i lamport_true-unreach-call.c.bc --annotated lamport_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g lamport_true-unreach-call.c.tmp
+Executing command:rm lamport_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c peterson_true-unreach-call.c -o peterson_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i peterson_true-unreach-call.c.bc --annotated peterson_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g peterson_true-unreach-call.c.tmp
+Executing command:rm peterson_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c qrcu_false-unreach-call.c -o qrcu_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i qrcu_false-unreach-call.c.bc --annotated qrcu_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g qrcu_false-unreach-call.c.tmp
+Executing command:rm qrcu_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c qrcu_true-unreach-call.c -o qrcu_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i qrcu_true-unreach-call.c.bc --annotated qrcu_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g qrcu_true-unreach-call.c.tmp
+Executing command:rm qrcu_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c read_write_lock_false-unreach-call.c -o read_write_lock_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i read_write_lock_false-unreach-call.c.bc --annotated read_write_lock_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g read_write_lock_false-unreach-call.c.tmp
+Executing command:rm read_write_lock_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c read_write_lock_true-unreach-call.c -o read_write_lock_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i read_write_lock_true-unreach-call.c.bc --annotated read_write_lock_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g read_write_lock_true-unreach-call.c.tmp
+Executing command:rm read_write_lock_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c scull_true-unreach-call.c -o scull_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i scull_true-unreach-call.c.bc --annotated scull_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g scull_true-unreach-call.c.tmp
+Executing command:rm scull_true-unreach-call.c.tmp
+File scull_true-unreach-call.c_anno.c_pyc.c has no main!
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+TypeError: execv() arg 2 must contain only strings
+Executing command:clang-3.5 -emit-llvm -g -c szymanski_true-unreach-call.c -o szymanski_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i szymanski_true-unreach-call.c.bc --annotated szymanski_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g szymanski_true-unreach-call.c.tmp
+Executing command:rm szymanski_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment
+Executing command:clang-3.5 -emit-llvm -g -c time_var_mutex_true-unreach-call.c -o time_var_mutex_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i time_var_mutex_true-unreach-call.c.bc --annotated time_var_mutex_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g time_var_mutex_true-unreach-call.c.tmp
+Executing command:rm time_var_mutex_true-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/aug202015_1
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 626, in <module>
+    main()
+  File "./prototype_1.2b.py", line 619, in main
+    raise e
+UnboundLocalError: local variable 'assumedfile' referenced before assignment

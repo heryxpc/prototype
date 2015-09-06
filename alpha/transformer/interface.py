@@ -63,11 +63,10 @@ class Transformer:
 	def inputName(name, format):
 		""" Creates an input file name that this transformer may use """
 		suffix = ".c"
-		link = "_"
-		ftype = format
+		
 		if Format.has_key(format):
 			# Most cases are just .c, but for pagai is .bc
-			if Format[format] == Format["clang"]:
+			if Format[format] == Format["pagai"]:
 				suffix = ".bc"
 		elif format in Format.values():
 			if format == Format["clang"]:

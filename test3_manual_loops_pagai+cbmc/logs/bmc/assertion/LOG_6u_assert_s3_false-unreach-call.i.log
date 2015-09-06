@@ -1,0 +1,427 @@
+CBMC version 4.9 64-bit linux
+file benchmarks/invariant/assert/loops/s3_false-unreach-call.i: Parsing
+Converting
+Type-checking s3_false-unreach-call
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop c::ssl3_connect.0 iteration 1 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+Unwinding loop c::ssl3_connect.0 iteration 2 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+Unwinding loop c::ssl3_connect.0 iteration 3 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+Unwinding loop c::ssl3_connect.0 iteration 4 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+Unwinding loop c::ssl3_connect.0 iteration 5 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+Not unwinding loop c::ssl3_connect.0 iteration 6 (6 max) file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1133 function ssl3_connect thread 0
+size of program expression: 12995 steps
+simple slicing removed 71 assignments
+Generated 14 VCC(s), 12 remaining after simplification
+Passing problem to propositional reduction
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+412493 variables, 1008312 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 4.269s
+Building error trace
+
+Counterexample:
+
+State 3 file <built-in-additions> line 58 thread 0
+----------------------------------------------------
+  __CPROVER_rounding_mode=0 (00000000000000000000000000000000)
+
+State 4 file <built-in-additions> line 79 thread 0
+----------------------------------------------------
+  __CPROVER_pipe_count=0 (00000000000000000000000000000000)
+
+State 5 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1041 thread 0
+----------------------------------------------------
+  init=1 (00000000000000000000000000000001)
+
+State 6 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1042 thread 0
+----------------------------------------------------
+  SSLv3_client_data={ .version=0, .ssl_new=((int (*)(struct ssl_st *))NULL), .ssl_clear=((void (*)(struct ssl_st *))NULL),
+    .ssl_free=((void (*)(struct ssl_st *))NULL),
+    .ssl_accept=((int (*)(struct ssl_st *))NULL),
+    .ssl_connect=((int (*)(struct ssl_st *))NULL),
+    .ssl_read=((int (*)(struct ssl_st *, void *, int))NULL),
+    .ssl_peek=((int (*)(struct ssl_st *, void *, int))NULL),
+    .ssl_write=((int (*)(struct ssl_st *, void *, int))NULL),
+    .ssl_shutdown=((int (*)(struct ssl_st *))NULL),
+    .ssl_renegotiate=((int (*)(struct ssl_st *))NULL),
+    .ssl_renegotiate_check=((int (*)(struct ssl_st *))NULL),
+    .ssl_ctrl=((int (*)(struct ssl_st *, int, int, signed char *))NULL),
+    .ssl_ctx_ctrl=((int (*)(struct ssl_ctx_st *, int, int, signed char *))NULL),
+    .get_cipher_by_char=((struct ssl_cipher_st * (*)(unsigned char *))NULL),
+    .put_cipher_by_char=((int (*)(struct ssl_cipher_st *, unsigned char *))NULL),
+    .ssl_pending=((int (*)(struct ssl_st *))NULL),
+    .num_ciphers=((int (*)(void))NULL),
+    .get_cipher=((struct ssl_cipher_st * (*)(unsigned int))NULL), .get_ssl_method=((struct ssl_method_st * (*)(int))NULL),
+    .get_timeout=((int (*)(void))NULL),
+    .ssl3_enc=((struct ssl3_enc_method *)NULL), .ssl_version=((int (*)())NULL),
+    .ssl_callback_ctrl=((int (*)(struct ssl_st *, int, void (*)()))NULL), .ssl_ctx_callback_ctrl=((int (*)(struct ssl_ctx_st *, int, void (*)()))NULL) } ({ 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000, 00000000000000000000000000000000 })
+
+State 7 file <built-in-additions> line 22 thread 0
+----------------------------------------------------
+  __CPROVER_thread_id=0 (00000000000000000000000000000000)
+
+State 8 file <built-in-additions> line 23 thread 0
+----------------------------------------------------
+  __CPROVER_threads_exited=__CPROVER_threads_exited#1 (?)
+
+State 9 file <built-in-additions> line 24 thread 0
+----------------------------------------------------
+  __CPROVER_next_thread_id=0 (00000000000000000000000000000000)
+
+State 10 file <built-in-additions> line 31 thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (00000000000000000000000000000000)
+
+State 11 file <built-in-additions> line 32 thread 0
+----------------------------------------------------
+  __CPROVER_dead_object=NULL (00000000000000000000000000000000)
+
+State 12 file <built-in-additions> line 33 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=NULL (00000000000000000000000000000000)
+
+State 13 file <built-in-additions> line 34 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=0 (00000000000000000000000000000000)
+
+State 14 file <built-in-additions> line 35 thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 15 file <built-in-additions> line 36 thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=NULL (00000000000000000000000000000000)
+
+State 19 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1064 function main thread 0
+----------------------------------------------------
+  s=((struct ssl_st *)NULL) (00000000000000000000000000000000)
+
+State 20 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  return_value_malloc$1=NULL (00000000000000000000000000000000)
+
+State 22 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  malloc_size=0 (00000000000000000000000000000000)
+
+State 23 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  malloc_size=248 (00000000000000000000000011111000)
+
+State 24 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  res=NULL (00000000000000000000000000000000)
+
+State 25 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  new_value$1=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 26 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  res=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 27 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (00000000000000000000000000000000)
+
+State 28 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  record_malloc=0 (00000000)
+
+State 29 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=NULL (00000000000000000000000000000000)
+
+State 30 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=0 (00000000000000000000000000000000)
+
+State 31 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 32 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  record_may_leak=8 (00001000)
+
+State 33 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 34 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1069 function main thread 0
+----------------------------------------------------
+  return_value_malloc$1=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 37 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1068 function main thread 0
+----------------------------------------------------
+  s=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 38 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  return_value_malloc$2=NULL (00000000000000000000000000000000)
+
+State 40 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  malloc_size=0 (00000000000000000000000000000000)
+
+State 41 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  malloc_size=904 (00000000000000000000001110001000)
+
+State 42 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  res=NULL (00000000000000000000000000000000)
+
+State 43 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  new_value$1=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 44 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  res=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 45 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  __CPROVER_deallocated=NULL (00000000000000000000000000000000)
+
+State 46 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  record_malloc=2 (00000010)
+
+State 47 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_object=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 48 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_size=904 (00000000000000000000001110001000)
+
+State 49 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  __CPROVER_malloc_is_new_array=FALSE (0)
+
+State 50 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  record_may_leak=4 (00000100)
+
+State 51 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  __CPROVER_memory_leak=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 52 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  return_value_malloc$2=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 55 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1070 function main thread 0
+----------------------------------------------------
+  dynamic_object1.s3=&dynamic_object2.flags (00000011000000000000000000000000)
+
+State 56 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1071 function main thread 0
+----------------------------------------------------
+  dynamic_object1.state=12292 (00000000000000000011000000000100)
+
+State 59 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1072 function main thread 0
+----------------------------------------------------
+  s=&dynamic_object1.version (00000010000000000000000000000000)
+
+State 60 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1079 function ssl3_connect thread 0
+----------------------------------------------------
+  buf=((struct buf_mem_st *)NULL) (00000000000000000000000000000000)
+
+State 61 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1080 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 62 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1081 function ssl3_connect thread 0
+----------------------------------------------------
+  l=0 (00000000000000000000000000000000)
+
+State 63 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1082 function ssl3_connect thread 0
+----------------------------------------------------
+  num1=0 (00000000000000000000000000000000)
+
+State 64 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1083 function ssl3_connect thread 0
+----------------------------------------------------
+  cb=((void (*)())NULL) (00000000000000000000000000000000)
+
+State 65 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1084 function ssl3_connect thread 0
+----------------------------------------------------
+  ret=0 (00000000000000000000000000000000)
+
+State 66 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1085 function ssl3_connect thread 0
+----------------------------------------------------
+  new_state=0 (00000000000000000000000000000000)
+
+State 67 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1086 function ssl3_connect thread 0
+----------------------------------------------------
+  state=0 (00000000000000000000000000000000)
+
+State 68 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1087 function ssl3_connect thread 0
+----------------------------------------------------
+  skip=0 (00000000000000000000000000000000)
+
+State 69 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1088 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___0=((int *)NULL) (00000000000000000000000000000000)
+
+State 70 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1089 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___1=0 (00000000000000000000000000000000)
+
+State 71 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1090 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___2=16384 (00000000000000000100000000000000)
+
+State 72 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1091 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___3=0 (00000000000000000000000000000000)
+
+State 73 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1092 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___4=0 (00000000000000000000000000000000)
+
+State 74 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1093 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___5=0 (00000000000000000000000000000000)
+
+State 75 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1094 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___6=0 (00000000000000000000000000000000)
+
+State 76 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1095 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___7=0 (00000000000000000000000000000000)
+
+State 77 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1096 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___8=0 (00000000000000000000000000000000)
+
+State 78 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1097 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___9=0 (00000000000000000000000000000000)
+
+State 79 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1099 function ssl3_connect thread 0
+----------------------------------------------------
+  blastFlag=0 (00000000000000000000000000000000)
+
+State 80 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1102 function ssl3_connect thread 0
+----------------------------------------------------
+  blastFlag=0 (00000000000000000000000000000000)
+
+State 81 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1104 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.state=12292 (00000000000000000011000000000100)
+
+State 82 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1105 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.hit=0 (00000000000000000000000000000000)
+
+State 83 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1107 function ssl3_connect thread 0
+----------------------------------------------------
+  return_value___VERIFIER_nondet_int$1=0 (00000000000000000000000000000000)
+
+State 84 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1107 function ssl3_connect thread 0
+----------------------------------------------------
+  return_value___VERIFIER_nondet_int$1=0 (00000000000000000000000000000000)
+
+State 85 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1107 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp=0 (00000000000000000000000000000000)
+
+State 86 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1108 function ssl3_connect thread 0
+----------------------------------------------------
+  cb=((void (*)())NULL) (00000000000000000000000000000000)
+
+State 87 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1109 function ssl3_connect thread 0
+----------------------------------------------------
+  ret=-1 (11111111111111111111111111111111)
+
+State 88 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1110 function ssl3_connect thread 0
+----------------------------------------------------
+  skip=0 (00000000000000000000000000000000)
+
+State 89 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1111 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___0$object=0 (00000000000000000000000000000000)
+
+State 91 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1113 function ssl3_connect thread 0
+----------------------------------------------------
+  cb=1 + ((void (*)())NULL) (00000000000000000000000000000001)
+
+State 93 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1122 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.in_handshake=89411136 (00000101010101000100111001000000)
+
+State 95 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1145 function ssl3_connect thread 0
+----------------------------------------------------
+  state=12292 (00000000000000000011000000000100)
+
+State 98 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1249 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.new_session=1 (00000000000000000000000000000001)
+
+State 99 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1250 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.state=4096 (00000000000000000001000000000000)
+
+State 100 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1252 function ssl3_connect thread 0
+----------------------------------------------------
+  invalid_object2.stats.sess_connect_renegotiate=43159979 (00000010100100101001000110101011)
+
+State 101 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1257 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.server=0 (00000000000000000000000000000000)
+
+State 105 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1269 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.type=4096 (00000000000000000001000000000000)
+
+State 107 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1271 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___3=268435456 (00010000000000000000000000000000)
+
+State 109 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1278 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.init_buf=((struct buf_mem_st *)NULL) (00000000000000000000000000000000)
+
+State 111 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1282 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___4=16777216 (00000001000000000000000000000000)
+
+State 113 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1289 function ssl3_connect thread 0
+----------------------------------------------------
+  tmp___5=16777216 (00000001000000000000000000000000)
+
+State 115 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1296 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.state=4368 (00000000000000000001000100010000)
+
+State 116 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1298 function ssl3_connect thread 0
+----------------------------------------------------
+  invalid_object4.stats.sess_connect=72060297 (00000100010010111000110110001001)
+
+State 117 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1299 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.init_num=0 (00000000000000000000000000000000)
+
+State 122 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1624 function ssl3_connect thread 0
+----------------------------------------------------
+  ret=-2147483648 (10000000000000000000000000000000)
+
+State 125 file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1656 function ssl3_connect thread 0
+----------------------------------------------------
+  dynamic_object1.in_handshake=89411135 (00000101010101000100111000111111)
+
+Violated property:
+  file benchmarks/invariant/assert/loops/s3_false-unreach-call.i line 1662 function ssl3_connect
+  assertion 1 - ret >= 0
+  1 - ret >= 0
+
+VERIFICATION FAILED

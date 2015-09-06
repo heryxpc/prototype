@@ -1,0 +1,19 @@
+Logging time execution
+Executing command:clang-3.5 -emit-llvm -g -c stack_true-unreach-call.c -o stack_true-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i stack_true-unreach-call.c.bc --annotated stack_true-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g stack_true-unreach-call.c.tmp
+Executing command:rm stack_true-unreach-call.c.tmp
+Elapsed time between start and end:0.245275974274
+Logging time execution
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment/sep032015_4
+Elapsed time between start and end:0.0278780460358
+Logging time execution
+Elapsed time between start and end:3.64163303375
+Logging time execution
+Elapsed time between start and end:0.000629901885986
+Logging time execution
+Executing command:timeout 850 /home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 11 --no-unwinding-assertions stack_true-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c
+Elapsed time between start and end:200.778789997

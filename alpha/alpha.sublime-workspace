@@ -236,112 +236,6 @@
 			}
 		},
 		{
-			"file": "core/toolchain.py",
-			"settings":
-			{
-				"buffer_size": 1495,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/command.py",
-			"settings":
-			{
-				"buffer_size": 724,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/util.py",
-			"settings":
-			{
-				"buffer_size": 1316,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/annotation.py",
-			"settings":
-			{
-				"buffer_size": 3830,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#!/usr/bin/env python\n\nFormat = {'clang':1, 'pagai':2, 'cseq':3, 'cbmc':4, 'pips':5, 'annot':6}\n\nclass Transformer:\n	\"\"\"\n	Defines the behaviour of a Transformer class capable to convert\n	from one input to another.\n\n	Could be useful for example to transform one C file to \n\n	Transformer should be able to transform a whole file or just one string.\n	\"\"\"\n		\n	def transformFile(self, input, format):\n		\"\"\" Transforms one input file to a different output file\"\"\"\n		pass\n\n	def transformString(self, input, format):\n		\"\"\" Transforms one input string to a different output string\"\"\"\n		pass\n\n	def trasformAST(self, inputast, format):\n		\"\"\" Transform from an AST to an output string\"\"\"\n		pass	\n	\n	def readFile(self, file):\n		fd = open(file, \"r\")\n		str = fd.read()\n		fd.close()\n		return str\n\n	def writeFile(self, file, data):\n		\"\"\"\n		Writes data to file. Always truncates and refresh the file.\n		\"\"\"\n		fd = open(file, \"w\")\n		fd.write(data)\n		fd.seek(0)\n		fd.truncate()\n		fd.write(newcode)\n		fd.close()\n		return file\n\n	@staticmethod\n	def outputName(name, format):\n		\"\"\" Creates an output file name that this transformer may use \"\"\"\n		suffix = \".c\"\n		link = \"_\"\n		ftype = format\n		if Format.has_key(format):\n			# Most cases are just .c, but for clang is .bc\n			if Format[format] == Format[\"clang\"]:\n				suffix = \".bc\"\n		elif format in Format.values():\n			if format == Format[\"clang\"]:\n				suffix = \".bc\"\n				ftype = \"clang\"\n		output = name + link + ftype + suffix\n		return output\n\n	@staticmethod\n	def inputName(name, format):\n		\"\"\" Creates an input file name that this transformer may use \"\"\"\n		suffix = \".c\"\n		\n		if Format.has_key(format):\n			# Most cases are just .c, but for pagai is .bc\n			if Format[format] == Format[\"pagai\"]:\n				suffix = \".bc\"\n		elif format in Format.values():\n			if format == Format[\"clang\"]:\n				suffix = \".bc\"\n				ftype = \"clang\"\n		output = name + link + ftype + suffix\n		return output\n\ndef test():\n	name = \"fib_file.c\"\n	print name\n	print Transformer.inputName(name, \"pagai\")\n	print Transformer.inputName(name, \"cbmc\")\n	print Transformer.inputName(name, \"pips\")\n	print Transformer.inputName(name, \"annot\")\n	print Transformer.inputName(name, \"clang\")\n	print Transformer.inputName(name, \"wachumera\")\n	print Transformer.outputName(name, \"pagai\")\n	print Transformer.outputName(name, \"cbmc\")\n	print Transformer.outputName(name, \"pips\")\n	print Transformer.outputName(name, \"annot\")\n	print Transformer.outputName(name, \"clang\")\n	print Transformer.outputName(name, \"wachumera\")\n\ntest()",
-			"file": "transformer/interface.py",
-			"file_size": 2518,
-			"file_write_time": 1439567698000000,
-			"settings":
-			{
-				"buffer_size": 2491,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "extern void __VERIFIER_error() __attribute__ ((__noreturn__));\n\n#include <stdlib.h>\n#include <pthread.h>\n#include <string.h>\n\nvoid __VERIFIER_assert(int expression) { if (!expression) { ERROR: __VERIFIER_error();}; return; }\n\nchar *v;\n\nvoid *thread1(void * arg)\n{\n  v = malloc(sizeof(char) * 8);\n}\n\nvoid *thread2(void *arg)\n{\n  if (v) strcpy(v, \"Bigshot\");\n}\n\n\nint main()\n{\n  pthread_t t1, t2;\n\n  pthread_create(&t1, 0, thread1, 0);\n  pthread_create(&t2, 0, thread2, 0);\n  pthread_join(t1, 0);\n  pthread_join(t2, 0);\n\n  __VERIFIER_assert(!v || v[0] == 'B');\n\n  return 0;\n}\n\n",
-			"file": "/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/lazy-cseq-1.0_experiments/svcomp2015_unsafe/pthread/bigshot_p_false-unreach-call.c",
-			"file_size": 574,
-			"file_write_time": 1437138318000000,
-			"settings":
-			{
-				"buffer_size": 574,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "transformer/cseq_trans.py",
-			"settings":
-			{
-				"buffer_size": 671,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "transformer/cbmc_trans.py",
-			"settings":
-			{
-				"buffer_size": 671,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "transformer/annot_trans.py",
-			"settings":
-			{
-				"buffer_size": 713,
-				"line_ending": "Unix",
-				"name": "!#/usr/bin/env python"
-			}
-		},
-		{
-			"file": "transformer/pips_trans.py",
-			"settings":
-			{
-				"buffer_size": 460,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/profiler.py",
-			"settings":
-			{
-				"buffer_size": 80,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#!/usr/bin/env python\n\nfrom interface import Transformer\n\ndef parse_pagai_invariant(comment):\n	# Function to parse an invariant comment\n	# SAMPLE: /* invariant:\\n\\t\\t    102-x-y >= 0\\n\\t\\t    y >= 0\\n\\t\\t    x-y >= 0\\n\\t\\t    */\n	pattern = '\\s*([A-Za-z0-9+-_/*]+)*\\s([<>=]*)\\s([0-9])*\\s*'\n	prog = re.compile(pattern)\n	m = prog.search(comment)\n	expressions = []\n	while m:\n		group = m.group(0)\n		# print (group)\n		pos = m.end()\n		# print (pos)\n		lexp =  m.group(1)\n		op =  m.group(2)\n		rexp =  m.group(3)\n		texp = (lexp, op, rexp)\n		if (not group.startswith(' invariant:') ):\n			expressions.append( texp )\n		m = prog.search(comment, pos)\n	# expressions = prog.findall(comment, re.DOTALL|re.DEBUG)\n	# print (expressions)\n	# lexp = ''\n	# rexp = '' \n	# op = ''\n	# for exp in expressions:\n	# 	lexp = exp[0]\n	# 	op = exp[1]\n	# 	rexp = exp[2]\n	# 	#~ print \"Expression - Leftside: %s Operator: %s Right side: %s\" % (lexp, op, rexp)\n	return expressions\n\ndef PAGAITransformer(Transformer):\n	\"\"\"\n	Transforms a C file in a valid input file to Pagai\n	\"\"\"\n	def __init__(self):\n		\"\"\"Default constructor\"\"\"\n		return\n\n	def transformFile(self, input, format):\n		\"\"\" Transforms input C file to valid C input file for Pagai \"\"\"\n		instr = self.__read(input)\n		outstr = \"\"\n		outs = self.transfromString(intstr, outstr)\n		outfile = self.__write(output, outs)\n\n\n	def transformString(self, input, format):\n		\"\"\" \n		Transforms a string with a valid C Syntax tree to a \n		valid Pagai C input file\n		\"\"\"\n		# For the moment don't do anything with the input\n		return input\n\n",
-			"file": "transformer/pagai_trans.py",
-			"file_size": 1542,
-			"file_write_time": 1439507517000000,
-			"settings":
-			{
-				"buffer_size": 1543,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "alpha.sublime-project",
 			"settings":
 			{
@@ -350,18 +244,26 @@
 			}
 		},
 		{
-			"file": "core/__init__.py",
+			"file": "alpha.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 18661,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "transformer/__init__.py",
+			"file": "core/toolchain.py",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 1495,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/heryxpc/Documents/soton/dissertation/prototype/test6/notes.md",
+			"settings":
+			{
+				"buffer_size": 6617,
 				"line_ending": "Unix"
 			}
 		}
@@ -398,6 +300,23 @@
 	},
 	"file_history":
 	[
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/profiler.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/pips_trans.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/annot_trans.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/cbmc_trans.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/cseq_trans.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/interface.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/annotation.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/abstobmc.py",
+		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/lazy-cseq-1.0_experiments/svcomp2015_unsafe/pthread/bigshot_p_false-unreach-call.c",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/test7/scripts/prototype_1.1b.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/toolchain.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/command.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/util.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/pagai_trans.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/alpha.sublime-project",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/core/__init__.py",
+		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/transformer/__init__.py",
 		"/home/heryxpc/Documents/soton/dissertation/prototype/alpha/alpha.sublime-workspace",
 		"/home/heryxpc/Documents/soton/dissertation/meetingGennaro10082015",
 		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/modules/out.chain",
@@ -508,24 +427,7 @@
 		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_true-unreach-call.i",
 		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_false-unreach-call.i",
 		"/home/heryxpc/Documents/soton/dissertation/prototype/test3/benchmarks/original/loops/bubble_sort_false-unreach-call.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/config.mk",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/all_move.sh",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_analyzer.sh",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_domain.sh",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/diff_narrowing.sh",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/Makefile",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/Makefile.model",
-		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/cBench/Makefile",
-		"/home/heryxpc/Documents/soton/dissertation/meetingOMAR16072015",
-		"/home/heryxpc/Documents/soton/dissertation/prototype/beta/prototype_1.0b.py",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/lazy_unsafe.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/README",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/USAGE",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/fibonacci_unsafe.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/fibonacci_unsafe.c_seq.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/lazy_unsafe.c_seq.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/_cs_fibonacci_unsafe.c",
-		"/home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/_cs_fibonacci_unsafe.c.cbmc.log"
+		"/home/heryxpc/Documents/soton/dissertation/tools/pagai/src/pagai/benchmarks/gnu/config.mk"
 	],
 	"find":
 	{
@@ -700,7 +602,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -715,345 +617,23 @@
 						"selection":
 						[
 							[
-								2307,
-								2307
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 292.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "core/toolchain.py",
-					"settings":
-					{
-						"buffer_size": 1495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1164,
-								1164
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 471.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "core/command.py",
-					"settings":
-					{
-						"buffer_size": 724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "core/util.py",
-					"settings":
-					{
-						"buffer_size": 1316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								317,
-								317
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "core/annotation.py",
-					"settings":
-					{
-						"buffer_size": 3830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "transformer/interface.py",
-					"settings":
-					{
-						"buffer_size": 2491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1598,
-								1598
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1003.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/heryxpc/Documents/soton/dissertation/tools/cseq/experiment_data/lazy-cseq-1.0_experiments/svcomp2015_unsafe/pthread/bigshot_p_false-unreach-call.c",
-					"settings":
-					{
-						"buffer_size": 574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "transformer/cseq_trans.py",
-					"settings":
-					{
-						"buffer_size": 671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "transformer/cbmc_trans.py",
-					"settings":
-					{
-						"buffer_size": 671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "transformer/annot_trans.py",
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								548,
-								548
-							]
-						],
-						"settings":
-						{
-							"auto_name": "!#/usr/bin/env python",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "transformer/pips_trans.py",
-					"settings":
-					{
-						"buffer_size": 460,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "core/profiler.py",
-					"settings":
-					{
-						"buffer_size": 80,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "transformer/pagai_trans.py",
-					"settings":
-					{
-						"buffer_size": 1543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1542,
-								1542
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 627.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
 					"file": "alpha.sublime-project",
 					"settings":
 					{
@@ -1079,11 +659,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "core/__init__.py",
+					"buffer": 2,
+					"file": "alpha.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 18661,
 						"regions":
 						{
 						},
@@ -1096,7 +676,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1105,11 +686,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "transformer/__init__.py",
+					"buffer": 3,
+					"file": "core/toolchain.py",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 1495,
 						"regions":
 						{
 						},
@@ -1122,10 +703,39 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/heryxpc/Documents/soton/dissertation/prototype/test6/notes.md",
+					"settings":
+					{
+						"buffer_size": 6617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1831,
+								1831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

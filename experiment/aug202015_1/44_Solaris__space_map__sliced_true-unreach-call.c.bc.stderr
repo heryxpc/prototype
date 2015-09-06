@@ -1,0 +1,40 @@
+44_Solaris__space_map__sliced_true-unreach-call.c:31:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(MTX==0);
+        ^
+44_Solaris__space_map__sliced_true-unreach-call.c:9:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+44_Solaris__space_map__sliced_true-unreach-call.c:75:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+44_Solaris__space_map__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+44_Solaris__space_map__sliced_true-unreach-call.c:77:8: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+        for (;__VERIFIER_nondet_int();) {
+              ^
+44_Solaris__space_map__sliced_true-unreach-call.c:78:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+44_Solaris__space_map__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+44_Solaris__space_map__sliced_true-unreach-call.c:110:5: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                                mutex_exit(MTX);
+                                ^~~~~~~~~~~~~~~
+44_Solaris__space_map__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+44_Solaris__space_map__sliced_true-unreach-call.c:113:3: warning: too many arguments in call to '__VERIFIER_atomic_release'
+                mutex_exit(MTX);
+                ^~~~~~~~~~~~~~~
+44_Solaris__space_map__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+44_Solaris__space_map__sliced_true-unreach-call.c:139:2: warning: too many arguments in call to '__VERIFIER_atomic_release'
+        mutex_exit(MTX);
+        ^~~~~~~~~~~~~~~
+44_Solaris__space_map__sliced_true-unreach-call.c:24:50: note: expanded from macro 'mutex_exit'
+#define mutex_exit(m) __VERIFIER_atomic_release(m)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+7 warnings generated.

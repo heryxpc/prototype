@@ -1,0 +1,10 @@
+Executing command:clang-3.5 -emit-llvm -g -c twostage_3_false-unreach-call.c -o twostage_3_false-unreach-call.c.bc
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/pagai/pagai -i twostage_3_false-unreach-call.c.bc --annotated twostage_3_false-unreach-call.c.tmp
+Executing command:sed -r s:\x1B\[[0-9;]*[mK]::g twostage_3_false-unreach-call.c.tmp
+Executing command:rm twostage_3_false-unreach-call.c.tmp
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/pthread.h /home/heryxpc/Documents/soton/dissertation/experiment
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_defines.h /home/heryxpc/Documents/soton/dissertation/experiment
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/_fake_typedefs.h /home/heryxpc/Documents/soton/dissertation/experiment
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdio.h /home/heryxpc/Documents/soton/dissertation/experiment
+Executing command:cp /home/heryxpc/Documents/soton/dissertation/tools/cseq/pkg/core/include/stdlib.h /home/heryxpc/Documents/soton/dissertation/experiment
+Executing command:/home/heryxpc/Documents/soton/dissertation/tools/cbmc/cbmc-5-1-linux-64/cbmc --unwind 2 --no-unwinding-assertions twostage_3_false-unreach-call.c_anno.c_pyc.c_assume.c_cbmc.c

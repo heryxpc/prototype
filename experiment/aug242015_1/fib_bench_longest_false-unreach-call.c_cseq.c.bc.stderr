@@ -1,0 +1,10 @@
+fib_bench_longest_false-unreach-call.c_cseq.c:55:59: warning: incompatible pointer to integer conversion passing 'void *' to parameter of type 'int' [-Wint-conversion]
+                                        __VERIFIER_assume(__cs_ptr);
+                                                          ^~~~~~~~
+fib_bench_longest_false-unreach-call.c_cseq.c:2:34: note: passing argument to parameter here
+extern void __VERIFIER_assume(int);
+                                 ^
+fib_bench_longest_false-unreach-call.c_cseq.c:137:41: warning: control reaches end of non-void function [-Wreturn-type]
+                                        }
+                                        ^
+2 warnings generated.

@@ -1,0 +1,7 @@
+12_fmaxsymopt_cas_true-unreach-call.c:64:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(offset % WORKPERTHREAD == 0 && offset >= 0 && offset < WORKPERTHREAD*THREADSMAX);
+        ^
+12_fmaxsymopt_cas_true-unreach-call.c:5:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

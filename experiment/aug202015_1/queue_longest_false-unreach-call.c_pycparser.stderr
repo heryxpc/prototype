@@ -1,0 +1,25 @@
+ERROR:root:'CAnnotatedGenerator' object has no attribute 'indent_level'
+Traceback (most recent call last):
+  File "./prototype_1.2b.py", line 614, in main
+    assumed = parse_annotated(readytoparse)
+  File "./prototype_1.2b.py", line 303, in parse_annotated
+    assumed = g.visit(ast)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 30, in visit
+    return getattr(self, method, self.generic_visit)(node)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 168, in visit_FileAST
+    s += self.visit(ext) + ';\n'
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 30, in visit
+    return getattr(self, method, self.generic_visit)(node)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 111, in visit_Typedef
+    s += self._generate_type(n.type)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 348, in _generate_type
+    s += self.visit(n.type)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 30, in visit
+    return getattr(self, method, self.generic_visit)(node)
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 266, in visit_Struct
+    return self._generate_struct_union(n, 'struct')
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 291, in _generate_struct_union
+    s += self._make_indent()
+  File "/home/heryxpc/Documents/soton/dissertation/tools/pycparser/barel/barel-pycparser-b9ad39646ebc/pycparser/c_generator.py", line 26, in _make_indent
+    return ' ' * self.indent_level
+AttributeError: 'CAnnotatedGenerator' object has no attribute 'indent_level'

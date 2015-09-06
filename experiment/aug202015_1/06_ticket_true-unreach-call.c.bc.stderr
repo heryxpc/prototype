@@ -1,0 +1,7 @@
+06_ticket_true-unreach-call.c:42:3: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+                assume(0);
+                ^
+06_ticket_true-unreach-call.c:10:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+1 warning generated.

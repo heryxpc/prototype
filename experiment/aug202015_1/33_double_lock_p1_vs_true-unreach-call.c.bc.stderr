@@ -1,0 +1,10 @@
+33_double_lock_p1_vs_true-unreach-call.c:13:2: warning: implicit declaration of function '__VERIFIER_assume' is invalid in C99 [-Wimplicit-function-declaration]
+        assume(*m==0);
+        ^
+33_double_lock_p1_vs_true-unreach-call.c:7:19: note: expanded from macro 'assume'
+#define assume(e) __VERIFIER_assume(e)
+                  ^
+33_double_lock_p1_vs_true-unreach-call.c:67:6: warning: implicit declaration of function '__VERIFIER_nondet_int' is invalid in C99 [-Wimplicit-function-declaration]
+  if(__VERIFIER_nondet_int())
+     ^
+2 warnings generated.
